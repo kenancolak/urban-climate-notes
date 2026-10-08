@@ -1,0 +1,273 @@
+/* =========================================================
+   URBAN CLIMATE NOTES
+   Main visual identity
+   ========================================================= */
+
+
+/* ---------- GLOBAL ---------- */
+
+body {
+  background-color: #f7f4ec;
+  color: #17233b;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+main.content {
+  max-width: 1050px;
+}
+
+a {
+  color: #527a72;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #274f4a;
+}
+
+
+/* ---------- HEADINGS ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #10213c;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+h2 {
+  margin-top: 2.8rem;
+  border-bottom: 1px solid #78968d;
+  padding-bottom: 0.4rem;
+}
+
+h3 {
+  margin-top: 1.7rem;
+}
+
+
+/* ---------- NAVBAR ---------- */
+
+.navbar {
+  background-color: #f7f4ec !important;
+  border-bottom: 1px solid #d9ddd7;
+  min-height: 92px;
+}
+
+.navbar-logo {
+  max-height: 72px;
+  width: auto;
+}
+
+.navbar-brand {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-right: 1.2rem;
+}
+
+.navbar-nav .nav-link {
+  color: #24364d !important;
+  font-size: 1.05rem;
+  margin-right: 0.45rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #527a72 !important;
+}
+
+
+/* ---------- HOME HERO ---------- */
+
+.home-hero {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  max-width: 940px;
+}
+
+.home-kicker {
+  color: #527a72;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.home-title {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #10213c;
+  font-size: 4rem;
+  line-height: 1.04;
+  font-weight: 500;
+  max-width: 900px;
+  margin-bottom: 1.5rem;
+}
+
+.home-intro {
+  font-size: 1.22rem;
+  line-height: 1.7;
+  max-width: 850px;
+  color: #27354a;
+}
+
+
+/* ---------- SECTION TITLE ---------- */
+
+.section-label {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #10213c;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.3rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #78968d;
+}
+
+
+/* ---------- NOTE CARDS ---------- */
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.note-card {
+  background: #fbfaf6;
+  border: 1px solid #dde2dc;
+  border-radius: 5px;
+  padding: 1.6rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 22px rgba(16, 33, 60, 0.08);
+}
+
+.note-number {
+  color: #527a72;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.note-title {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #10213c;
+  font-size: 1.55rem;
+  line-height: 1.25;
+  margin-top: 0.45rem;
+  margin-bottom: 0.7rem;
+}
+
+.note-description {
+  color: #43505f;
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
+
+/* ---------- TOPIC STRIP ---------- */
+
+.topic-strip {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1.7rem 2rem;
+  background: #eef1eb;
+  border-left: 4px solid #78968d;
+}
+
+.topic-strip strong {
+  color: #10213c;
+}
+
+
+/* ---------- ARTICLE PAGES ---------- */
+
+.quarto-title h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #10213c;
+}
+
+blockquote {
+  border-left: 3px solid #78968d;
+  color: #46534f;
+  padding-left: 1.25rem;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+.nav-footer {
+  background-color: #f1eee5;
+  border-top: 1px solid #d9ddd7;
+  color: #58645f;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+/* ---------- TEXT SELECTION ---------- */
+
+::selection {
+  background: #dce6e2;
+  color: #10213c;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    min-height: 72px;
+  }
+
+  .navbar-logo {
+    max-height: 54px;
+  }
+
+  .home-hero {
+    padding-top: 2rem;
+  }
+
+  .home-title {
+    font-size: 2.7rem;
+  }
+
+  .home-intro {
+    font-size: 1.08rem;
+  }
+
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Editorial image captions */
+
+.image-caption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.92rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: #68736f;
+  margin-top: 0.45rem;
+  margin-bottom: 2.3rem;
+}

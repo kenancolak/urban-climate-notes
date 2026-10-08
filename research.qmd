@@ -1,0 +1,36 @@
+---
+title: "Research"
+toc: true
+---
+
+# Research
+
+Urban Climate Notes is informed by research at the intersection of climate science, urban planning and geospatial analysis.
+
+## Core Research Themes
+
+### Urban Climate
+
+Understanding how global climate processes interact with local urban environments.
+
+### Urban Morphology
+
+Examining how the physical structure of cities influences thermal conditions.
+
+### Remote Sensing
+
+Using Earth observation data to monitor urban surfaces and thermal change over time.
+
+### GIS and Spatial Analysis
+
+Connecting environmental measurements with urban form, land use and planning.
+
+### Climate-Responsive Planning
+
+Translating scientific evidence into questions relevant to urban policy, design and adaptation.
+
+## Current Research Direction
+
+Current work examines long-term urban thermal change while explicitly considering the stability and comparability of urban and reference areas.
+
+A particular focus is placed on whether changes observed in remotely sensed temperature reflect climatic processes, changes in urban form, or both.

@@ -1,0 +1,51 @@
+---
+title: "About"
+toc: true
+---
+
+# About Urban Climate Notes
+
+**Urban Climate Notes** is an independent research and science communication project created by **Kenan Çolak**.
+
+It explores how climate is experienced, measured and shaped in cities, with a particular focus on urban morphology, urban heat, remote sensing and planning.
+
+Each note begins with a place, a question, a dataset or an observation. From there, it follows the evidence through scientific literature, environmental data, maps and urban examples.
+
+The aim is to make urban climate research accessible without losing the distinctions that matter. Surface temperature is not the same as air temperature. A warming trend is not the same as an urban heat island. Density, building height, vegetation and land cover describe different characteristics of a city and should not be treated as interchangeable.
+
+Urban Climate Notes is a place to examine those differences carefully and connect them to planning.
+
+## About Kenan Çolak
+
+I am an urban planner and researcher with more than twelve years of professional planning experience.
+
+I completed my PhD in Urban and Regional Planning in 2026. My doctoral research examined the relationship between urban morphology and surface urban heat in Antalya, Türkiye, using Landsat land surface temperature, Sentinel-2 observations, GIS, Google Earth Engine and a stability-based analytical framework.
+
+My professional background is primarily in public-sector planning, particularly conservation planning and the assessment of development and design proposals. That experience strongly influences the way I approach urban climate research.
+
+I am interested in how the physical form of a city affects thermal conditions, how those effects can be measured over time, and how scientific evidence can be translated into useful planning questions.
+
+My current research interests include:
+
+- urban climate and urban heat islands
+- urban morphology
+- land surface temperature
+- remote sensing
+- GIS and spatial analysis
+- climate adaptation
+- long-term urban change
+- comparative urban analysis
+
+## Why this project?
+
+Cities are often described through population, density, land use, transport and architecture.
+
+They can also be understood through sunlight, shade, wind, water, vegetation, surface materials and the heat stored between buildings.
+
+Urban Climate Notes was created to explore those relationships across different cities and scales.
+
+Some notes focus on a city. Others focus on a method, a dataset or a planning question. Together, they build toward a broader question:
+
+> **How can better climate evidence help us understand and plan cities more carefully?**
+
+For shorter updates and new notes, follow **Urban Climate Notes** on Instagram and **Kenan Çolak** on LinkedIn.

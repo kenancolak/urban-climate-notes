@@ -1,0 +1,56 @@
+---
+title: "Methods"
+toc: true
+---
+
+# How do we measure urban climate?
+
+Urban climate can be observed at several spatial and temporal scales.
+
+Urban Climate Notes uses this section to explain the methods behind the evidence presented in the articles.
+
+## Land Surface Temperature
+
+Satellite-derived Land Surface Temperature (LST) measures the thermal state of the Earth's surface.
+
+It is not the same as air temperature.
+
+## Air Temperature
+
+Meteorological observations measure atmospheric conditions close to the surface and are essential for understanding human thermal exposure.
+
+## Urban Heat Island
+
+The Urban Heat Island describes the temperature difference between urban environments and their less urbanized surroundings.
+
+Different definitions and measurement approaches can produce different estimates.
+
+## Remote Sensing
+
+Key sources include:
+
+- Landsat
+- Sentinel-2
+- MODIS
+- ECOSTRESS
+
+## Google Earth Engine
+
+Google Earth Engine allows large satellite archives to be processed consistently across long time periods and large geographic areas.
+
+## Urban Morphology
+
+Urban form can influence:
+
+- solar exposure
+- shading
+- ventilation
+- heat storage
+- surface properties
+- vegetation availability
+
+## Stability and Comparability
+
+Long-term comparisons are only meaningful when the areas being compared remain sufficiently stable.
+
+Changes in land cover or morphology can otherwise be mistaken for climatic change.

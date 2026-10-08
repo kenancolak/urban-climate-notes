@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "Urban Climate Notes"
+  site-url: "https://kenancolak.github.io/urban-climate-notes/"
+  open-graph: true
+  search: true
+
+  navbar:
+    title: false
+    logo: images/urban-climate-notes-logo.jpg
+    logo-alt: "Urban Climate Notes"
+
+    left:
+      - href: index.qmd
+        text: Home
+      - href: notes.qmd
+        text: Notes
+      - href: methods.qmd
+        text: Methods
+      - href: research.qmd
+        text: Research
+      - href: about.qmd
+        text: About
+
+  page-footer:
+    left: "© 2026 Urban Climate Notes"
+    right: "Research • Evidence • Planning"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true

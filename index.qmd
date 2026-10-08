@@ -1,0 +1,100 @@
+---
+toc: false
+---
+
+::: {.home-hero}
+
+<div class="home-kicker">
+URBAN CLIMATE • EVIDENCE • PLANNING
+</div>
+
+<div class="home-title">
+From climate evidence to urban decisions.
+</div>
+
+<div class="home-intro">
+
+Urban Climate Notes explores how climate change is experienced, measured and shaped in cities.
+
+It connects **urban climatology, urban morphology, remote sensing and planning** through evidence-based stories, methods and city case studies.
+
+</div>
+
+:::
+
+
+<div class="section-label">
+Latest Notes
+</div>
+
+
+::: {.notes-grid}
+
+::: {.note-card}
+
+<div class="note-number">
+Urban Climate Notes #1
+</div>
+
+<div class="note-title">
+<a href="notes/01-is-the-planet-really-warming.qmd">
+Is the Planet Really Getting Warmer?
+</a>
+</div>
+
+<div class="note-description">
+
+Reno, urban climate, and the fading art of reading a place.
+
+</div>
+
+:::
+
+
+::: {.note-card}
+
+<div class="note-number">
+Urban Climate Notes #2
+</div>
+
+<div class="note-title">
+<a href="notes/02-when-the-city-refuses-to-cool.qmd">
+When the City Refuses to Cool
+</a>
+</div>
+
+<div class="note-description">
+
+Tokyo, tropical nights, and the wisdom of waiting for relief.
+
+</div>
+
+:::
+
+:::
+
+
+::: {.topic-strip}
+
+**Urban Climate Notes asks a simple question:**
+
+How can climate evidence help us understand, design and plan better cities?
+
+:::
+
+
+<div class="section-label">
+Explore
+</div>
+
+### Cities
+
+Urban climate stories told through real places, observations and long-term change.
+
+### Methods
+
+How satellites, meteorological observations, GIS and spatial analysis help us measure urban climate.
+
+### Research
+
+Current research on urban morphology, surface urban heat, remote sensing and climate-responsive planning.

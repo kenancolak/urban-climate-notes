@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Urban Climate Notes is informed by research at the intersection of climate science, urban planning and geospatial analysis.\n\n\n\n\nUnderstanding how global climate processes interact with local urban environments.\n\n\n\nExamining how the physical structure of cities influences thermal conditions.\n\n\n\nUsing Earth observation data to monitor urban surfaces and thermal change over time.\n\n\n\nConnecting environmental measurements with urban form, land use and planning.\n\n\n\nTranslating scientific evidence into questions relevant to urban policy, design and adaptation.\n\n\n\n\nCurrent work examines long-term urban thermal change while explicitly considering the stability and comparability of urban and reference areas.\nA particular focus is placed on whether changes observed in remotely sensed temperature reflect climatic processes, changes in urban form, or both."
+  },
+  {
+    "objectID": "research.html#core-research-themes",
+    "href": "research.html#core-research-themes",
+    "title": "Research",
+    "section": "",
+    "text": "Understanding how global climate processes interact with local urban environments.\n\n\n\nExamining how the physical structure of cities influences thermal conditions.\n\n\n\nUsing Earth observation data to monitor urban surfaces and thermal change over time.\n\n\n\nConnecting environmental measurements with urban form, land use and planning.\n\n\n\nTranslating scientific evidence into questions relevant to urban policy, design and adaptation."
+  },
+  {
+    "objectID": "research.html#current-research-direction",
+    "href": "research.html#current-research-direction",
+    "title": "Research",
+    "section": "",
+    "text": "Current work examines long-term urban thermal change while explicitly considering the stability and comparability of urban and reference areas.\nA particular focus is placed on whether changes observed in remotely sensed temperature reflect climatic processes, changes in urban form, or both."
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html",
+    "href": "notes/02-when-the-city-refuses-to-cool.html",
+    "title": "When the City Refuses to Cool",
+    "section": "",
+    "text": "There is reassurance in this Japanese saying.\nThe lingering heat of summer will ease around the autumn equinox. Winter’s cold will soften around the spring equinox. Hold on a little longer; the season will turn.\nHigan is the seven-day period centred on each equinox, associated with Buddhist observances and remembrance of ancestors. In this saying, the calendar also carries an expectation about the weather. [1]\nI like the idea that a sentence can hold both memory and a forecast.\nA proverb is not a meteorological model. Yet it can preserve something learned through repeated encounters with a place: when to plant, when to prepare, when relief is likely to arrive.\nIn the first Urban Climate Note, I wrote about the fading figure of the city dweller who still knows how to read their surroundings.\nThis saying makes me wonder about the other side of that relationship.\nWhat happens when the place begins to behave differently from the one people remember?\nAnd what happens when relief is expected much sooner than the next season, when we are simply waiting for the sun to go down?"
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#the-changing-temperature-of-the-night",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#the-changing-temperature-of-the-night",
+    "title": "When the City Refuses to Cool",
+    "section": "The changing temperature of the night",
+    "text": "The changing temperature of the night\nNone of us lives at the global average.\nWe experience climate in rooms, streets and courtyards. We notice it when a pavement radiates heat through our shoes, or when opening a window fails to bring the relief we expected.\nTokyo offers a revealing example.\nFor 1929–2025, the Japan Meteorological Agency reports a trend of approximately 3.5°C per century in Tokyo’s annual mean temperature.\nThe corresponding trends in annual averages of daily maximum and minimum temperature are 2.2°C and 4.6°C per century, respectively. [2]\n\n\nTokyo’s annual minimum temperature has increased faster than its annual maximum temperature over the long-term record.\n\nThe minimum has risen considerably faster than the maximum.\nThese are annual trends, not summer-only measurements. They do not establish that every Tokyo neighbourhood behaves alike, or that all the observed warming comes from urbanisation.\nJMA adjusts the Tokyo series for the relocation of the observing station.\nEven with those qualifications, the contrast draws attention to an important part of urban climate: what happens to heat after sunset.\nWe tend to describe a hot city through its afternoons.\nIts nights deserve equal curiosity."
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#sunset-does-not-empty-the-city-of-heat",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#sunset-does-not-empty-the-city-of-heat",
+    "title": "When the City Refuses to Cool",
+    "section": "Sunset does not empty the city of heat",
+    "text": "Sunset does not empty the city of heat\nImagine a street at the end of a summer day.\nThe sunlight has withdrawn, but the walls and pavement are still warm. During the day, they absorbed and stored energy. Some of that energy is now being released into the surrounding air.\nThe street’s geometry matters too.\nBetween buildings, the view of the sky becomes restricted. The sky-view factor, meaning the proportion of sky visible from a location, helps describe this enclosure.\nA reduced view of the sky can limit radiative cooling, while the arrangement of buildings also affects ventilation.\nVegetation and available moisture influence how energy is divided between heating and evaporation. Human activities add heat as well. These are among the mechanisms JMA identifies behind urban warming. [3]\nThe city, in other words, carries part of the afternoon into the night.\n\n\nAfter sunset, stored heat, urban geometry and human activities can slow the cooling of the urban environment.\n\nThis helps explain the urban heat island: the relative warmth of an urban area compared with a less urbanised reference under comparable conditions.\nIt is distinct from global warming.\nGlobal warming changes the broader climatic background. The urban heat island describes a local thermal difference associated with the characteristics of an urban environment.\nA person in a warm bedroom may experience both at once.\nThe distinction is useful because it points to different scales of action. Reducing greenhouse gas emissions addresses the larger warming trajectory. Changes to the physical and functional characteristics of cities can influence local thermal conditions."
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#a-name-for-a-night-without-relief",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#a-name-for-a-night-without-relief",
+    "title": "When the City Refuses to Cool",
+    "section": "A name for a night without relief",
+    "text": "A name for a night without relief\nJapanese meteorological language gives this experience a memorable name:\nA tropical night.\nJMA defines it as a night when the temperature, from evening until the following morning, does not fall below 25°C. [4]\nThe term can sound almost inviting, although the experience is usually anything but.\nPicture someone turning the pillow over, opening a window, then realising that the air outside offers little relief.\nA night can feel long when the cooler hours never arrive.\nThe threshold is a meteorological category, not a universal boundary between comfort and discomfort.\nRooms differ, bodies differ, and humidity and air movement matter.\nStill, it shifts our attention from the day’s peak to its missing respite.\nJMA’s long-term analysis shows increasing counts of days with minimum temperatures of at least 25°C in several major Japanese cities.\nTokyo is excluded from that particular comparison because the effect of its station relocation on threshold counts is difficult to remove. [5]\nThe broader question remains:\nHow much opportunity does a city provide to cool between one hot day and the next?"
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#a-bucket-of-water-and-a-lesson-in-hospitality",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#a-bucket-of-water-and-a-lesson-in-hospitality",
+    "title": "When the City Refuses to Cool",
+    "section": "A bucket of water, and a lesson in hospitality",
+    "text": "A bucket of water, and a lesson in hospitality\nTokyo also offers a much older response to summer heat: uchimizu, the sprinkling of water onto the ground.\nThe Tokyo Metropolitan Government presents it as “Edo wisdom.”\nIts account notes that the practice appears in Edo-period haiku and ukiyo-e, and that its purposes extended beyond cooling. It was also used to settle dust, prepare an entrance for guests and cleanse a space. [6]\nThat detail interests me because it suggests that making a place cooler could also be a way of welcoming someone.\nThe physical principle is evaporation.\nAs water evaporates, it draws energy from its surroundings and can cool the wetted surface.\nTokyo’s guidance recommends reused water, applied in shaded places during the morning or evening. [6]\nA bucket of water offers a modest intervention. Its effects depend on conditions, and it cannot resolve the thermal problems of a contemporary metropolis.\nBut the practice still encourages a useful way of thinking about place: look at the surface, consider where the water comes from and pay attention to timing."
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#a-cooler-island-within-the-heat-island",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#a-cooler-island-within-the-heat-island",
+    "title": "When the City Refuses to Cool",
+    "section": "A cooler island within the heat island",
+    "text": "A cooler island within the heat island\nIn August 2007, researchers working with Japan’s Ministry of the Environment measured temperatures in and around Tokyo’s Imperial Gardens.\nThe gardens’ average temperature that month was 1.8°C lower than that of the surrounding built-up area.\nCooler air was detected extending into neighbouring urban areas, up to approximately 350 metres during the day and approximately 250 metres from midnight into early morning under calm conditions. [7]\n\n\nTraditional practices such as uchimizu and measured cooling around large green spaces illustrate two different ways in which water and vegetation can influence urban heat.\n\nThese were findings from a particular observation campaign, not distances that every park will reproduce.\nWhat interests me is that the cooling did not stop neatly at the garden boundary.\nOn a land-use map, a green space can look like a bounded object. In the urban atmosphere, it can participate in exchanges that reach beyond its edge.\nFor a planner, that changes the question.\nWe need to consider where cooler spaces sit, what surrounds them, and how their edges connect with streets and buildings.\nA garden belongs to the climate of its neighbourhood as well as to its own grounds."
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#planning-for-the-hours-after-sunset",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#planning-for-the-hours-after-sunset",
+    "title": "When the City Refuses to Cool",
+    "section": "Planning for the hours after sunset",
+    "text": "Planning for the hours after sunset\nTokyo brings the first note’s question closer to everyday life.\nA warming planet provides the background, while the city’s materials, geometry, vegetation and activities help shape the conditions experienced locally.\nFor planners, this also means paying attention to time of day.\nA building arrangement that provides afternoon shade also needs to be considered in relation to ventilation and cooling after sunset.\nA public space should be understood through the hours when people actually use it.\n“How hot is this place?” becomes more useful when followed by:\n“When, where, and for whom?”\nThe old saying promises that the season will eventually bring relief.\nUrban planning asks whether the places we build allow relief to reach us sooner.\nI do not think inherited knowledge should be left untouched on a shelf. It deserves to be used, tested and reconsidered in the places we inhabit now.\nThat reconsideration can begin with an old proverb, a familiar practice such as uchimizu, or measurements taken on either side of a garden wall. Each offers a different way of paying closer attention to how a place behaves.\n\nThe next Urban Climate Note turns to the city’s physical structure: how do building height, spacing and street geometry shape the heat we experience?"
+  },
+  {
+    "objectID": "notes/02-when-the-city-refuses-to-cool.html#sources",
+    "href": "notes/02-when-the-city-refuses-to-cool.html#sources",
+    "title": "When the City Refuses to Cool",
+    "section": "Sources",
+    "text": "Sources\n[1] Shogakukan dictionaries, via Kotobank. 暑さ寒さも彼岸まで and 彼岸. Meaning of the proverb and the Higan period.\n[2] Japan Meteorological Agency. Urbanisation and long-term trends in mean, maximum and minimum temperature. 1929–2025; annual and seasonal trends, with relocation adjustments for Tokyo.\n[3] Japan Meteorological Agency. What causes the urban heat island?. Heat storage, land cover, urban geometry and anthropogenic heat.\n[4] Japan Meteorological Agency. Frequently asked questions about temperature. Definition of a tropical night.\n[5] Japan Meteorological Agency. Long-term changes in temperature-category day counts. The analysis uses daily minimum temperature ≥25°C; Tokyo is excluded because of station-relocation effects.\n[6] Tokyo Metropolitan Government. Uchimizu Biyori: Edo wisdom and Tokyo hospitality. Cultural history, evaporative cooling and recommended practice.\n[7] Ministry of the Environment, Japan. Observation of the “Cool Island Effect” in the Imperial Gardens. October 4, 2007; results from observations in August 2007."
+  },
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "Methods",
+    "section": "",
+    "text": "Urban climate can be observed at several spatial and temporal scales.\nUrban Climate Notes uses this section to explain the methods behind the evidence presented in the articles.\n\n\nSatellite-derived Land Surface Temperature (LST) measures the thermal state of the Earth’s surface.\nIt is not the same as air temperature.\n\n\n\nMeteorological observations measure atmospheric conditions close to the surface and are essential for understanding human thermal exposure.\n\n\n\nThe Urban Heat Island describes the temperature difference between urban environments and their less urbanized surroundings.\nDifferent definitions and measurement approaches can produce different estimates.\n\n\n\nKey sources include:\n\nLandsat\nSentinel-2\nMODIS\nECOSTRESS\n\n\n\n\nGoogle Earth Engine allows large satellite archives to be processed consistently across long time periods and large geographic areas.\n\n\n\nUrban form can influence:\n\nsolar exposure\nshading\nventilation\nheat storage\nsurface properties\nvegetation availability\n\n\n\n\nLong-term comparisons are only meaningful when the areas being compared remain sufficiently stable.\nChanges in land cover or morphology can otherwise be mistaken for climatic change."
+  },
+  {
+    "objectID": "methods.html#land-surface-temperature",
+    "href": "methods.html#land-surface-temperature",
+    "title": "Methods",
+    "section": "",
+    "text": "Satellite-derived Land Surface Temperature (LST) measures the thermal state of the Earth’s surface.\nIt is not the same as air temperature."
+  },
+  {
+    "objectID": "methods.html#air-temperature",
+    "href": "methods.html#air-temperature",
+    "title": "Methods",
+    "section": "",
+    "text": "Meteorological observations measure atmospheric conditions close to the surface and are essential for understanding human thermal exposure."
+  },
+  {
+    "objectID": "methods.html#urban-heat-island",
+    "href": "methods.html#urban-heat-island",
+    "title": "Methods",
+    "section": "",
+    "text": "The Urban Heat Island describes the temperature difference between urban environments and their less urbanized surroundings.\nDifferent definitions and measurement approaches can produce different estimates."
+  },
+  {
+    "objectID": "methods.html#remote-sensing",
+    "href": "methods.html#remote-sensing",
+    "title": "Methods",
+    "section": "",
+    "text": "Key sources include:\n\nLandsat\nSentinel-2\nMODIS\nECOSTRESS"
+  },
+  {
+    "objectID": "methods.html#google-earth-engine",
+    "href": "methods.html#google-earth-engine",
+    "title": "Methods",
+    "section": "",
+    "text": "Google Earth Engine allows large satellite archives to be processed consistently across long time periods and large geographic areas."
+  },
+  {
+    "objectID": "methods.html#urban-morphology",
+    "href": "methods.html#urban-morphology",
+    "title": "Methods",
+    "section": "",
+    "text": "Urban form can influence:\n\nsolar exposure\nshading\nventilation\nheat storage\nsurface properties\nvegetation availability"
+  },
+  {
+    "objectID": "methods.html#stability-and-comparability",
+    "href": "methods.html#stability-and-comparability",
+    "title": "Methods",
+    "section": "",
+    "text": "Long-term comparisons are only meaningful when the areas being compared remain sufficiently stable.\nChanges in land cover or morphology can otherwise be mistaken for climatic change."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Urban Climate Notes is an independent research and science communication project created by Kenan Çolak.\nIt explores how climate is experienced, measured and shaped in cities, with a particular focus on urban morphology, urban heat, remote sensing and planning.\nEach note begins with a place, a question, a dataset or an observation. From there, it follows the evidence through scientific literature, environmental data, maps and urban examples.\nThe aim is to make urban climate research accessible without losing the distinctions that matter. Surface temperature is not the same as air temperature. A warming trend is not the same as an urban heat island. Density, building height, vegetation and land cover describe different characteristics of a city and should not be treated as interchangeable.\nUrban Climate Notes is a place to examine those differences carefully and connect them to planning.\n\n\nI am an urban planner and researcher with more than twelve years of professional planning experience.\nI completed my PhD in Urban and Regional Planning in 2026. My doctoral research examined the relationship between urban morphology and surface urban heat in Antalya, Türkiye, using Landsat land surface temperature, Sentinel-2 observations, GIS, Google Earth Engine and a stability-based analytical framework.\nMy professional background is primarily in public-sector planning, particularly conservation planning and the assessment of development and design proposals. That experience strongly influences the way I approach urban climate research.\nI am interested in how the physical form of a city affects thermal conditions, how those effects can be measured over time, and how scientific evidence can be translated into useful planning questions.\nMy current research interests include:\n\nurban climate and urban heat islands\nurban morphology\nland surface temperature\nremote sensing\nGIS and spatial analysis\nclimate adaptation\nlong-term urban change\ncomparative urban analysis\n\n\n\n\nCities are often described through population, density, land use, transport and architecture.\nThey can also be understood through sunlight, shade, wind, water, vegetation, surface materials and the heat stored between buildings.\nUrban Climate Notes was created to explore those relationships across different cities and scales.\nSome notes focus on a city. Others focus on a method, a dataset or a planning question. Together, they build toward a broader question:\n\nHow can better climate evidence help us understand and plan cities more carefully?\n\nFor shorter updates and new notes, follow Urban Climate Notes on Instagram and Kenan Çolak on LinkedIn."
+  },
+  {
+    "objectID": "about.html#about-kenan-çolak",
+    "href": "about.html#about-kenan-çolak",
+    "title": "About",
+    "section": "",
+    "text": "I am an urban planner and researcher with more than twelve years of professional planning experience.\nI completed my PhD in Urban and Regional Planning in 2026. My doctoral research examined the relationship between urban morphology and surface urban heat in Antalya, Türkiye, using Landsat land surface temperature, Sentinel-2 observations, GIS, Google Earth Engine and a stability-based analytical framework.\nMy professional background is primarily in public-sector planning, particularly conservation planning and the assessment of development and design proposals. That experience strongly influences the way I approach urban climate research.\nI am interested in how the physical form of a city affects thermal conditions, how those effects can be measured over time, and how scientific evidence can be translated into useful planning questions.\nMy current research interests include:\n\nurban climate and urban heat islands\nurban morphology\nland surface temperature\nremote sensing\nGIS and spatial analysis\nclimate adaptation\nlong-term urban change\ncomparative urban analysis"
+  },
+  {
+    "objectID": "about.html#why-this-project",
+    "href": "about.html#why-this-project",
+    "title": "About",
+    "section": "",
+    "text": "Cities are often described through population, density, land use, transport and architecture.\nThey can also be understood through sunlight, shade, wind, water, vegetation, surface materials and the heat stored between buildings.\nUrban Climate Notes was created to explore those relationships across different cities and scales.\nSome notes focus on a city. Others focus on a method, a dataset or a planning question. Together, they build toward a broader question:\n\nHow can better climate evidence help us understand and plan cities more carefully?\n\nFor shorter updates and new notes, follow Urban Climate Notes on Instagram and Kenan Çolak on LinkedIn."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Climate Notes",
+    "section": "",
+    "text": "URBAN CLIMATE • EVIDENCE • PLANNING\n\n\nFrom climate evidence to urban decisions.\n\n\nUrban Climate Notes explores how climate change is experienced, measured and shaped in cities.\nIt connects urban climatology, urban morphology, remote sensing and planning through evidence-based stories, methods and city case studies.\n\n\n\nLatest Notes\n\n\n\n\nUrban Climate Notes #1\n\n\n Is the Planet Really Getting Warmer? \n\n\nReno, urban climate, and the fading art of reading a place.\n\n\n\n\nUrban Climate Notes #2\n\n\n When the City Refuses to Cool \n\n\nTokyo, tropical nights, and the wisdom of waiting for relief.\n\n\n\n\nUrban Climate Notes asks a simple question:\nHow can climate evidence help us understand, design and plan better cities?\n\n\nExplore\n\n\nCities\nUrban climate stories told through real places, observations and long-term change.\n\n\nMethods\nHow satellites, meteorological observations, GIS and spatial analysis help us measure urban climate.\n\n\nResearch\nCurrent research on urban morphology, surface urban heat, remote sensing and climate-responsive planning."
+  },
+  {
+    "objectID": "notes/01-is-the-planet-really-warming.html",
+    "href": "notes/01-is-the-planet-really-warming.html",
+    "title": "Is the Planet Really Getting Warmer?",
+    "section": "",
+    "text": "I sometimes think there is an endangered species missing from our conservation lists: the city dweller who still knows how to read the place they live in.\nSomeone who knows which street catches the afternoon wind. Which courtyard holds the heat after sunset. Where water gathers when the rain becomes serious. Someone who looks at a tree and sees, among other things, information about soil, moisture, exposure and time.\nThis knowledge rarely arrives as a complete theory. It accumulates through living somewhere: a remembered flood, a planting season, a warning repeated until it becomes a proverb.\nI have considerable respect for that kind of knowledge.\nYears of observation can survive in an ordinary sentence.\nMuch of it once answered to necessity. Getting the season wrong could mean losing a harvest. Building without understanding water could mean losing a home. Sunlight and weather had a seat at the drawing table, whether the builder invited them or not.\nTechnology has made many of those negotiations less visible.\nWe can cool a badly oriented room, import food through a failed season and consult a forecast without looking outside.\nThese are remarkable achievements. They have also made it easier to live somewhere without learning very much about it.\nThat is one reason I wanted to begin this series on urban climate: to think about what our instruments reveal, what our cities remember, and what we have stopped noticing."
+  },
+  {
+    "objectID": "notes/01-is-the-planet-really-warming.html#the-biggest-little-city-gets-warmer",
+    "href": "notes/01-is-the-planet-really-warming.html#the-biggest-little-city-gets-warmer",
+    "title": "Is the Planet Really Getting Warmer?",
+    "section": "The biggest little city gets warmer",
+    "text": "The biggest little city gets warmer\nReno calls itself “The Biggest Little City in the World.”\nIts famous arch gives the city a compact, confident introduction. [2]\nRecently, I encountered another description of Reno, this time in a temperature ranking.\nClimate Central analysed annual average temperature trends between 1970 and 2025 for 242 U.S. cities.\nReno showed the largest estimated increase:\n7.9°F, approximately 4.4°C. [3]\nA striking number for a city with “little” in its nickname.\nBut the geography behind the number is more interesting than the ranking alone.\n\n\nReno, Nevada, in its regional landscape context, between the Sierra Nevada and the Great Basin.\n\nReno lies on the eastern side of the Sierra Nevada, in the mountains’ rain shadow.\nThe landscape helps determine what moisture reaches the city and under what conditions. [4]\nEven before a street is laid out, the place already has a climatic structure.\nThis is easy to forget when we encounter cities primarily through their buildings, economies or administrative boundaries.\nA city also occupies a position in a system of mountains, winds and water.\nReno is growing within that system.\nIts population rose from 225,221 in 2010 to an estimated 283,621 in 2025, an increase of approximately 26%. [5]\n\n\nReno is a fast-growing city within a semi-arid landscape shaped by the Sierra Nevada and the Great Basin.\n\nThe population figures do not explain the temperature trend.\nThey describe a growing population living in a place whose recorded thermal conditions have changed substantially.\nNor is the reported 4.4°C increase a measurement of Reno’s urban heat island.\nIt is a regression-based estimate from annual temperatures in a local weather-station record.\nSeparating regional warming from the effects of urban development requires a different analysis.\nStill, the combination gives a planner reason to pause.\nAs Reno grows, planners will have to make more decisions about buildings and land in a climate that is itself changing."
+  },
+  {
+    "objectID": "notes/01-is-the-planet-really-warming.html#a-warm-year-or-a-warming-world",
+    "href": "notes/01-is-the-planet-really-warming.html#a-warm-year-or-a-warming-world",
+    "title": "Is the Planet Really Getting Warmer?",
+    "section": "A warm year, or a warming world?",
+    "text": "A warm year, or a warming world?\nBefore discussing street canyons, vegetation or satellite images, we need to establish the larger background.\nIs the planet really warming, or are we simply passing through a warm period?\nThe long-term evidence is clear.\nThe World Meteorological Organization reports that 2015–2025 were the eleven warmest years in the observational record.\nThe global mean near-surface temperature in 2025 was approximately 1.43°C above the 1850–1900 average, with a reported uncertainty of ±0.13°C. [6]\nThe IPCC concludes that human activities have unequivocally caused global warming.\nIt also assesses that global surface temperature has risen faster since 1970 than during any other 50-year period over at least the last 2,000 years. [7]\nAn individual year can still be cooler than the one before it because natural variability continues within a warming climate.\n\nClimate is not a staircase. It is a trend.\n\n\n\nGlobal warming is a long-term trend rather than the result of a single hot year.\n\nWe should also resist an easy comparison.\nReno’s 4.4°C change since 1970 and the global anomaly of 1.43°C use different reference periods and describe different quantities.\nPutting them side by side does not tell us how many times faster Reno is warming.\nWhat they do tell us is that the global story needs local investigation."
+  },
+  {
+    "objectID": "notes/01-is-the-planet-really-warming.html#buildings-still-negotiate-with-the-weather",
+    "href": "notes/01-is-the-planet-really-warming.html#buildings-still-negotiate-with-the-weather",
+    "title": "Is the Planet Really Getting Warmer?",
+    "section": "Buildings still negotiate with the weather",
+    "text": "Buildings still negotiate with the weather\nHere is where urban morphology enters.\nThe climate of a street is partly shaped by the arrangement of its buildings: their height, spacing, orientation and relationship to open space.\nThat geometry influences sunlight, the exchange of radiation and the movement of air.\nMaterials, vegetation, water and heat released by human activities also help shape urban thermal conditions. [8]\nThese processes continue whether or not they appear in the planning brief.\nA shaded street may offer relief during the day.\nThe same enclosing geometry can affect ventilation and the release of heat at night.\nThe useful question is therefore more precise than whether density is “good” or “bad” for climate:\n\nWhich configuration, in which climate, at what hour, and for whom?\n\nThis is also where older observations become interesting.\n\n“The upstairs room is unbearable in August.”\n\nThat is not a complete thermal assessment, but it is an observation worth investigating.\n\n“The water always comes back here.”\n\nThat is not a flood model either.\nBefore dismissing it, I would want to know who remembers, how far that memory reaches, and what has since been built upstream.\nInherited knowledge deserves attention and scrutiny.\nSome lessons remain useful, while others need to be reconsidered as land use and climate continue to change.\nRespecting that knowledge means taking it seriously enough to examine."
+  },
+  {
+    "objectID": "notes/01-is-the-planet-really-warming.html#learning-to-read-again",
+    "href": "notes/01-is-the-planet-really-warming.html#learning-to-read-again",
+    "title": "Is the Planet Really Getting Warmer?",
+    "section": "Learning to read again",
+    "text": "Learning to read again\nThere is something curious about our present situation.\nWe can observe the Earth from orbit, yet may know very little about the thermal behaviour of the street outside our door.\nA satellite can help us estimate land surface temperature.\nA weather station can record air temperature.\nNeither, on its own, tells the whole story of someone waiting at an unshaded bus stop.\nRadiation, wind and humidity matter too.\nFor planners, choosing the right measurement is part of understanding the place.\nSo is listening to the people who use it.\nBenny Fillmore’s words belong to a particular Washoe context: relationships with land, knowledge and stewardship around Lake Tahoe. [1]\nThey deserve more than becoming a pleasant quotation above a graph.\nThey leave me with a question about attention.\nWhat would it mean to become better readers of our cities, to recognise a climatic consequence in the orientation of a building, a lost opportunity in a sealed courtyard, or a warning in a familiar account of a flood?\nWe have more instruments than ever.\nWe also have accumulated experience that deserves another hearing.\nThe planet is warming.\nThe next task is to understand how that change meets the places we inhabit.\n\nThe next Urban Climate Note moves one scale down: if the world is warming, what makes cities different?"
+  },
+  {
+    "objectID": "notes/01-is-the-planet-really-warming.html#sources",
+    "href": "notes/01-is-the-planet-really-warming.html#sources",
+    "title": "Is the Planet Really Getting Warmer?",
+    "section": "Sources",
+    "text": "Sources\n[1] Center for the Study of the Force Majeure. Stewarding Knowledges. Benny Fillmore, Washoe Elder, and the initiative’s Washoe-led stewardship context.\n[2] City of Reno. Historic Markers. Reno’s nickname and historic arch.\n[3] Climate Central. Fastest-Warming U.S. States and Cities. April 22, 2026. The reported changes are based on linear regression of annual average weather-station temperatures over 1970–2025.\n[4] National Weather Service. Climate of Reno, Nevada. Western Region Technical Memorandum 276.\n[5] U.S. Census Bureau. QuickFacts: Reno city, Nevada. 2010 census count and July 1, 2025 population estimate, V2025. Percentage growth calculated from the two figures.\n[6] World Meteorological Organization. State of the Global Climate 2025. 2026.\n[7] IPCC. Climate Change 2023: Synthesis Report. Summary for Policymakers and Section 2.1.1.\n[8] IPCC. AR6 Working Group I: Regional Fact Sheet: Urban Areas. 2021."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Urban Climate Notes uses cities, data and scientific literature to explore how climate change is experienced in the places where we live."
+  },
+  {
+    "objectID": "notes.html#published-notes",
+    "href": "notes.html#published-notes",
+    "title": "Notes",
+    "section": "Published Notes",
+    "text": "Published Notes\n\n#1 — Is the Planet Really Getting Warmer?\nReno, Nevada\nReno, urban climate, and the fading art of reading a place.\nFrom global warming to local temperature trends, urban morphology and the question of how well we still understand the places we inhabit.\n\n\n#2 — When the City Refuses to Cool\nTokyo, Japan\nTokyo, tropical nights and the urban heat island.\nFrom a warming planet to the way buildings, surfaces, water and urban geometry shape the thermal conditions experienced in cities."
+  },
+  {
+    "objectID": "notes.html#coming-next",
+    "href": "notes.html#coming-next",
+    "title": "Notes",
+    "section": "Coming Next",
+    "text": "Coming Next\n\n#3 — Does Urban Morphology Determine How Hot a City Becomes?\nHow building density, height, spacing, vegetation, street geometry and land cover influence urban thermal conditions."
+  }
+]

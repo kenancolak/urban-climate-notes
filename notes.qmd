@@ -1,0 +1,32 @@
+---
+title: "Notes"
+toc: false
+---
+
+Urban Climate Notes uses cities, data and scientific literature to explore how climate change is experienced in the places where we live.
+
+## Published Notes
+
+### [#1 — Is the Planet Really Getting Warmer?](notes/01-is-the-planet-really-warming.qmd)
+
+**Reno, Nevada**
+
+*Reno, urban climate, and the fading art of reading a place.*
+
+From global warming to local temperature trends, urban morphology and the question of how well we still understand the places we inhabit.
+
+
+### [#2 — When the City Refuses to Cool](notes/02-when-the-city-refuses-to-cool.qmd)
+
+**Tokyo, Japan**
+
+*Tokyo, tropical nights and the urban heat island.*
+
+From a warming planet to the way buildings, surfaces, water and urban geometry shape the thermal conditions experienced in cities.
+
+
+## Coming Next
+
+### #3 — Does Urban Morphology Determine How Hot a City Becomes?
+
+How building density, height, spacing, vegetation, street geometry and land cover influence urban thermal conditions.
