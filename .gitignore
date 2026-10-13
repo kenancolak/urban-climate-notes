@@ -1,2 +1,5 @@
 /.quarto/
 **/*.quarto_ipynb
+/node_modules/
+/dist/
+/public/images/optimized/
