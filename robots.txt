@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
+
 Sitemap: https://kenancolak.github.io/urban-climate-notes/sitemap.xml
