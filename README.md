@@ -17,4 +17,4 @@ The production build pre-renders each page with its own metadata and structured 
 
 ## Deployment
 
-The GitHub Actions workflow builds the app and deploys the `dist` directory to GitHub Pages. The Vite base path is configured for `https://kenancolak.github.io/urban-climate-notes/`.
+GitHub Pages serves the `gh-pages` branch. To publish a new version, run `npm run build`, then copy the contents of `dist` to the root of `gh-pages` and push that branch. GitHub's Pages deployment workflow publishes each update to `gh-pages`. The Vite base path is configured for `https://kenancolak.github.io/urban-climate-notes/`.
