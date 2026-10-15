@@ -1,5 +1,6 @@
 import noteOneSource from '../notes/01-is-the-planet-really-warming.qmd?raw';
 import noteTwoSource from '../notes/02-when-the-city-refuses-to-cool.qmd?raw';
+import noteThreeSource from '../notes/03-how-much-does-urban-form-matter-for-heat.qmd?raw';
 
 const optimizedImage = (filename: string) =>
   `${import.meta.env.BASE_URL}images/optimized/${filename}.webp`;
@@ -12,6 +13,10 @@ const noteTwoCover = optimizedImage('02_Urban_Climate_Notes_Cover');
 const noteTwoTokyo = optimizedImage('02_Tokyo_Temperature_Trends');
 const noteTwoNight = optimizedImage('03_Tokyo_After_Sunset');
 const noteTwoGarden = optimizedImage('04_Uchimizu_Imperial_Gardens');
+const noteThreeCover = optimizedImage('03_Urban_Climate_Notes_Cover');
+const noteThreeDayNight = optimizedImage('02_Shade_Is_Not_Cooling');
+const noteThreeSVF = optimizedImage('03_Urban_Geometry_SVF');
+const noteThreeContext = optimizedImage('04_Thermal_Influence');
 
 export type Note = {
   number: string;
@@ -62,6 +67,29 @@ export const notes: Note[] = [
     },
   },
 ];
+
+{
+  number: '03',
+  slug: 'how-much-does-urban-form-matter-for-heat',
+  title: 'How Much Does Urban Form Matter for Heat?',
+  subtitle: 'Hong Kong, street canyons, and the geometry of cooling',
+  city: 'Hong Kong',
+  date: 'October 12, 2026',
+  categories: [
+    'Urban Climate',
+    'Urban Morphology',
+    'Hong Kong',
+    'Urban Planning'
+  ],
+  cover: noteThreeCover,
+  source: noteThreeSource,
+  imageFiles: {
+    'notes/03/01_Urban_Climate_Notes_Cover.png': noteThreeCover,
+    'notes/03/02_Shade_Is_Not_Cooling.png': noteThreeDayNight,
+    'notes/03/03_Urban_Geometry_SVF.png': noteThreeSVF,
+    'notes/03/04_Thermal_Influence.png': noteThreeContext,
+  },
+},
 
 export function getArticleMarkdown(source: string) {
   return source
