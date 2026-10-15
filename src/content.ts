@@ -89,7 +89,6 @@ export const notes: Note[] = [
     'notes/03/04_Thermal_Influence.png': noteThreeContext,
   },
 },
-  },
 ];
 
 export function getArticleMarkdown(source: string) {
