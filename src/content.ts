@@ -66,7 +66,6 @@ export const notes: Note[] = [
       'notes/02/04_Uchimizu_Imperial_Gardens.png': noteTwoGarden,
     },
   },
-];
 
 {
   number: '03',
@@ -90,7 +89,10 @@ export const notes: Note[] = [
     'notes/03/04_Thermal_Influence.png': noteThreeContext,
   },
 },
+  },
+];
 
+export function getArticleMarkdown(source: string) {
 export function getArticleMarkdown(source: string) {
   return source
     .replace(/^---\s*[\s\S]*?---\s*/, '')
