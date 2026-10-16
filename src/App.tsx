@@ -389,8 +389,8 @@ function NotesPage() {
       </div>
       <section className="coming-next">
         <p className="eyebrow">Coming next</p>
-        <h2>Does Urban Morphology Determine How Hot a City Becomes?</h2>
-        <p>How building density, height, spacing, vegetation, street geometry and land cover influence urban thermal conditions.</p>
+        <h2>What Temperature Are We Actually Measuring?</h2>
+        <p>Land surface temperature, air temperature, and what urban heat maps can really tell us.</p>
       </section>
     </>
   );
@@ -530,7 +530,7 @@ function ArticlePage({ note }: { note: Note }) {
         {!nextNote && (
           <div className="upcoming-note">
             <span>Coming next</span>
-            <strong>Does Urban Morphology Determine How Hot a City Becomes?</strong>
+            <strong>What Temperature Are We Actually Measuring?</strong>
           </div>
         )}
       </nav>
