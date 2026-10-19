@@ -4,9 +4,9 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { createServer } from 'vite';
 
-const siteUrl = 'https://kenancolak.github.io/urban-climate-notes';
-const siteOrigin = 'https://kenancolak.github.io';
-const baseUrl = '/urban-climate-notes/';
+const siteUrl = 'https://kenancolak.com';
+const siteOrigin = 'https://kenancolak.com';
+const baseUrl = '/';
 const outputDir = path.resolve('dist');
 const manifestPath = path.join(outputDir, '.vite', 'manifest.json');
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));

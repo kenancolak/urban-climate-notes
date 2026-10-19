@@ -17,4 +17,6 @@ The production build pre-renders each page with its own metadata and structured 
 
 ## Deployment
 
-GitHub Pages serves the `gh-pages` branch. To publish a new version, run `npm run build`, then copy the contents of `dist` to the root of `gh-pages` and push that branch. GitHub's Pages deployment workflow publishes each update to `gh-pages`. The Vite base path is configured for `https://kenancolak.github.io/urban-climate-notes/`.
+GitHub Pages serves the `gh-pages` branch. To publish a new version, run `npm run build`, then copy the contents of `dist` to the root of `gh-pages` and push that branch. GitHub's Pages deployment workflow publishes each update to `gh-pages`. The build uses the domain root and includes `CNAME` for `kenancolak.com`.
+
+For the GoDaddy DNS configuration, add A records for `@` pointing to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. Optionally add AAAA records for `@` pointing to `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, and `2606:50c0:8003::153`.
