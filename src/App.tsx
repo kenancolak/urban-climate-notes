@@ -388,9 +388,10 @@ function NotesPage() {
         {notes.map((note) => <NoteCard key={note.slug} note={note} />)}
       </div>
       <section className="coming-next">
-        <p className="eyebrow">Coming next</p>
+        <p className="eyebrow">Explore the latest note</p>
         <h2>What Temperature Are We Actually Measuring?</h2>
-        <p>Land surface temperature, air temperature, and what urban heat maps can really tell us.</p>
+        <p>Phoenix, satellite heat maps, and the air above the street.</p>
+        <a className="text-link" href={routeHref('/notes/what-temperature-are-we-actually-measuring')}>Read Note 04 <span aria-hidden="true">→</span></a>
       </section>
     </>
   );
@@ -530,7 +531,7 @@ function ArticlePage({ note }: { note: Note }) {
         {!nextNote && (
           <div className="upcoming-note">
             <span>Coming next</span>
-            <strong>What Temperature Are We Actually Measuring?</strong>
+            <strong>More urban climate stories are on the way.</strong>
           </div>
         )}
       </nav>
