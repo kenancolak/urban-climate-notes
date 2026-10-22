@@ -1,6 +1,7 @@
 import noteOneSource from '../notes/01-is-the-planet-really-warming.qmd?raw';
 import noteTwoSource from '../notes/02-when-the-city-refuses-to-cool.qmd?raw';
 import noteThreeSource from '../notes/03-how-much-does-urban-form-matter-for-heat.qmd?raw';
+import noteFourSource from '../notes/04-what-temperature-are-we-actually-measuring.qmd?raw';
 
 const optimizedImage = (filename: string) =>
   `${import.meta.env.BASE_URL}images/optimized/${filename}.webp`;
@@ -17,6 +18,11 @@ const noteThreeCover = optimizedImage('03_Urban_Climate_Notes_Cover');
 const noteThreeDayNight = optimizedImage('02_Shade_Is_Not_Cooling');
 const noteThreeSVF = optimizedImage('03_Urban_Geometry_SVF');
 const noteThreeContext = optimizedImage('04_Thermal_Influence');
+const noteFourCover = optimizedImage('04_Urban_Climate_Notes_Cover');
+const noteFourECOSTRESS = optimizedImage('04_ECOSTRESS_Burn_Risk');
+const noteFourStadium = optimizedImage('04_Glendale_Stadium_Surface_Context');
+const noteFourNeighborhood = optimizedImage('04_Phoenix_Neighborhood_Thermal_Context');
+const noteFourVIIRS = optimizedImage('04_VIIRS_Night_LST');
 
 export type Note = {
   number: string;
@@ -89,6 +95,24 @@ export const notes: Note[] = [
     'notes/03/04_Thermal_Influence.png': noteThreeContext,
   },
 },
+  {
+    number: '04',
+    slug: 'what-temperature-are-we-actually-measuring',
+    title: 'What Temperature Are We Actually Measuring?',
+    subtitle: 'Phoenix, satellite heat maps, and the air above the street',
+    city: 'Phoenix, Arizona',
+    date: 'October 21, 2026',
+    categories: ['Urban Climate', 'Land Surface Temperature', 'Phoenix', 'Remote Sensing', 'Urban Planning'],
+    cover: noteFourCover,
+    source: noteFourSource,
+    imageFiles: {
+      'notes/04/01_Urban_Climate_Notes_Cover.png': noteFourCover,
+      'notes/04/02_ECOSTRESS_Burn_Risk.png': noteFourECOSTRESS,
+      'notes/04/03_Glendale_Stadium_Surface_Context.png': noteFourStadium,
+      'notes/04/04_Phoenix_Neighborhood_Thermal_Context.png': noteFourNeighborhood,
+      'notes/04/05_VIIRS_Night_LST.png': noteFourVIIRS,
+    },
+  },
 ];
 
 export function getArticleMarkdown(source: string) {
