@@ -22,12 +22,6 @@ A map can accurately describe one part of the urban environment and still lead u
 
 Phoenix, Arizona, offers a particularly clear way to examine that distinction.
 
-<!-- IMAGE 01 — COVER (auto-rendered by React article card; do not duplicate in body).
-File: ../images/notes/04/01_Urban_Climate_Notes_Cover.png
-Original photograph: Bigmikebmw, Downtown Phoenix from South Mountain (10 Feb 2009).
-Source: https://commons.wikimedia.org/wiki/File:Phoenix,_Arizona.JPG
-License: CC BY-SA 3.0. Cropped, resized and combined with separate title/brand elements. -->
-
 ## One city, two temperatures
 
 At 1:02 p.m. local time on 19 June 2024, NASA's ECOSTRESS instrument, mounted on the International Space Station, observed the surface temperatures of Phoenix. Its map showed roads and adjoining sidewalks exceeding 49°C in several parts of the city. Some surfaces around Phoenix Sky Harbor International Airport reached approximately 60°C. [2]
