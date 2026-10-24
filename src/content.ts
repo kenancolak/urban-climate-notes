@@ -118,6 +118,7 @@ export const notes: Note[] = [
 export function getArticleMarkdown(source: string) {
   return source
     .replace(/^---\s*[\s\S]*?---\s*/, '')
+    .replace(/<!--[\s\S]*?-->\s*/g, '')
     .replace(/^!\[[^\]]*\]\(\.\.\/images\/notes\/[^)]+\)\{[^}]+\}\s*/, '')
     .replace(
       /!\[([^\]]*)\]\(([^)]+)\)\{([^}]+)\}/g,
