@@ -1,3 +1,4 @@
+import { identity, biography } from './profile';
 import noteOneSource from '../notes/01-is-the-planet-really-warming.qmd?raw';
 import noteTwoSource from '../notes/02-when-the-city-refuses-to-cool.qmd?raw';
 import noteThreeSource from '../notes/03-how-much-does-urban-form-matter-for-heat.qmd?raw';
@@ -154,6 +155,8 @@ export function slugify(text: string) {
 }
 
 export const sectionSearchContent = [
+  { title: 'Curriculum vitae', href: '/cv', description: 'Kenan Çolak’s academic profile and CV.', content: 'Curriculum vitae academic profile' },
+  { title: 'Contact', href: '/contact', description: 'Academic collaboration and verified profile links.', content: 'Contact academic collaboration postdoctoral research' },
   {
     title: 'Methods',
     href: '/methods',
@@ -172,8 +175,7 @@ export const sectionSearchContent = [
     title: 'About',
     href: '/about',
     description: 'About the independent research and science communication project and its creator, Kenan Çolak.',
-    content:
-      'Kenan Çolak is an urban planner and researcher with more than twelve years of professional planning experience. His PhD research examined urban morphology and surface urban heat in Antalya, Türkiye, using Landsat, Sentinel-2, GIS, Google Earth Engine and a stability-based analytical framework. Interests include urban climate, heat islands, morphology, land surface temperature, remote sensing, climate adaptation, long-term urban change and comparative urban analysis.',
+    content: biography,
   },
 ];
 
@@ -218,8 +220,8 @@ export function getSeoForRoute(route: string) {
 
   if (route === '/') {
     return {
-      title: 'From climate evidence to urban decisions.',
-      description: 'Urban Climate Notes explores how climate change is experienced, measured and shaped in cities.',
+      title: 'Urban climate researcher',
+      description: identity,
       image: '',
       type: 'website',
       publishedTime: '',
