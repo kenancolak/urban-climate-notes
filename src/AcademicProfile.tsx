@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { availability, biography, contactEmail, cvUrl, identity, profileLinks, projects } from './profile';
+import { academicService, availability, biography, contactEmail, cvUrl, identity, legalQualification, profileLinks, projects, publishedArticle, researchPractice, writingProject, musicInterests } from './profile';
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -50,12 +50,22 @@ export function ProjectCards({ headingLevel = 2 }: { headingLevel?: 2 | 3 }) {
   </article>)}</div>;
 }
 
+function AcademicCredentials() {
+  return <>
+    <section aria-labelledby="research-practice"><h2 id="research-practice">Research and professional practice</h2><p>{researchPractice}</p></section>
+    <section aria-labelledby="legal-qualification"><h2 id="legal-qualification">Legal qualification</h2><p>{legalQualification}</p></section>
+    <section aria-labelledby="academic-service"><h2 id="academic-service">Academic service and invited contributions</h2><ul>{academicService.map(item => <li key={item}>{item}</li>)}</ul></section>
+    <section aria-labelledby="writing-project"><h2 id="writing-project">Emerging writing project</h2><p>{writingProject}</p></section>
+    <section aria-labelledby="music-interests"><h2 id="music-interests">Music and cultural interests</h2><p>{musicInterests}</p></section>
+  </>;
+}
+
 export function AcademicAbout() {
-  return <><header className="page-intro"><p className="eyebrow">About</p><h1>Kenan Çolak</h1><p>Urban and regional planner and urban climate researcher.</p></header><div className="prose-page"><p>{biography}</p><h2>Academic collaboration</h2><p>{availability}</p><a className="text-link" href="/contact/">Contact →</a><h2>Urban Climate Notes</h2><p>An independent research and science communication project created by Kenan Çolak.</p><a className="text-link" href="/notes/">Explore the notes →</a></div></>;
+  return <><header className="page-intro"><p className="eyebrow">About</p><h1>Kenan Çolak</h1><p>Urban and regional planner and urban climate researcher.</p></header><div className="prose-page"><p>{biography}</p><AcademicCredentials /><h2>Academic collaboration</h2><p>{availability}</p><a className="text-link" href="/contact/">Contact →</a><h2>Urban Climate Notes</h2><p>An independent research and science communication project created by Kenan Çolak.</p><a className="text-link" href="/notes/">Explore the notes →</a></div></>;
 }
 
 export function CVPage() {
-  return <><header className="page-intro"><p className="eyebrow">Academic profile</p><h1>Curriculum vitae</h1></header><div className="prose-page"><p>{biography}</p>{cvUrl ? <a className="primary-action" href={cvUrl} download>Download CV</a> : <p className="content-pending">The downloadable CV will be added after the current PDF is confirmed.</p>}<a className="text-link" href="/research/">Research projects →</a></div></>;
+  return <><header className="page-intro"><p className="eyebrow">Academic profile</p><h1>Curriculum vitae</h1></header><div className="prose-page"><p>{biography}</p>{cvUrl ? <a className="primary-action" href={cvUrl} download>Download CV</a> : <p className="content-pending">The downloadable CV will be added after the current PDF is confirmed.</p>}<AcademicCredentials /><section aria-labelledby="selected-publication"><h2 id="selected-publication">Selected peer-reviewed publication</h2><p>{publishedArticle} <a href="https://doi.org/10.31407/ijees12.428">https://doi.org/10.31407/ijees12.428</a></p></section><h2>Research projects</h2><a className="text-link" href="/research/">Research projects →</a></div></>;
 }
 
 export function ContactPage() {

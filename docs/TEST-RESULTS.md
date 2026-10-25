@@ -44,3 +44,22 @@ PR #1 açıldıktan sonra mevcut Vercel entegrasyonu `academic-profile-v1` dalı
 Bu adres tarayıcıda Vercel giriş ekranına yönlendi. Dolayısıyla uzak önizlemenin içeriği oturumsuz tarayıcıda incelenemedi. Yerel önizlemenin görsel testleri ve production çıktı kontrolleri yukarıdadır. Koruma ayarları değiştirilmedi.
 
 İlk kaynak commit’i: `4644cb91d4479fb6e0539eee2370c806b7c62862`. Bu dalın yayınından sonra main ve gh-pages commit’leri başlangıç SHA’larında kaldı. Repo sahibi hesabında yeni bir hosting projesi açılmadı; daha önce bağlı Vercel entegrasyonu kendi önizlemesini oluşturdu.
+
+
+## CV ve profil güncellemesi
+
+- İki sayfalık birleşik CV’nin her sayfası PNG’ye render edilip görsel olarak incelendi. PDF metni, e-posta, ORCID ve link açıklamaları kontrol edildi.
+- npm run build ve npm run check:build: başarılı. Güncel çıktı: 11 rota, 158 iç bağlantı, 25 görsel alt niteliği.
+- Hakkımda ve CV statik çıktılarında avukatlık, ICONARP ve planlanan Kasım 2026 semineri bulunduğu doğrulandı.
+- Yahoo mailto bağlantısı ve CV indirme hedefi doğrulandı; dist içindeki PDF ile kaynak PDF’nin baytları eşleşiyor.
+- Tarayıcıda güncel CV sayfası ve yeni bölümler görüntülendi. Tarayıcı indirme olayı beklenirken araç zaman aşımına uğradı; native indirme akışı başarılı sayılmadı.
+- ORCID/LinkedIn adresleri iki kaynak CV’den alındı; dış profil sayfaları web aracıyla alınamadı. Bağımsız hesap doğrulaması iddia edilmiyor.
+- PR #1’in kullanıcı tarafında main’e birleştirildiği görüldü. Bu güncelleme main 4c7af547a7d4fc9bd60c67682ad1e41be9cf99ae temelinden academic-profile-cv-v2 dalında hazırlandı. Bu çalışma sırasında main ve yayın ayarları değiştirilmedi.
+
+## Araştırma profili, yazı fikri ve müzik güncellemesi
+
+- Kullanıcının yeni bilgileriyle kamu görevi sırasında araştırma, kavram aşamasındaki deneme projesi ve 2004’ten beri müzik ilgisi eklendi. About/CV statik çıktıları kontrol edildi.
+- Tez başlığı özgün İngilizce özet başlığına eşleştirildi; kullanıcının teyit ettiği Ocak 2018 mezuniyet tarihi PDF’ye eklendi.
+- Yeni PDF hâlâ iki sayfa; iki PNG görsel olarak incelendi. İçerik testleri ve kaynak/çıktı PDF bayt eşleşmesi başarılı.
+- npm run build ve npm run check:build başarılı: 11 rota, 158 iç bağlantı, 25 görsel alt niteliği. Not ve kaynak görseller değişmedi.
+- Kitap yazılmış/yayımlanmış gibi sunulmuyor; konser, albüm, enstrüman veya organizatörlük iddiası eklenmedi.

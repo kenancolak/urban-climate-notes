@@ -11,8 +11,23 @@ export const projects: { id: string; title: string; question: string; area: stri
 ];
 // Add only owner-approved public destinations. Undefined values render plain text.
 export const profileLinks: { label: string; url?: string }[] = [
-  { label: 'ORCID' }, { label: 'Google Scholar' },
-  { label: 'GitHub', url: 'https://github.com/kenancolak' }, { label: 'LinkedIn' },
+  { label: 'ORCID', url: 'https://orcid.org/0000-0002-8271-129X' }, { label: 'Google Scholar' },
+  { label: 'GitHub', url: 'https://github.com/kenancolak' }, { label: 'LinkedIn', url: 'https://www.linkedin.com/in/kenancolak/' },
 ];
-export const cvUrl: string | undefined = undefined;
-export const contactEmail: string | undefined = undefined;
+export const cvUrl: string | undefined = '/files/Kenan_Colak_Academic_CV.pdf';
+export const contactEmail: string | undefined = 'kenancolak@yahoo.com';
+
+// Wording retained from the CVs supplied by Kenan Çolak.
+export const legalQualification = 'Attorney-at-Law, Türkiye | Completed legal traineeship and obtained the attorney title.';
+export const academicService = [
+  'Peer reviewer, ICONARP International Journal of Architecture and Planning (2026).',
+  'Invited seminar speaker, Turkish Network of Urban Morphology; urban heat and morphology research, scheduled for November 2026.',
+  'Invited jury member for planning and design studios, Akdeniz University.',
+  'Invited expert for the Urban Conservation course, Akdeniz University.',
+];
+export const publishedArticle = 'Çolak, K., Kepenek, E., Gençel, Z., & Ertugay, K. (2022). The use of Geographic Information Systems in preventing illegal excavations for the destruction of cultural heritage. International Journal of Ecosystems and Ecology Science, 12(4), 235-244.';
+
+// Personal and writing interests supplied by the owner; no publication is implied.
+export const researchPractice = 'Pursued academic research alongside public-sector planning responsibilities, working with planners, architects, engineers and other specialists on heritage conservation and urban development.';
+export const writingProject = 'Book-length essay concept exploring urban memory, spatial transformation and the right to the city. The proposed work would trace the concept’s historical development and examine examples from different countries, asking how redevelopment reshapes lived places and collective memory.';
+export const musicInterests = 'Active in music since 2004, with an interest in the distinctive instruments and musical traditions of cities in which I have lived.';
