@@ -34,3 +34,13 @@
 - [Koyu mod](screenshots/home-dark.jpg)
 - [Telefon ve tablet](screenshots/home-responsive.jpg)
 - [Üç araştırma kartı](screenshots/research-desktop.jpg)
+
+## GitHub / Vercel dal önizlemesi
+
+PR #1 açıldıktan sonra mevcut Vercel entegrasyonu `academic-profile-v1` dalını otomatik derleyip yayımladı. GitHub commit status: **Vercel — success / Deployment has completed**. Vercel Preview Comments kontrolü de başarılı.
+
+Önizleme: https://urban-climate-notes-git-academic-profile-v1-maximus-ba8a.vercel.app
+
+Bu adres tarayıcıda Vercel giriş ekranına yönlendi. Dolayısıyla uzak önizlemenin içeriği oturumsuz tarayıcıda incelenemedi. Yerel önizlemenin görsel testleri ve production çıktı kontrolleri yukarıdadır. Koruma ayarları değiştirilmedi.
+
+İlk kaynak commit’i: `4644cb91d4479fb6e0539eee2370c806b7c62862`. Bu dalın yayınından sonra main ve gh-pages commit’leri başlangıç SHA’larında kaldı. Repo sahibi hesabında yeni bir hosting projesi açılmadı; daha önce bağlı Vercel entegrasyonu kendi önizlemesini oluşturdu.

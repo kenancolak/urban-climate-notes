@@ -42,3 +42,7 @@ Gerçek ziyaretçi açısından HTTPS erişimi bu ortamın tarayıcısında doğ
 - [A, AAAA, CNAME ve NS DNS yanıtları](live-dns-evidence.json)
 - [Main derleme](https://github.com/kenancolak/urban-climate-notes/actions/runs/40065651021)
 - [GitHub Pages yayını](https://github.com/kenancolak/urban-climate-notes/actions/runs/40065705798)
+
+## Geliştirme dalı sonrası ek doğrulama
+
+PR #1 için mevcut Vercel entegrasyonu başarılı dal önizlemesi oluşturdu. Bu, deponun Vercel entegrasyonunu doğrular; Vercel production branch ve alan adı paneli henüz doğrudan görülmedi. Önizleme adresi Vercel oturumu gerektiriyor. Koruması kaldırılmadı. Main ve gh-pages SHA’ları başlangıç değerlerinde kalmıştır.
