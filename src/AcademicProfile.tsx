@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { academicService, availability, biography, contactEmail, cvUrl, identity, legalQualification, profileLinks, projects, publishedArticle } from './profile';
+import { academicService, availability, biography, contactEmail, cvUrl, identity, legalQualification, profileLinks, projects, publishedArticle, researchPractice, writingProject, musicInterests } from './profile';
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -52,8 +52,11 @@ export function ProjectCards({ headingLevel = 2 }: { headingLevel?: 2 | 3 }) {
 
 function AcademicCredentials() {
   return <>
+    <section aria-labelledby="research-practice"><h2 id="research-practice">Research and professional practice</h2><p>{researchPractice}</p></section>
     <section aria-labelledby="legal-qualification"><h2 id="legal-qualification">Legal qualification</h2><p>{legalQualification}</p></section>
     <section aria-labelledby="academic-service"><h2 id="academic-service">Academic service and invited contributions</h2><ul>{academicService.map(item => <li key={item}>{item}</li>)}</ul></section>
+    <section aria-labelledby="writing-project"><h2 id="writing-project">Emerging writing project</h2><p>{writingProject}</p></section>
+    <section aria-labelledby="music-interests"><h2 id="music-interests">Music and cultural interests</h2><p>{musicInterests}</p></section>
   </>;
 }
 

@@ -9,7 +9,7 @@ Kaynaklar: kullanıcının yüklediği Colak_Kenan_Akdeniz_University_CV.pdf ve 
 - ICONARP hakemliği ikinci CV’deki 2026 tarihiyle ayrı gösterildi. İncelenen makalelerin adı veya sayısı eklenmedi.
 - Akdeniz Üniversitesi jüri ve davetli uzman katkıları ilk dosyadan alındı. Öğretim görevlisi kadrosu veya verilmiş ders olarak sunulmadı.
 - Kasım 2026 semineri, kaynak metindeki “scheduled” ifadesiyle korundu. Gerçekleştikten sonra güncellenmesi gerekir.
-- MSc bitiş yılı her iki CV’de de 2018; yeni dosyada 2018 korundu.
+- MSc bitiş yılı her iki CV’de de 2018. Kullanıcı daha sonra tez savunmasını Aralık 2017’de, resmî mezuniyetini Ocak 2018’de tamamladığını teyit etti; 2010-2018 korundu. Tezin özgün İngilizce özet başlığındaki Example of ifadesi kullanıldı.
 - İletişim e-postası kullanıcının açık isteğiyle kenancolak@yahoo.com olarak değiştirildi; eski Gmail adresi aktarılmadı.
 - ORCID 0000-0002-8271-129X ve linkedin.com/in/kenancolak her iki dosyada yer alıyor. Bağlantılar bu kullanıcı kaynaklarına dayanarak eklendi. Dış sayfaların içeriği bu ortamda alınamadığından bağımsız hesap sahipliği doğrulaması iddia edilmez. Google Scholar adresi dosyalarda yok; eklenmedi.
 - Web sitesine uygun sürümde ayrıntılı grid boyutu, örnek seçme kuralları, model gözlem sayısı ve özgün kod/Zenodo arşiv bağlantısı çıkarıldı. Bu karar kullanıcının önceki yayımlanmamış araştırma gizliliği talebini korur. Genel yöntem isimleri ve kullanıcı tarafından sağlanan yayın künyeleri korunur.

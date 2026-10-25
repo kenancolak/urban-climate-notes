@@ -26,3 +26,8 @@ export const academicService = [
   'Invited expert for the Urban Conservation course, Akdeniz University.',
 ];
 export const publishedArticle = 'Çolak, K., Kepenek, E., Gençel, Z., & Ertugay, K. (2022). The use of Geographic Information Systems in preventing illegal excavations for the destruction of cultural heritage. International Journal of Ecosystems and Ecology Science, 12(4), 235-244.';
+
+// Personal and writing interests supplied by the owner; no publication is implied.
+export const researchPractice = 'Pursued academic research alongside public-sector planning responsibilities, working with planners, architects, engineers and other specialists on heritage conservation and urban development.';
+export const writingProject = 'Book-length essay concept exploring urban memory, spatial transformation and the right to the city. The proposed work would trace the concept’s historical development and examine examples from different countries, asking how redevelopment reshapes lived places and collective memory.';
+export const musicInterests = 'Active in music since 2004, with an interest in the distinctive instruments and musical traditions of cities in which I have lived.';
