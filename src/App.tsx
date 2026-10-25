@@ -3,6 +3,7 @@ import type { KeyboardEvent as ReactKeyboardEvent } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import logo from '../images/urban-climate-notes-logo.jpg';
+import { AcademicHero, AcademicAbout, CVPage, ContactPage, ProjectCards, ThemeToggle } from './AcademicProfile';
 import { getArticleMarkdown, getHeadings, getSeoForRoute, notes, sectionSearchContent, slugify } from './content';
 import type { Note } from './content';
 
@@ -10,10 +11,12 @@ const baseUrl = import.meta.env.BASE_URL;
 
 const navigation = [
   { label: 'Home', route: '/' },
+  { label: 'Research', route: '/research' },
   { label: 'Notes', route: '/notes' },
   { label: 'Methods', route: '/methods' },
-  { label: 'Research', route: '/research' },
   { label: 'About', route: '/about' },
+  { label: 'CV', route: '/cv' },
+  { label: 'Contact', route: '/contact' },
 ];
 
 function getBrowserRoute() {
@@ -58,7 +61,10 @@ function App({ initialRoute }: AppProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const fragment = window.location.hash.slice(1);
+    const target = fragment && !fragment.startsWith('/') ? document.getElementById(decodeURIComponent(fragment)) : null;
+    if (target) target.scrollIntoView();
+    else window.scrollTo(0, 0);
     setMobileMenuOpen(false);
   }, [route]);
 
@@ -71,7 +77,7 @@ function App({ initialRoute }: AppProps) {
     const title = seo.title;
     const description = seo.description;
     const image = seo.image || logo;
-    document.title = `${title} | Urban Climate Notes`;
+    document.title = `${title} | Kenan Çolak`;
     document.querySelector('meta[name="description"]')?.setAttribute('content', description);
     document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
     document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
@@ -82,18 +88,24 @@ function App({ initialRoute }: AppProps) {
       document.head.append(imageMeta);
     }
     imageMeta.content = image;
-    document.querySelector('link[rel="canonical"]')?.setAttribute('href', window.location.href.split('#')[0]);
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', `https://kenancolak.com${route === '/' ? '/' : `${route}/`}`);
   }, [article, route]);
 
   return (
     <div className="site-shell">
       <a className="skip-link" href="#main-content">Skip to content</a>
-      <header className="site-header">
+      <header className="site-header" onKeyDown={(event) => {
+        if (event.key === 'Escape' && mobileMenuOpen) {
+          setMobileMenuOpen(false);
+          document.getElementById('menu-toggle')?.focus();
+        }
+      }}>
         <div className="header-inner">
-          <a className="brand" href={routeHref('/')} aria-label="Urban Climate Notes home">
-            <img src={logo} alt="Urban Climate Notes" />
+          <a className="brand" href={routeHref('/')} aria-label="Kenan Çolak home">
+            <span className="brand-name">Kenan Çolak</span><span className="brand-subtitle">Urban climate & planning</span>
           </a>
           <button
+            id="menu-toggle"
             className="menu-toggle"
             type="button"
             aria-expanded={mobileMenuOpen}
@@ -111,6 +123,7 @@ function App({ initialRoute }: AppProps) {
               <a
                 key={item.route}
                 className={isActiveRoute(route, item.route) ? 'active' : ''}
+                aria-current={isActiveRoute(route, item.route) ? 'page' : undefined}
                 href={routeHref(item.route)}
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -119,6 +132,7 @@ function App({ initialRoute }: AppProps) {
             ))}
           </nav>
           <Search />
+          <ThemeToggle />
         </div>
       </header>
 
@@ -132,7 +146,11 @@ function App({ initialRoute }: AppProps) {
         ) : route === '/research' ? (
           <ResearchPage />
         ) : route === '/about' ? (
-          <AboutPage />
+          <AcademicAbout />
+        ) : route === '/cv' ? (
+          <CVPage />
+        ) : route === '/contact' ? (
+          <ContactPage />
         ) : route === '/' ? (
           <HomePage />
         ) : (
@@ -141,8 +159,8 @@ function App({ initialRoute }: AppProps) {
       </main>
 
       <footer className="site-footer">
-        <span>© 2026 Urban Climate Notes</span>
-        <span>Research · Evidence · Planning</span>
+        <span>© 2026 Kenan Çolak</span>
+        <a href={routeHref('/notes')}>Urban Climate Notes · Research & evidence</a>
       </footer>
     </div>
   );
@@ -335,19 +353,14 @@ function Search() {
 function HomePage() {
   return (
     <>
-      <section className="home-hero">
-        <p className="eyebrow">Urban Climate · Evidence · Planning</p>
-        <h1>From climate evidence to urban decisions.</h1>
-        <p className="hero-copy">
-          Urban Climate Notes explores how climate change is experienced, measured and shaped in cities.
-          It connects <strong>urban climatology, urban morphology, remote sensing and planning</strong> through
-          evidence-based stories, methods and city case studies.
-        </p>
-        <a className="text-link" href={routeHref('/notes')}>Explore the notes <span aria-hidden="true">→</span></a>
+      <AcademicHero />
+      <section className="featured-research" aria-labelledby="featured-research-title">
+        <div className="section-topline"><SectionHeading id="featured-research-title">Featured Research</SectionHeading><a className="text-link" href={routeHref('/research')}>All research →</a></div>
+        <ProjectCards headingLevel={3} />
       </section>
 
       <section aria-labelledby="latest-title">
-        <SectionHeading id="latest-title">Latest Notes</SectionHeading>
+        <SectionHeading id="latest-title">Recent Research Notes</SectionHeading>
         <div className="notes-grid">
           {notes.map((note) => <NoteCard key={note.slug} note={note} />)}
         </div>
@@ -568,65 +581,7 @@ function MethodsPage() {
 }
 
 function ResearchPage() {
-  return (
-    <>
-      <PageIntro
-        eyebrow="Questions in progress"
-        title="Research"
-        description="Urban Climate Notes is informed by research at the intersection of climate science, urban planning and geospatial analysis."
-      />
-      <div className="research-grid">
-        <ResearchCard title="Urban Climate">Understanding how global climate processes interact with local urban environments.</ResearchCard>
-        <ResearchCard title="Urban Morphology">Examining how the physical structure of cities influences thermal conditions.</ResearchCard>
-        <ResearchCard title="Remote Sensing">Using Earth observation data to monitor urban surfaces and thermal change over time.</ResearchCard>
-        <ResearchCard title="GIS and Spatial Analysis">Connecting environmental measurements with urban form, land use and planning.</ResearchCard>
-        <ResearchCard title="Climate-Responsive Planning">Translating scientific evidence into questions relevant to urban policy, design and adaptation.</ResearchCard>
-      </div>
-      <section className="prose-page research-direction">
-        <h2>Current research direction</h2>
-        <p>Current work examines long-term urban thermal change while explicitly considering the stability and comparability of urban and reference areas.</p>
-        <p>A particular focus is placed on whether changes observed in remotely sensed temperature reflect climatic processes, changes in urban form, or both.</p>
-      </section>
-    </>
-  );
-}
-
-function AboutPage() {
-  return (
-    <>
-      <PageIntro
-        eyebrow="People & purpose"
-        title="About Urban Climate Notes"
-        description="An independent research and science communication project created by Kenan Çolak."
-      />
-      <div className="prose-page about-page">
-        <p>Urban Climate Notes explores how climate is experienced, measured and shaped in cities, with a particular focus on urban morphology, urban heat, remote sensing and planning.</p>
-        <p>Each note begins with a place, a question, a dataset or an observation. From there, it follows the evidence through scientific literature, environmental data, maps and urban examples.</p>
-        <p>The aim is to make urban climate research accessible without losing the distinctions that matter. Surface temperature is not the same as air temperature. A warming trend is not the same as an urban heat island. Density, building height, vegetation and land cover describe different characteristics of a city and should not be treated as interchangeable.</p>
-        <p>Urban Climate Notes is a place to examine those differences carefully and connect them to planning.</p>
-        <h2>About Kenan Çolak</h2>
-        <p>I am an urban planner and researcher with more than twelve years of professional planning experience.</p>
-        <p>I completed my PhD in Urban and Regional Planning in 2026. My doctoral research examined the relationship between urban morphology and surface urban heat in Antalya, Türkiye, using Landsat land surface temperature, Sentinel-2 observations, GIS, Google Earth Engine and a stability-based analytical framework.</p>
-        <p>My professional background is primarily in public-sector planning, particularly conservation planning and the assessment of development and design proposals. That experience strongly influences the way I approach urban climate research.</p>
-        <p>I am interested in how the physical form of a city affects thermal conditions, how those effects can be measured over time, and how scientific evidence can be translated into useful planning questions.</p>
-        <h3>Research interests</h3>
-        <ul>
-          <li>Urban climate and urban heat islands</li>
-          <li>Urban morphology</li>
-          <li>Land surface temperature</li>
-          <li>Remote sensing</li>
-          <li>GIS and spatial analysis</li>
-          <li>Climate adaptation and long-term urban change</li>
-          <li>Comparative urban analysis</li>
-        </ul>
-        <h2>Why this project?</h2>
-        <p>Cities are often described through population, density, land use, transport and architecture. They can also be understood through sunlight, shade, wind, water, vegetation, surface materials and the heat stored between buildings.</p>
-        <p>Urban Climate Notes was created to explore those relationships across different cities and scales. Some notes focus on a city. Others focus on a method, a dataset or a planning question. Together, they build toward a broader question:</p>
-        <blockquote>How can better climate evidence help us understand and plan cities more carefully?</blockquote>
-        <p>For shorter updates and new notes, follow Urban Climate Notes on Instagram and Kenan Çolak on LinkedIn.</p>
-      </div>
-    </>
-  );
+  return <><PageIntro eyebrow="Research projects" title="Research" description="Urban morphology, surface temperature and change over time." /><ProjectCards /></>;
 }
 
 function NotFoundPage() {
@@ -659,15 +614,6 @@ function ExploreCard({ title, href, children }: { title: string; href: string; c
       <h3>{title} <span aria-hidden="true">→</span></h3>
       <p>{children}</p>
     </a>
-  );
-}
-
-function ResearchCard({ title, children }: { title: string; children: string }) {
-  return (
-    <article className="research-card">
-      <h2>{title}</h2>
-      <p>{children}</p>
-    </article>
   );
 }
 

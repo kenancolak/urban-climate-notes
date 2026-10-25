@@ -1,0 +1,182 @@
+[
+  {
+    "url": "https://kenancolak.com/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/",
+    "server": "envoy",
+    "vercel": "sfo1::qnmcj-1792901267341-3e3aa3021763",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/\" />"
+    ],
+    "title": [
+      "From climate evidence to urban decisions. | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://kenancolak.com/notes/is-the-planet-really-warming/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/is-the-planet-really-warming/",
+    "server": "envoy",
+    "vercel": "sfo1::z6df7-1792901267437-3df1131e5fe8",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/is-the-planet-really-warming/\" />"
+    ],
+    "title": [
+      "Is the Planet Really Getting Warmer? | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://kenancolak.com/notes/when-the-city-refuses-to-cool/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/when-the-city-refuses-to-cool/",
+    "server": "envoy",
+    "vercel": "sfo1::xzf6s-1792901267385-e1a77d1d26a0",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/when-the-city-refuses-to-cool/\" />"
+    ],
+    "title": [
+      "When the City Refuses to Cool | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/",
+    "server": "envoy",
+    "vercel": "sfo1::hmjvj-1792901267437-92d0bd207357",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/\" />"
+    ],
+    "title": [
+      "How Much Does Urban Form Matter for Heat? | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://kenancolak.com/notes/what-temperature-are-we-actually-measuring/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/what-temperature-are-we-actually-measuring/",
+    "server": "envoy",
+    "vercel": "sfo1::z6df7-1792901267437-813da5c56fcd",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/what-temperature-are-we-actually-measuring/\" />"
+    ],
+    "title": [
+      "What Temperature Are We Actually Measuring? | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://kenancolak.com/sitemap.xml",
+    "status": 200,
+    "final": "https://www.kenancolak.com/sitemap.xml",
+    "server": "envoy",
+    "vercel": "sfo1::mdk9c-1792901267389-74c8bf35fca2",
+    "canonical": [],
+    "title": [],
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://kenancolak.com/</loc></url>\n  <url><loc>https://kenancolak.com/notes/</loc></url>\n  <url><loc>https://kenancolak.com/methods/</loc></url>\n  <url><loc>https://kenancolak.com/research/</loc></url>\n  <url><loc>https://kenancolak.com/about/</loc></url>\n  <url><loc>https://kenancolak.com/notes/is-the-planet-really-warming/</loc></url>\n  <url><loc>https://kenancolak.com/notes/when-the-city-refuses-to-cool/</loc></url>\n  <url><loc>https://kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/</loc></url>\n  <url><loc>https://kenancolak.com/notes/what-temperature-are-we-actually-measuring/</loc></url>\n</urlset>\n"
+  },
+  {
+    "url": "https://kenancolak.com/robots.txt",
+    "status": 200,
+    "final": "https://www.kenancolak.com/robots.txt",
+    "server": "envoy",
+    "vercel": "sfo1::7jlhq-1792901267344-f6294ee44c99",
+    "canonical": [],
+    "title": [],
+    "body": "User-agent: *\nAllow: /\n\nSitemap: https://kenancolak.com/sitemap.xml\n"
+  },
+  {
+    "url": "https://www.kenancolak.com/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/",
+    "server": "envoy",
+    "vercel": "sfo1::xzf6s-1792901263880-fa8e8fa1d0d0",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/\" />"
+    ],
+    "title": [
+      "From climate evidence to urban decisions. | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://www.kenancolak.com/notes/is-the-planet-really-warming/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/is-the-planet-really-warming/",
+    "server": "envoy",
+    "vercel": "sfo1::pgxvd-1792901267437-78612d0526d8",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/is-the-planet-really-warming/\" />"
+    ],
+    "title": [
+      "Is the Planet Really Getting Warmer? | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://www.kenancolak.com/notes/when-the-city-refuses-to-cool/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/when-the-city-refuses-to-cool/",
+    "server": "envoy",
+    "vercel": "sfo1::mdk9c-1792901270678-bc5e3e501d48",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/when-the-city-refuses-to-cool/\" />"
+    ],
+    "title": [
+      "When the City Refuses to Cool | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://www.kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/",
+    "server": "envoy",
+    "vercel": "sfo1::z6df7-1792901270632-d0531997fa2c",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/\" />"
+    ],
+    "title": [
+      "How Much Does Urban Form Matter for Heat? | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://www.kenancolak.com/notes/what-temperature-are-we-actually-measuring/",
+    "status": 200,
+    "final": "https://www.kenancolak.com/notes/what-temperature-are-we-actually-measuring/",
+    "server": "envoy",
+    "vercel": "sfo1::t49mf-1792901270677-2d7bb1d5a9d9",
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://kenancolak.com/notes/what-temperature-are-we-actually-measuring/\" />"
+    ],
+    "title": [
+      "What Temperature Are We Actually Measuring? | Urban Climate Notes"
+    ],
+    "body": ""
+  },
+  {
+    "url": "https://www.kenancolak.com/sitemap.xml",
+    "status": 200,
+    "final": "https://www.kenancolak.com/sitemap.xml",
+    "server": "envoy",
+    "vercel": "sfo1::rgxnh-1792901270671-260f408a09b9",
+    "canonical": [],
+    "title": [],
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://kenancolak.com/</loc></url>\n  <url><loc>https://kenancolak.com/notes/</loc></url>\n  <url><loc>https://kenancolak.com/methods/</loc></url>\n  <url><loc>https://kenancolak.com/research/</loc></url>\n  <url><loc>https://kenancolak.com/about/</loc></url>\n  <url><loc>https://kenancolak.com/notes/is-the-planet-really-warming/</loc></url>\n  <url><loc>https://kenancolak.com/notes/when-the-city-refuses-to-cool/</loc></url>\n  <url><loc>https://kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/</loc></url>\n  <url><loc>https://kenancolak.com/notes/what-temperature-are-we-actually-measuring/</loc></url>\n</urlset>\n"
+  },
+  {
+    "url": "https://www.kenancolak.com/robots.txt",
+    "status": 200,
+    "final": "https://www.kenancolak.com/robots.txt",
+    "server": "envoy",
+    "vercel": "sfo1::xbp9m-1792901270677-228e9ae97250",
+    "canonical": [],
+    "title": [],
+    "body": "User-agent: *\nAllow: /\n\nSitemap: https://kenancolak.com/sitemap.xml\n"
+  }
+]

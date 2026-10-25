@@ -46,17 +46,17 @@ function withPageMetadata(template, seo, route, html, schema) {
     siteOrigin,
   ).href;
   let document = template
-    .replace('<title>Urban Climate Notes</title>', `<title>${escapeHtml(seo.title)} | Urban Climate Notes</title>`)
+    .replace('<title>Urban Climate Notes</title>', `<title>${escapeHtml(seo.title)} | Kenan Çolak</title>`)
     .replace('<!--app-html-->', html)
     .replace('<meta property="og:type" content="website" />', `<meta property="og:type" content="${seo.type}" />`);
 
   document = replaceMeta(document, 'name', 'description', seo.description);
-  document = replaceMeta(document, 'property', 'og:title', `${seo.title} | Urban Climate Notes`);
+  document = replaceMeta(document, 'property', 'og:title', `${seo.title} | Kenan Çolak`);
   document = replaceMeta(document, 'property', 'og:description', seo.description);
   document = replaceMeta(document, 'property', 'og:url', canonicalUrl);
   document = replaceMeta(document, 'property', 'og:image', imageUrl);
   document = replaceMeta(document, 'property', 'og:image:alt', seo.title);
-  document = replaceMeta(document, 'name', 'twitter:title', `${seo.title} | Urban Climate Notes`);
+  document = replaceMeta(document, 'name', 'twitter:title', `${seo.title} | Kenan Çolak`);
   document = replaceMeta(document, 'name', 'twitter:description', seo.description);
   document = replaceMeta(document, 'name', 'twitter:image', imageUrl);
   document = document.replace(
@@ -118,7 +118,8 @@ try {
       : {
           '@context': 'https://schema.org',
           '@type': route === '/' ? 'WebSite' : 'WebPage',
-          name: route === '/' ? 'Urban Climate Notes' : seo.title,
+          name: route === '/' ? 'Kenan Çolak' : seo.title,
+          about: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: 'Kenan Çolak', url: `${siteUrl}/`, sameAs: ['https://github.com/kenancolak'] },
           headline: seo.title,
           description: seo.description,
           url: `${siteUrl}${route === '/' ? '/' : `${route}/`}`,
@@ -151,7 +152,7 @@ try {
     <meta name="robots" content="noindex" />
     <link rel="canonical" href="${destination}" />
     <meta http-equiv="refresh" content="0; url=${destination}" />
-    <title>Page moved | Urban Climate Notes</title>
+    <title>Page moved | Kenan Çolak</title>
   </head>
   <body>
     <p>This page has moved. <a href="${destination}">Continue to the updated page</a>.</p>

@@ -1,0 +1,249 @@
+[
+  {
+    "host": "kenancolak.com",
+    "type": "A",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "kenancolak.com.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "kenancolak.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "216.198.79.1"
+        }
+      ],
+      "Comment": "Response from 97.74.104.15."
+    }
+  },
+  {
+    "host": "kenancolak.com",
+    "type": "AAAA",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "kenancolak.com.",
+          "type": 28
+        }
+      ],
+      "Authority": [
+        {
+          "name": "kenancolak.com.",
+          "type": 6,
+          "TTL": 600,
+          "data": "ns29.domaincontrol.com. dns.jomax.net. 2026102104 28800 7200 604800 600"
+        }
+      ],
+      "Comment": "Response from 97.74.104.15."
+    }
+  },
+  {
+    "host": "kenancolak.com",
+    "type": "CNAME",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "kenancolak.com.",
+          "type": 5
+        }
+      ],
+      "Authority": [
+        {
+          "name": "kenancolak.com.",
+          "type": 6,
+          "TTL": 600,
+          "data": "ns29.domaincontrol.com. dns.jomax.net. 2026102104 28800 7200 604800 600"
+        }
+      ],
+      "Comment": "Response from 97.74.104.15."
+    }
+  },
+  {
+    "host": "kenancolak.com",
+    "type": "NS",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "kenancolak.com.",
+          "type": 2
+        }
+      ],
+      "Answer": [
+        {
+          "name": "kenancolak.com.",
+          "type": 2,
+          "TTL": 3600,
+          "data": "ns30.domaincontrol.com."
+        },
+        {
+          "name": "kenancolak.com.",
+          "type": 2,
+          "TTL": 3600,
+          "data": "ns29.domaincontrol.com."
+        }
+      ],
+      "Comment": "Response from 173.201.72.15."
+    }
+  },
+  {
+    "host": "www.kenancolak.com",
+    "type": "A",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 1
+        }
+      ],
+      "Answer": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 5,
+          "TTL": 3535,
+          "data": "97980bc0677889c3.vercel-dns-017.com."
+        },
+        {
+          "name": "97980bc0677889c3.vercel-dns-017.com.",
+          "type": 1,
+          "TTL": 235,
+          "data": "216.198.79.1"
+        },
+        {
+          "name": "97980bc0677889c3.vercel-dns-017.com.",
+          "type": 1,
+          "TTL": 235,
+          "data": "64.29.17.1"
+        }
+      ]
+    }
+  },
+  {
+    "host": "www.kenancolak.com",
+    "type": "AAAA",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 28
+        }
+      ],
+      "Answer": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 5,
+          "TTL": 3535,
+          "data": "97980bc0677889c3.vercel-dns-017.com."
+        }
+      ],
+      "Authority": [
+        {
+          "name": "vercel-dns-017.com.",
+          "type": 6,
+          "TTL": 839,
+          "data": "ns1.vercel-dns-017.com. awsdns-hostmaster.amazon.com. 1 3600 900 1209600 900"
+        }
+      ]
+    }
+  },
+  {
+    "host": "www.kenancolak.com",
+    "type": "CNAME",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 5
+        }
+      ],
+      "Answer": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 5,
+          "TTL": 3541,
+          "data": "97980bc0677889c3.vercel-dns-017.com."
+        }
+      ]
+    }
+  },
+  {
+    "host": "www.kenancolak.com",
+    "type": "NS",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 2
+        }
+      ],
+      "Answer": [
+        {
+          "name": "www.kenancolak.com.",
+          "type": 5,
+          "TTL": 3535,
+          "data": "97980bc0677889c3.vercel-dns-017.com."
+        }
+      ],
+      "Authority": [
+        {
+          "name": "vercel-dns-017.com.",
+          "type": 6,
+          "TTL": 900,
+          "data": "ns1.vercel-dns-017.com. awsdns-hostmaster.amazon.com. 1 3600 900 1209600 900"
+        }
+      ],
+      "Comment": "Response from 205.251.199.204."
+    }
+  }
+]
