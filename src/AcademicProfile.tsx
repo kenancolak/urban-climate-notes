@@ -1,5 +1,6 @@
+import cvSections from './cv-content.json';
 import { useEffect, useState } from 'react';
-import { academicService, availability, biography, contactEmail, cvUrl, identity, legalQualification, profileLinks, projects, publishedArticle, researchPractice, writingProject, musicInterests } from './profile';
+import { academicService, availability, biography, contactEmail, cvUrl, identity, legalQualification, profileLinks, projects, researchPractice, writingProject, musicInterests } from './profile';
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -17,14 +18,14 @@ export function ThemeToggle() {
 }
 
 export function ProfileLinks() {
-  return <ul className="profile-links" aria-label="Academic profiles">{profileLinks.map(({ label, url }) => <li key={label}>{url ? <a href={url}>{label} <span aria-hidden="true">↗</span></a> : <span className="pending-profile">{label}<small>Awaiting verified link</small></span>}</li>)}</ul>;
+  return <ul className="profile-links" aria-label="Academic profiles">{profileLinks.map(({ label, url }) => <li key={label}>{url ? <a href={url}>{label}{label === 'ORCID' && <span className="orcid-number"> 0000-0002-8271-129X</span>} <span aria-hidden="true">↗</span></a> : <span className="pending-profile">{label}<small>Awaiting verified link</small></span>}</li>)}</ul>;
 }
 
 export function AcademicHero() {
   return <section className="academic-hero" aria-labelledby="profile-name">
     <div className="identity-block">
-      <p className="eyebrow">Urban planning · Urban climate · Spatial analysis</p>
       <h1 id="profile-name">Kenan Çolak<span className="name-rule" aria-hidden="true" /></h1>
+      <p className="hero-subtitle">Urban climate and planning</p>
       <p className="hero-availability"><span className="status-dot" aria-hidden="true" />{availability}</p>
       <p className="research-identity">{identity}</p>
       <div className="profile-actions">
@@ -61,11 +62,36 @@ function AcademicCredentials() {
 }
 
 export function AcademicAbout() {
-  return <><header className="page-intro"><p className="eyebrow">About</p><h1>Kenan Çolak</h1><p>Urban and regional planner and urban climate researcher.</p></header><div className="prose-page"><p>{biography}</p><AcademicCredentials /><h2>Academic collaboration</h2><p>{availability}</p><a className="text-link" href="/contact/">Contact →</a><h2>Urban Climate Notes</h2><p>An independent research and science communication project created by Kenan Çolak.</p><a className="text-link" href="/notes/">Explore the notes →</a></div></>;
+  return <><header className="page-intro"><p className="eyebrow">About</p><h1>Kenan Çolak</h1><p>Urban and regional planner and urban climate researcher.</p></header><div className="prose-page"><p>{biography}</p><AcademicCredentials /><h2>Academic collaboration</h2><p>{availability}</p><a className="text-link" href="/contact/">Contact →</a><h2>About the notes</h2><p>An independent research and science communication project created by Kenan Çolak.</p><a className="text-link" href="/notes/">Explore the notes →</a></div></>;
+}
+
+type CVItem = (typeof cvSections)[number]['items'][number];
+
+function CVItems({ items }: { items: CVItem[] }) {
+  const blocks: (CVItem | CVItem[])[] = [];
+  for (const item of items) {
+    const previous = blocks[blocks.length - 1];
+    if (item.kind === 'bullet') {
+      if (Array.isArray(previous)) previous.push(item);
+      else blocks.push([item]);
+    } else blocks.push(item);
+  }
+  return blocks.map((item, index) => {
+    if (Array.isArray(item)) return <ul key={index}>{item.map(bullet => <li key={bullet.text}>{bullet.text}</li>)}</ul>;
+    if (item.kind === 'heading') return <h3 key={index}>{item.text}</h3>;
+    if (item.kind === 'entry') return <div className="cv-entry" key={index}><p><strong>{item.text}</strong></p>{item.detail && <p className="cv-detail">{item.detail}</p>}</div>;
+    return <p key={index}>{item.text}{item.text.includes('https://doi.org/10.31407/ijees12.428') && <> <a href="https://doi.org/10.31407/ijees12.428">Article DOI</a></>}</p>;
+  });
 }
 
 export function CVPage() {
-  return <><header className="page-intro"><p className="eyebrow">Academic profile</p><h1>Curriculum vitae</h1></header><div className="prose-page"><p>{biography}</p>{cvUrl ? <a className="primary-action" href={cvUrl} download>Download CV</a> : <p className="content-pending">The downloadable CV will be added after the current PDF is confirmed.</p>}<AcademicCredentials /><section aria-labelledby="selected-publication"><h2 id="selected-publication">Selected peer-reviewed publication</h2><p>{publishedArticle} <a href="https://doi.org/10.31407/ijees12.428">https://doi.org/10.31407/ijees12.428</a></p></section><h2>Research projects</h2><a className="text-link" href="/research/">Research projects →</a></div></>;
+  return <><header className="page-intro"><p className="eyebrow">Academic profile</p><h1>Curriculum vitae</h1><p>Last updated: October 2026</p></header><div className="prose-page cv-page">
+    {cvUrl && <a className="primary-action" href={cvUrl} download>Download CV</a>}
+    {cvSections.map(section => <section key={section.title} aria-labelledby={`cv-${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
+      <h2 id={`cv-${section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{section.title}</h2>
+      <CVItems items={section.items} />
+    </section>)}
+  </div></>;
 }
 
 export function ContactPage() {

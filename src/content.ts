@@ -32,6 +32,7 @@ export type Note = {
   subtitle: string;
   city: string;
   date: string;
+  modified?: string;
   categories: string[];
   cover: string;
   source: string;
@@ -103,6 +104,7 @@ export const notes: Note[] = [
     subtitle: 'Phoenix, satellite heat maps, and the air above the street',
     city: 'Phoenix, Arizona',
     date: 'October 21, 2026',
+    modified: '2026-10-23',
     categories: ['Urban Climate', 'Land Surface Temperature', 'Phoenix', 'Remote Sensing', 'Urban Planning'],
     cover: noteFourCover,
     source: noteFourSource,
@@ -179,6 +181,13 @@ export const sectionSearchContent = [
   },
 ];
 
+// Preserve editorial calendar dates across build/browser time zones.
+export function publicationDate(note: Note) {
+  const date = note.source.match(/^date:\s*["']?(\d{4}-\d{2}-\d{2})/m)?.[1];
+  if (!date) throw new Error(`Missing publication date: ${note.slug}`);
+  return date;
+}
+
 export function getSeoForRoute(route: string) {
   const article = notes.find((note) => route === `/notes/${note.slug}`);
   if (article) {
@@ -187,7 +196,8 @@ export function getSeoForRoute(route: string) {
       description: `${article.subtitle}. An evidence-based urban climate note from ${article.city}.`,
       image: article.cover,
       type: 'article',
-      publishedTime: new Date(article.date).toISOString(),
+      publishedTime: `${publicationDate(article)}T00:00:00Z`,
+      modifiedTime: article.modified,
       author: 'Kenan Çolak',
       keywords: article.categories,
     };

@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import logo from '../images/urban-climate-notes-logo.jpg';
 import { AcademicHero, AcademicAbout, CVPage, ContactPage, ProjectCards, ThemeToggle } from './AcademicProfile';
-import { getArticleMarkdown, getHeadings, getSeoForRoute, notes, sectionSearchContent, slugify } from './content';
+import { getArticleMarkdown, getHeadings, getSeoForRoute, notes, publicationDate, sectionSearchContent, slugify } from './content';
 import type { Note } from './content';
 
 const baseUrl = import.meta.env.BASE_URL;
@@ -79,7 +79,7 @@ function App({ initialRoute }: AppProps) {
     const image = seo.image || logo;
     document.title = `${title} | Kenan Çolak`;
     document.querySelector('meta[name="description"]')?.setAttribute('content', description);
-    document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', `${title} | Kenan Çolak`);
     document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
     let imageMeta = document.querySelector<HTMLMetaElement>('meta[property="og:image"]');
     if (!imageMeta) {
@@ -87,8 +87,9 @@ function App({ initialRoute }: AppProps) {
       imageMeta.setAttribute('property', 'og:image');
       document.head.append(imageMeta);
     }
-    imageMeta.content = image;
-    document.querySelector('link[rel="canonical"]')?.setAttribute('href', `https://kenancolak.com${route === '/' ? '/' : `${route}/`}`);
+    imageMeta.content = new URL(image, 'https://www.kenancolak.com').href;
+    document.querySelector('meta[property="og:url"]')?.setAttribute('content', `https://www.kenancolak.com${route === '/' ? '/' : `${route}/`}`);
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', `https://www.kenancolak.com${route === '/' ? '/' : `${route}/`}`);
   }, [article, route]);
 
   return (
@@ -102,7 +103,7 @@ function App({ initialRoute }: AppProps) {
       }}>
         <div className="header-inner">
           <a className="brand" href={routeHref('/')} aria-label="Kenan Çolak home">
-            <span className="brand-name">Kenan Çolak</span><span className="brand-subtitle">Urban climate & planning</span>
+            <span className="brand-name">Kenan Çolak</span><span className="brand-subtitle">Urban climate and planning</span>
           </a>
           <button
             id="menu-toggle"
@@ -362,7 +363,7 @@ function HomePage() {
       <section aria-labelledby="latest-title">
         <SectionHeading id="latest-title">Recent Research Notes</SectionHeading>
         <div className="notes-grid">
-          {notes.map((note) => <NoteCard key={note.slug} note={note} />)}
+          {[...notes].sort((a, b) => publicationDate(b).localeCompare(publicationDate(a))).map((note) => <NoteCard key={note.slug} note={note} />)}
         </div>
       </section>
 
@@ -471,7 +472,8 @@ function ArticlePage({ note }: { note: Note }) {
         <p className="article-subtitle">{note.subtitle}</p>
         <div className="article-meta">
           <span>By Kenan Çolak</span>
-          <span>{note.date}</span>
+          <time dateTime={publicationDate(note)}>Published: {note.date}</time>
+          {note.modified && <time dateTime={note.modified}>Updated: {new Date(`${note.modified}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time>}
         </div>
         <div className="category-list" aria-label="Topics">
           {note.categories.map((category) => <span key={category}>{category}</span>)}
@@ -561,6 +563,8 @@ function MethodsPage() {
         description="Urban climate can be observed at several spatial and temporal scales. This section explains the methods behind the evidence presented in the articles."
       />
       <div className="prose-page">
+        <h2>Stability and Comparability</h2>
+        <p>Long-term comparisons of urban thermal change are only meaningful when the areas being compared remain sufficiently stable. Changes in land cover or urban form can otherwise be mistaken for climatic change. My research addresses this by selecting comparison areas whose physical characteristics remain largely unchanged over the study period, and by testing how sensitive the results are to the way those areas are defined. Data sources include Landsat, Sentinel-2 and ERA5-Land, processed with Google Earth Engine.</p>
         <h2>Land Surface Temperature</h2>
         <p>Satellite-derived Land Surface Temperature (LST) measures the thermal state of the Earth’s surface. It is not the same as air temperature.</p>
         <h2>Air Temperature</h2>
@@ -573,15 +577,14 @@ function MethodsPage() {
         <p>Google Earth Engine allows large satellite archives to be processed consistently across long time periods and large geographic areas.</p>
         <h2>Urban Morphology</h2>
         <p>Urban form can influence solar exposure, shading, ventilation, heat storage, surface properties and vegetation availability.</p>
-        <h2>Stability and Comparability</h2>
-        <p>Long-term comparisons are only meaningful when the areas being compared remain sufficiently stable. Changes in land cover or morphology can otherwise be mistaken for climatic change.</p>
+
       </div>
     </>
   );
 }
 
 function ResearchPage() {
-  return <><PageIntro eyebrow="Research projects" title="Research" description="Urban morphology, surface temperature and change over time." /><ProjectCards /></>;
+  return <><PageIntro eyebrow="Research projects" title="Research" description="Urban morphology, surface temperature and change over time." /><ProjectCards /><section className="prose-page" aria-labelledby="research-areas"><h2 id="research-areas">Research areas</h2><ul>{['Urban Climate', 'Urban Morphology', 'Remote Sensing', 'GIS and Spatial Analysis', 'Climate-Responsive Planning'].map(area => <li key={area}>{area}</li>)}</ul></section></>;
 }
 
 function NotFoundPage() {
