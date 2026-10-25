@@ -6,7 +6,7 @@ Ana marka Kenan Çolak. Ana sayfada araştırma kimliği, iş birliği durumu, �
 
 Kullanıcı doktora derecesinin resmen tamamlandığını doğruladı. Ana sayfa kimlik paragrafında yalnızca “PhD researcher” → “urban climate researcher” değişikliğini ayrıca onayladı. Yeni biyografi aynen kullanılmıştır.
 
-CV PDF’si, akademik iletişim adresi, ORCID, Google Scholar ve LinkedIn henüz verilmedi. Sahte URL veya e-posta yoktur. Bunlar verilene kadar indirme/iletişim işlevleri eksiktir; ilk sürüm akademik başvuru için bu bilgiler tamamlanmadan yayına hazır sayılmaz.
+Güncelleme: iki kaynak CV birleştirilerek iki sayfalık indirme PDF’si eklendi. Kullanıcının seçtiği e-posta kenancolak@yahoo.com; ORCID ve LinkedIn adresleri kaynak CV’lerden alındı. Google Scholar adresi henüz verilmedi. Avukatlık ve akademik hizmet bölümleri Hakkımda/CV sayfalarında bulunur. Ayrıntılar CV-CONTENT-REVIEW.md içindedir.
 
 ## Dosyalar ve mimari
 
@@ -53,7 +53,7 @@ Node 22 mevcut GitHub Actions sürümüyle uyumludur. Vite dev sunucusu sadece y
 
 ## Yayın ve geri alma
 
-Bu PR yalnızca `academic-profile-v1` dalındadır. **Main’e birleştirmek yayını tetikler; kullanıcının açık canlı yayın onayı olmadan birleştirme veya workflow_dispatch çalıştırma.** Vercel üretim/önizleme ayarları da birleşmeden önce kontrol edilmelidir.
+İlk academic-profile-v1 teslimatı PR #1 ile kullanıcı tarafından main’e birleştirildi. CV güncellemesi ayrı `academic-profile-cv-v2` dalındadır. **Main’e birleştirmek yayını tetikler; kullanıcının açık canlı yayın onayı olmadan birleştirme veya workflow_dispatch çalıştırma.** Vercel üretim/önizleme ayarları da birleşmeden önce kontrol edilmelidir.
 
 Başlangıç sürümü `cd3eb17e768470741b5d00276c599963220dc9f5`; yerel ve GitHub üzerindeki `backup/pre-academic-profile-cd3eb17` dalı bu commit’i gösterir. Mevcut gh-pages başlangıcı `13eedf1b2479e1e2d321b46fe152521e15c72f20`.
 
@@ -62,7 +62,7 @@ Onaylı yayın sonrasında sorun olursa ilgili birleştirme commit’ini normal 
 ## Kalan işler
 
 - P0 hesap ayarları, origin sertifikası ve canonical alan adı kararı.
-- PDF, doğrudan iletişim ve akademik profil bağlantıları.
+- Google Scholar bağlantısı; mevcut avukatlık kaydına baro/ruhsat tarihi eklenmek istenirse kullanıcının teyidi.
 - Evre 2: güçlü Stable Reference Areas açıklaması, sınırlılıklar/sözlük ve Teaching sayfası.
 - Evre 3: kayıt gerektirmeyen Markdown/MDX sistemi ve Verimden serisi.
 - Evre 4: yalnızca sentetik veriyle üç erişilebilir demo.

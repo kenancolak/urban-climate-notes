@@ -119,7 +119,7 @@ try {
           '@context': 'https://schema.org',
           '@type': route === '/' ? 'WebSite' : 'WebPage',
           name: route === '/' ? 'Kenan Çolak' : seo.title,
-          about: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: 'Kenan Çolak', url: `${siteUrl}/`, sameAs: ['https://github.com/kenancolak'] },
+          about: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: 'Kenan Çolak', url: `${siteUrl}/`, sameAs: ['https://github.com/kenancolak', 'https://orcid.org/0000-0002-8271-129X', 'https://www.linkedin.com/in/kenancolak/'] },
           headline: seo.title,
           description: seo.description,
           url: `${siteUrl}${route === '/' ? '/' : `${route}/`}`,
