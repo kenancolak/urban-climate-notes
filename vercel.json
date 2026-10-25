@@ -1,0 +1,88 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "kenancolak.com"
+        }
+      ],
+      "destination": "https://www.kenancolak.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/notes.html",
+      "destination": "/notes/",
+      "permanent": true
+    },
+    {
+      "source": "/research.html",
+      "destination": "/research/",
+      "permanent": true
+    },
+    {
+      "source": "/methods.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/is-the-planet-really-warming.html",
+      "destination": "/notes/is-the-planet-really-warming/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/when-the-city-refuses-to-cool.html",
+      "destination": "/notes/when-the-city-refuses-to-cool/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/how-much-does-urban-form-matter-for-heat.html",
+      "destination": "/notes/how-much-does-urban-form-matter-for-heat/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/what-temperature-are-we-actually-measuring.html",
+      "destination": "/notes/what-temperature-are-we-actually-measuring/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/01-is-the-planet-really-warming.html",
+      "destination": "/notes/is-the-planet-really-warming/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/02-when-the-city-refuses-to-cool.html",
+      "destination": "/notes/when-the-city-refuses-to-cool/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/03-how-much-does-urban-form-matter-for-heat.html",
+      "destination": "/notes/how-much-does-urban-form-matter-for-heat/",
+      "permanent": true
+    },
+    {
+      "source": "/notes/04-what-temperature-are-we-actually-measuring.html",
+      "destination": "/notes/what-temperature-are-we-actually-measuring/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}

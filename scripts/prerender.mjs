@@ -4,8 +4,8 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { createServer } from 'vite';
 
-const siteUrl = 'https://kenancolak.com';
-const siteOrigin = 'https://kenancolak.com';
+const siteUrl = 'https://www.kenancolak.com';
+const siteOrigin = 'https://www.kenancolak.com';
 const baseUrl = '/';
 const outputDir = path.resolve('dist');
 const manifestPath = path.join(outputDir, '.vite', 'manifest.json');
@@ -66,6 +66,7 @@ function withPageMetadata(template, seo, route, html, schema) {
   if (seo.type === 'article') {
     const articleMetadata = [
       `<meta property="article:published_time" content="${seo.publishedTime}" />`,
+      ...(seo.modifiedTime ? [`<meta property="article:modified_time" content="${seo.modifiedTime}" />`] : []),
       `<meta property="article:author" content="${escapeHtml(seo.author)}" />`,
       ...seo.keywords.map((keyword) => `<meta property="article:tag" content="${escapeHtml(keyword)}" />`),
     ].join('\n    ');
@@ -110,7 +111,8 @@ try {
           description: seo.description,
           image: new URL(resolveAssetUrl(seo.image), siteOrigin).href,
           datePublished: seo.publishedTime.slice(0, 10),
-          author: { '@type': 'Person', name: seo.author },
+          ...(seo.modifiedTime ? { dateModified: seo.modifiedTime } : {}),
+          author: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: seo.author, url: `${siteUrl}/` },
           publisher: { '@type': 'Organization', name: 'Urban Climate Notes' },
           mainEntityOfPage: `${siteUrl}${route}/`,
           keywords: seo.keywords.join(', '),
@@ -119,7 +121,7 @@ try {
           '@context': 'https://schema.org',
           '@type': route === '/' ? 'WebSite' : 'WebPage',
           name: route === '/' ? 'Kenan Çolak' : seo.title,
-          about: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: 'Kenan Çolak', url: `${siteUrl}/`, sameAs: ['https://github.com/kenancolak', 'https://orcid.org/0000-0002-8271-129X', 'https://www.linkedin.com/in/kenancolak/'] },
+          about: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: 'Kenan Çolak', jobTitle: 'Urban and regional planner and urban climate researcher', identifier: { '@type': 'PropertyValue', propertyID: 'ORCID', value: '0000-0002-8271-129X' }, url: `${siteUrl}/`, sameAs: ['https://github.com/kenancolak', 'https://orcid.org/0000-0002-8271-129X', 'https://www.linkedin.com/in/kenancolak/'] },
           headline: seo.title,
           description: seo.description,
           url: `${siteUrl}${route === '/' ? '/' : `${route}/`}`,
@@ -141,7 +143,10 @@ try {
     { path: '/methods.html', route: '/methods' },
     { path: '/research.html', route: '/research' },
     { path: '/about.html', route: '/about' },
-    ...notes.map((note) => ({ path: `/notes/${note.slug}.html`, route: `/notes/${note.slug}` })),
+    ...notes.flatMap((note) => [
+      { path: `/notes/${note.slug}.html`, route: `/notes/${note.slug}` },
+      { path: `/notes/${note.number}-${note.slug}.html`, route: `/notes/${note.slug}` },
+    ]),
   ];
   for (const alias of legacyAliases) {
     const destination = `${siteUrl}${alias.route}/`;

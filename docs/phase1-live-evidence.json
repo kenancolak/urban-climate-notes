@@ -1,0 +1,211 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "sfo1::qnrhx-1792914573610-70be5fcbcecf"
+    }
+  },
+  {
+    "path": "/research/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/research/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/research/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::fhg86-1792914573611-e509e5e6e097"
+    }
+  },
+  {
+    "path": "/methods/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/methods/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/methods/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::5rz9c-1792914573611-3eeaa2727cba"
+    }
+  },
+  {
+    "path": "/about/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/about/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/about/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "sfo1::gbkqc-1792914573596-80bb749006a4"
+    }
+  },
+  {
+    "path": "/notes/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/notes/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/notes/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::nsw55-1792914573596-f472126b1cf6"
+    }
+  },
+  {
+    "path": "/cv/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/cv/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/cv/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "sfo1::8lgqd-1792914573596-0d92d921866c"
+    }
+  },
+  {
+    "path": "/contact/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/contact/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/contact/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::lw86f-1792914573596-7592b5e6c335"
+    }
+  },
+  {
+    "path": "/notes/is-the-planet-really-warming/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/notes/is-the-planet-really-warming/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/notes/is-the-planet-really-warming/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::kt8s4-1792914573610-045652c5fd6a"
+    }
+  },
+  {
+    "path": "/notes/when-the-city-refuses-to-cool/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/notes/when-the-city-refuses-to-cool/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/notes/when-the-city-refuses-to-cool/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::6tmpj-1792914576466-5a2c717d852f"
+    }
+  },
+  {
+    "path": "/notes/how-much-does-urban-form-matter-for-heat/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/notes/how-much-does-urban-form-matter-for-heat/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "sfo1::57kzm-1792914576499-2cc3b3cd72b0"
+    }
+  },
+  {
+    "path": "/notes/what-temperature-are-we-actually-measuring/",
+    "status": 200,
+    "url": "https://www.kenancolak.com/notes/what-temperature-are-we-actually-measuring/",
+    "newTheme": true,
+    "newBrand": true,
+    "canonical": [
+      "https://kenancolak.com/notes/what-temperature-are-we-actually-measuring/"
+    ],
+    "assets": [
+      "/assets/index-C6SBhCKa.js",
+      "/assets/index-C4cNKSD_.css"
+    ],
+    "cache": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "sfo1::hhz4j-1792914576499-896e42396916"
+    }
+  }
+]

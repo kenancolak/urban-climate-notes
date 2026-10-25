@@ -51,7 +51,7 @@ a:hover {
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
-  outline: 3px solid #83a99e;
+  outline: 3px solid var(--green-dark);
   outline-offset: 3px;
 }
 
@@ -1231,3 +1231,14 @@ h4 {
 .research-focus { align-self: start; }
 
 .note-number span, .search-shortcut { color: var(--muted); }
+
+/* CV mirrors the downloadable PDF, with readable wrapping on narrow screens. */
+.cv-page section { margin-top: 2.5rem; }
+.cv-page h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+.cv-detail { white-space: pre-line; padding-left: 1rem; }
+.cv-entry p { margin-bottom: 0.5rem; }
+.orcid-number { overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+
+.hero-subtitle { font-size: 1.2rem; color: var(--green-dark); margin: -0.4rem 0 1.5rem; }
+
+.skip-link:focus { background: var(--paper); color: var(--ink); }

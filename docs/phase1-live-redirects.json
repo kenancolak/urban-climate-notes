@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://kenancolak.com/",
+    "status": 308,
+    "location": "https://www.kenancolak.com/"
+  },
+  {
+    "url": "http://kenancolak.com/",
+    "status": 308,
+    "location": "https://kenancolak.com/"
+  },
+  {
+    "url": "https://www.kenancolak.com/research",
+    "status": 200,
+    "location": null
+  },
+  {
+    "url": "https://www.kenancolak.com/research.html",
+    "status": 200,
+    "location": null
+  },
+  {
+    "url": "https://www.kenancolak.com/notes/is-the-planet-really-warming.html",
+    "status": 200,
+    "location": null
+  }
+]
