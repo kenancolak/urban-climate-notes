@@ -13,65 +13,122 @@ categories:
 toc: true
 ---
 
-At 1:02 p.m. on 19 June 2024, NASA’s ECOSTRESS instrument on the International Space Station mapped Phoenix. Roads and adjoining sidewalks exceeded 49°C in several places, and some surfaces around Sky Harbor International Airport reached about 60°C [2]. The air temperature at the airport that day reached 43°C.
+> **“Half the Truth is often a great Lie.”**  
+> *Benjamin Franklin, Poor Richard's Almanack (July 1758)* [1]
 
-The subtraction is tempting and wrong. The 60°C reading and the 43°C daily maximum were neither simultaneous nor taken at the same spot, so 17°C is not a measured gap between surface and air. They are different quantities. ECOSTRESS recorded thermal radiation from exposed surfaces, and the airport station measured the air around its sensor. The map’s 30 m grid came from machine-learning sharpening that combined ECOSTRESS with Landsat and Sentinel-2 information [2]. The instrument's typical native footprint is about 70 by 38 metres [2].
+Benjamin Franklin printed this line in *Poor Richard's Almanack* nearly three centuries ago. I came back to it while thinking about the temperature maps we now produce for cities.
+
+A map can accurately describe one part of the urban environment and still lead us astray when we treat it as a complete account. Satellite thermal images are a good example. They reveal patterns we could never observe by standing at a single street corner. But the colour assigned to a road or rooftop does not, by itself, tell us the temperature of the air a pedestrian breathes.
+
+Phoenix, Arizona, offers a particularly clear way to examine that distinction.
+
+## One city, two temperatures
+
+At 1:02 p.m. local time on 19 June 2024, NASA's ECOSTRESS instrument, mounted on the International Space Station, observed the surface temperatures of Phoenix. Its map showed roads and adjoining sidewalks exceeding 49°C in several parts of the city. Some surfaces around Phoenix Sky Harbor International Airport reached approximately 60°C. [2]
+
+The air temperature recorded at the airport that day reached 43°C.
+
+These two numbers often invite a simple subtraction. But the 60°C surface observation and the 43°C daily air-temperature maximum were not simultaneous measurements at precisely the same spot. Their difference must not be presented as a measured 17°C air–surface gap.
+
+There is also a more basic distinction. ECOSTRESS observed thermal radiation from exposed surfaces. The airport weather station measured the surrounding air. Both records are useful, and each answers a different question.
+
+The Phoenix image was processed to display a 30-metre grid using a machine-learning sharpening approach combining ECOSTRESS with Landsat and Sentinel-2 information. That enhanced detail is useful, provided we remember how the map was produced. [2]
 
 ![ECOSTRESS Phoenix thermal burn-risk map, 19 June 2024, with the original NASA legend, geographical labels and observation time.](../images/notes/04/02_ECOSTRESS_Burn_Risk.png){width="100%"}
 
-<div class="image-caption"> Phoenix surface temperature and thermal burn risk on 19 June 2024 at 1:02 p.m. local time. This is a satellite-derived map of exposed surfaces, not a measurement of air temperature. Its scale, observation time and legend must remain visible in the published image. Source: NASA/JPL-Caltech, [PIA25529](https://science.nasa.gov/photojournal/nasas-ecostress-maps-burn-risk-across-phoenix-streets/). </div>
+<div class="image-caption">
+Phoenix surface temperature and thermal burn risk on 19 June 2024 at 1:02 p.m. local time. This is a satellite-derived map of exposed surfaces, not a measurement of air temperature. Its scale, observation time and legend must remain visible in the published image. Source: NASA/JPL-Caltech, [PIA25529](https://science.nasa.gov/photojournal/nasas-ecostress-maps-burn-risk-across-phoenix-streets/).
+</div>
 
-## What the satellite sees
+## The surface a satellite sees
 
-A thermal sensor detects radiation emitted by the surface. Turning that into land surface temperature (LST) means correcting for the atmosphere and for the emissivity of different materials [3]. Over a city the sensor may see asphalt, a roof, bare soil or the top of a tree canopy, and the shaded pavement under that tree may not be visible at all.
+Thermal infrared instruments detect radiation emitted by the Earth's surface. Retrieving land surface temperature (LST) from those observations requires accounting for the atmosphere and the emissivity of different materials. [3]
 
-Two limits are easy to forget. LST can be retrieved only where the sky is clear. And each sensor passes at its own time: Landsat in the morning, generally around 10 a.m. local solar time (the nominal equatorial crossing is about 10:12 a.m.), which is neither the afternoon peak nor the night. A hot-looking pixel on a Landsat scene is a morning surface, not the heat people feel at 4 p.m.
+In a city, the sensor may see asphalt, rooftops, exposed soil or the upper canopy of a tree. A shaded pavement beneath that tree may not be visible from space at all.
 
-Air temperature comes from a thermometer shielded from the sun and exposed to the air. The surfaces around it influence it, and it still doesn’t equal them. So I try to be strict about what a heat map lets me say: it shows where exposed surfaces are warmer. An air-temperature map needs other observations, or a model built to estimate air temperature.
+A person walking along the same street encounters the surrounding air, direct and reflected sunlight, wind and thermal radiation from nearby surfaces. The temperature of a canopy, a wall or a road is part of that experience, but no single one of those measurements describes the whole environment.
+
+Air temperature is generally measured with a thermometer appropriately shielded from solar radiation and exposed to the ambient air. It is influenced by the surfaces below and around it, yet it does not simply match their temperature.
+
+For this reason, I am careful about what a satellite heat map allows me to say. It can show where exposed surfaces are warmer. An air-temperature map requires different observations or a model designed to estimate air temperature.
+
+Aerial photography helps put those surfaces in context. The former University of Phoenix Stadium, located in Glendale within Greater Phoenix, brings a very large roof, paved areas and agricultural fields into a single view. The photograph illustrates contrasting land covers; it does not establish that one surface was hotter than another.
 
 ![Aerial photograph of the University of Phoenix Stadium in Glendale, showing its roof, surrounding pavement and nearby agricultural fields.](../images/notes/04/03_Glendale_Stadium_Surface_Context.png){width="100%"}
 
-<div class="image-caption"> The former University of Phoenix Stadium in Glendale, Greater Phoenix, photographed in February 2008. Different land covers are visible, but their temperatures were not measured in this photograph. Photo: Gerald Nino / U.S. Customs and Border Protection, [U.S. federal public domain](https://commons.wikimedia.org/wiki/File:University_of_Phoenix_Stadium_aerial.jpg); resized and framed. </div>
+<div class="image-caption">
+The former University of Phoenix Stadium in Glendale, Greater Phoenix, photographed in February 2008. Different land covers are visible, but their temperatures were not measured in this photograph. Photo: Gerald Nino / U.S. Customs and Border Protection, [U.S. federal public domain](https://commons.wikimedia.org/wiki/File:University_of_Phoenix_Stadium_aerial.jpg); resized and framed.
+</div>
 
 ## What recent research found
 
-Zhang and colleagues (2026, Nature Communications) built a transfer-learning framework to estimate near-surface air temperature in 384 cities of the contiguous United States, at about 1 km resolution, for 2013–2023, around 1:30 a.m. and 1:30 p.m. local time [4]. The air temperatures are model estimates, trained and tested against available observations. There was no thermometer at every pixel.
+A 2026 study by Yiwen Zhang and colleagues in *Nature Communications* examined how substantially these two measurements can diverge. The researchers developed a transfer-learning framework for estimating near-surface urban air temperature in 384 cities across the contiguous United States. Their estimates were produced at approximately 1-kilometre resolution for 2013–2023, at around 1:30 a.m. and 1:30 p.m. local time. [4]
 
-Comparing them with satellite surface temperatures, the authors found large differences in magnitude and spatial pattern. Across the cities, surfaces tended to be warmer than the air by day and often cooler at night, and the relationship varied with local climate and position in the city. Using LST as a stand-in for air temperature could overstate heat-exposure magnitude and the differences between neighbourhoods [4]. These findings belong to that dataset, that model and those US cities. They are not a conversion factor.
+The air temperatures were model estimates, trained and evaluated using available observations. There was no thermometer at every mapped pixel.
 
-For planning the implication is plain: the hottest-looking neighbourhood on a surface map may hold the hottest pavements and rooftops without having proportionally hotter air than its neighbours.
+When the authors compared their estimated air temperatures with satellite surface temperatures, they found important differences in magnitude and spatial pattern. Across the cities studied, surfaces tended to be warmer than the air during the day and often cooler at night. The strength of the relationship varied with local climate and location within the city.
+
+Their analysis also found that using satellite LST as a substitute for near-surface air temperature could overstate urban heat-exposure magnitude and differences between neighbourhoods. These are findings for the study's defined data, model and US cities; they should not be turned into a universal conversion factor. [4]
+
+I find the planning implication especially important. The hottest-looking neighbourhood on a surface map might indeed contain the hottest pavements or rooftops. It does not follow that its air-temperature difference from adjacent neighbourhoods is equally large.
+
+An aerial photograph of a residential neighbourhood in Arizona shows why even a familiar urban landscape contains different surfaces: roofs, streets, school grounds, vegetation and irrigated plots. It gives us possible sites for further measurement. The image alone cannot identify a hot spot or quantify heat exposure.
 
 ![Real aerial photograph of a residential neighbourhood in Arizona with rooftops, roads, vegetation and open spaces.](../images/notes/04/04_Phoenix_Neighborhood_Thermal_Context.png){width="100%"}
 
-<div class="image-caption"> Residential neighbourhood in Arizona. The aerial view illustrates land-cover diversity, not observed air or surface temperatures. Photo: [Chris The Island / Pexels](https://www.pexels.com/photo/aerial-view-of-residential-neighborhood-in-arizona-34873755/), Pexels License; resized, cropped and framed. </div>
+<div class="image-caption">
+Residential neighbourhood in Arizona. The aerial view illustrates land-cover diversity, not observed air or surface temperatures. Photo: [Chris The Island / Pexels](https://www.pexels.com/photo/aerial-view-of-residential-neighborhood-in-arizona-34873755/), Pexels License; resized, cropped and framed.
+</div>
 
-## The heat a person meets
+## The heat a person encounters
 
-Two people wait for a bus in Phoenix at the same hour, one in full sun and one under the shelter. The air temperature at the two spots could be nearly the same while their radiation load is not. Wind, humidity and the warmth of surrounding surfaces add to the difference. The radiation part is usually summarised as mean radiant temperature.
+Consider two people waiting for public transport in Phoenix on the same afternoon. One is standing in direct sunshine. The other is a few metres away beneath a shelter.
 
-The Heat Index combines air temperature and humidity and is intended for shaded conditions. Wet Bulb Globe Temperature (WBGT) adds radiant exposure and wind. Neither is interchangeable with satellite LST [5]. If the question is a bus stop, a walking route or a schoolyard, the measurement has to match what people actually encounter. A satellite map can nominate places for closer study. It can’t replace the study.
+The air temperature at their locations might be nearly identical, while their exposure to solar radiation differs substantially. Wind, humidity and the warmth of the surrounding surfaces further influence how much heat their bodies gain or lose.
 
-## What stays warm at night
+The Heat Index combines air temperature and relative humidity and is generally interpreted for shaded conditions. Wet Bulb Globe Temperature (WBGT) incorporates additional influences, including radiant exposure and wind. Neither of these indices is interchangeable with satellite LST. [5]
 
-During the July 2023 heatwave, NASA researchers used VIIRS on the Suomi NPP satellite to map Phoenix surface temperatures at about 2 a.m. on several nights. Some built surfaces were still near 38°C long after sunset, and the mapped surfaces got hotter through part of the heatwave [7]. These are night-time
+If we want to evaluate a bus stop, pedestrian route or schoolyard, our measurements need to correspond to the physical conditions people actually encounter. A satellite map can identify promising locations for closer investigation. It cannot replace that investigation.
 
-surface temperatures, not air readings two metres up. They do help explain why materials and stored heat matter for the night, the theme of Note 02.
+## What stays warm after sunset?
+
+Phoenix also connects to the nighttime cooling question discussed in Urban Climate Notes 02, about Tokyo.
+
+During the July 2023 heatwave, NASA researchers examined another set of Phoenix surface-temperature observations from the VIIRS instrument aboard the NOAA–NASA Suomi NPP satellite. These were collected at about 2 a.m. on several nights. Some built surfaces remained near 38°C long after sunset, and the mapped surfaces became progressively hotter during part of the heatwave. [7]
+
+These were nighttime surface temperatures. They were not direct readings of the air two metres above the ground. The observations nevertheless help explain why material properties and heat storage matter to a city's nighttime thermal environment.
+
+Surface and atmospheric urban heat islands can differ in strength, timing and location. The time and method of observation belong in every interpretation of an urban heat map.
 
 ![NASA VIIRS nighttime land surface temperatures around Phoenix during the July 2023 heatwave.](../images/notes/04/05_VIIRS_Night_LST.png){width="100%"}
 
-<div class="image-caption"> Nighttime land surface temperature in the Phoenix region during the July 2023 heatwave. VIIRS observations were collected at about 2 a.m.; this is not a map of near-surface air temperature. The published graphic should preserve the original NASA map, geographic labels and temperature interpretation. Source: NASA/JPL-Caltech, [PIA25868](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/) (VIIRS on NOAA–NASA Suomi NPP). </div>
+<div class="image-caption">
+Nighttime land surface temperature in the Phoenix region during the July 2023 heatwave. VIIRS observations were collected at about 2 a.m.; this is not a map of near-surface air temperature. The published graphic should preserve the original NASA map, geographic labels and temperature interpretation. Source: NASA/JPL-Caltech, [PIA25868](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/) (VIIRS on NOAA–NASA Suomi NPP).
+</div>
 
-## A pixel is not an observation
+## A pixel is not always an independent observation
 
-Landsat 8 and 9 collect thermal infrared at a native 100 m and distribute it resampled to 30 m [6]. The 30 m grid does not create independent 30 m thermal observations. The Phoenix ECOSTRESS map was sharpened with data from other satellites [2]. Cloud, emissivity, overpass time and retrieval uncertainty all add to this. None of it is a reason to give up satellite analysis. All of it is a reason to describe the analysis accurately.
+The precision of a digital map can also be misleading when pixel size is confused with the sensor's native resolution.
 
-## Which temperature does the decision need?
+Landsat 8 and 9 collect thermal infrared measurements at a native spatial resolution of 100 metres. Their thermal data are commonly resampled to 30-metre pixels. That output grid does not create independent 30-metre thermal observations. [6]
 
-My own work uses satellite LST to study how urban morphology, land-cover change and surface heating relate. Repeated imagery makes it possible to follow redevelopment and vegetation loss over large areas with very few ground sensors.
+Phoenix's 2024 ECOSTRESS map involved a different kind of processing: its 30-metre output was sharpened with information from other satellites. Its visual detail should therefore be considered alongside the instrument resolution and the assumptions of the processing method. [2]
 
-When a wooded parcel is cleared and paved, imagery can document the change and the rise in surface temperature. If the next question is warmer night air around nearby homes, that needs air-temperature evidence. If it is pedestrian exposure, it needs shade, radiation and wind. Three decisions call for three measurements.
+Clouds, emissivity, measurement time and retrieval uncertainty matter as well. None is a reason to abandon satellite analysis. They are reasons to describe it accurately.
 
-Franklin wrote that “Half the Truth is often a great Lie” [1]. A thermal map can be accurate and still leave out the evidence a planning decision needs. Before I say anything about the people who live in a hot-looking neighbourhood, I want to know what the map showed, when, and at what real resolution.
+## Which temperature does planning need?
+
+My own research uses satellite LST to investigate relationships among urban morphology, land-cover change and surface heating. Repeated satellite observations make it possible to study redevelopment and vegetation loss across large areas, including places with very few ground-based sensors.
+
+If a wooded parcel is cleared and replaced by buildings and pavement, satellite imagery can help document that physical transformation and the associated changes in surface temperature. If the next question concerns warmer nighttime air around nearby homes, we need air-temperature evidence. If the concern is the experience of pedestrians, shade, radiation and wind deserve closer attention.
+
+These are different planning questions. Each calls for a measurement suited to the decision being made.
+
+Franklin's old warning is worth keeping in mind here. An accurate piece of evidence becomes misleading when we allow it to stand for more than it measures.
+
+I will continue using thermal satellite imagery in my research. But when a map identifies a hot neighbourhood, I want to know which surfaces it is showing, when the observation was taken, and whether it can support a conclusion about the people who live there.
+
+The map tells us where to look. We still have to decide what to measure when we get there.
 
 ## Sources
 

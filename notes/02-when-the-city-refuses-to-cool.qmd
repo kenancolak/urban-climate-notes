@@ -14,29 +14,74 @@ toc: true
 
 ![](../images/notes/02/01_Urban_Climate_Notes_Cover.png){width="100%" fig-alt="Urban Climate Notes 02. When the City Refuses to Cool"}
 
-> 暑さ寒さも彼岸まで。
+> 暑さ寒さも彼岸まで。  
+> *Atsusa samusa mo higan made.*
 >
-> *Atsusa samusa mo higan made. “The heat and the cold last only until Higan.” [1]*
+> **“The heat and the cold last only until Higan.”** [1]
 
-Higan is the seven days centred on each equinox, tied to Buddhist observance and remembrance of ancestors [1]. The saying promises that summer’s lingering heat will ease near the autumn equinox and winter’s cold near the spring one. As a forecast it is crude. As a record of repeated experience it is hard to beat: relief tends to arrive about when the equinox does.
+There is reassurance in this Japanese saying.
 
-The proverb works on a scale of weeks. Tokyo’s problem sits on a scale of hours: relief that was expected at dusk and doesn’t come.
+The lingering heat of summer will ease around the autumn equinox. Winter’s cold will soften around the spring equinox. Hold on a little longer; the season will turn.
 
-## The night is warming faster than the day
+Higan is the seven-day period centred on each equinox, associated with Buddhist observances and remembrance of ancestors. In this saying, the calendar also carries an expectation about the weather. [1]
 
-The Japan Meteorological Agency reports a trend of about 3.5°C per century in Tokyo’s annual mean temperature for 1929–2025. The annual mean of daily maximum temperature has risen 2.2°C per century, and the daily minimum 4.6°C [2]. These are annual figures, the Tokyo series is adjusted for a station relocation [2], and they say nothing about every neighbourhood behaving alike.
+I like the idea that a sentence can hold both memory and a forecast.
 
-They also don’t isolate the city’s share. Minimum temperatures rising faster than maximum is seen in many records around the world, so part of Tokyo’s gap is probably not urban at all. A useful comparison would be JMA’s national series, which draws on stations selected to limit urbanisation effects. I haven’t made that comparison here, and it is the one I would most like to see.
+A proverb is not a meteorological model. Yet it can preserve something learned through repeated encounters with a place: when to plant, when to prepare, when relief is likely to arrive.
+
+In the first Urban Climate Note, I wrote about the fading figure of the city dweller who still knows how to read their surroundings.
+
+This saying makes me wonder about the other side of that relationship.
+
+**What happens when the place begins to behave differently from the one people remember?**
+
+And what happens when relief is expected much sooner than the next season, when we are simply waiting for the sun to go down?
+
+## The changing temperature of the night
+
+None of us lives at the global average.
+
+We experience climate in rooms, streets and courtyards. We notice it when a pavement radiates heat through our shoes, or when opening a window fails to bring the relief we expected.
+
+Tokyo offers a revealing example.
+
+For 1929–2025, the Japan Meteorological Agency reports a trend of approximately **3.5°C per century in Tokyo’s annual mean temperature**.
+
+The corresponding trends in annual averages of daily maximum and minimum temperature are **2.2°C and 4.6°C per century**, respectively. [2]
 
 ![](../images/notes/02/02_Tokyo_Temperature_Trends.png){width="100%" fig-alt="Tokyo long-term temperature trends from 1929 to 2025"}
 
-<div class="image-caption"> Tokyo’s annual minimum temperature has increased faster than its annual maximum temperature over the long-term record. </div>
+<div class="image-caption">
+Tokyo’s annual minimum temperature has increased faster than its annual maximum temperature over the long-term record.
+</div>
 
-## What the street gives back after sunset
+The minimum has risen considerably faster than the maximum.
 
-At 8 p.m. in July the sun is gone, but the wall and the asphalt are still returning what they took in during the day. Between buildings less sky is visible, so the sky-view factor (the share of the sky hemisphere seen from a point) drops and heat escapes to space more slowly. Tight spacing slows the air, and human activity adds heat. Vegetation and moisture decide how much energy goes into evaporation instead of warming. These are the mechanisms JMA lists [3].
+These are annual trends, not summer-only measurements. They do not establish that every Tokyo neighbourhood behaves alike, or that all the observed warming comes from urbanisation.
 
-That is the urban heat island: the warmth of urban air relative to a less urbanised reference, typically largest on clear, calm nights . It is separate from global warming, which shifts the background. A person in a warm bedroom feels both at once, and they call for different responses: emissions policy for the background, the form and function of cities for the local difference.
+JMA adjusts the Tokyo series for the relocation of the observing station.
+
+Even with those qualifications, the contrast draws attention to an important part of urban climate: **what happens to heat after sunset.**
+
+We tend to describe a hot city through its afternoons.
+
+Its nights deserve equal curiosity.
+
+## Sunset does not empty the city of heat
+
+Imagine a street at the end of a summer day.
+
+The sunlight has withdrawn, but the walls and pavement are still warm. During the day, they absorbed and stored energy. Some of that energy is now being released into the surrounding air.
+
+The street’s geometry matters too.
+
+Between buildings, the view of the sky becomes restricted. The *sky-view factor*, meaning the proportion of sky visible from a location, helps describe this enclosure.
+
+A reduced view of the sky can limit radiative cooling, while the arrangement of buildings also affects ventilation.
+
+Vegetation and available moisture influence how energy is divided between heating and evaporation. Human activities add heat as well. These are among the mechanisms JMA identifies behind urban warming. [3]
+
+**The city, in other words, carries part of the afternoon into the night.**
 
 ![](../images/notes/02/03_Tokyo_After_Sunset.png){width="100%" fig-alt="Conceptual illustration of stored heat, limited airflow and anthropogenic heat in Tokyo after sunset"}
 
@@ -44,29 +89,117 @@ That is the urban heat island: the warmth of urban air relative to a less urbani
 After sunset, stored heat, urban geometry and human activities can slow the cooling of the urban environment.
 </div>
 
-## A name for the night without relief
+This helps explain the **urban heat island**: the relative warmth of an urban area compared with a less urbanised reference under comparable conditions.
 
-The Japanese term is 熱帯夜 (nettaiya), literally “tropical night”. JMA uses it for a night when the temperature stays at or above 25°C from evening to morning [4]. Thresholds vary among national meteorological services. So 25°C is a convention, not a physical line between comfort and discomfort, and rooms, bodies, humidity and air movement all change how a night feels.
+It is distinct from global warming.
 
-JMA’s long-term analysis shows rising counts of days with a minimum of 25°C or more in several large cities. Tokyo is left out, because the effect of its station relocation on threshold counts is hard to remove [5]. I like that omission: an agency declining to publish a number it can’t defend.
+Global warming changes the broader climatic background. The urban heat island describes a local thermal difference associated with the characteristics of an urban environment.
 
-## A bucket of water
+A person in a warm bedroom may experience both at once.
 
-Uchimizu is the sprinkling of water on the ground. The Tokyo Metropolitan Government calls it Edo wisdom. It appears in Edo-period haiku and ukiyo-e, and it was also meant to settle dust, prepare an entrance for guests and purify a space [6]. The physics is evaporation, which takes heat from the wetted surface. Tokyo’s guidance recommends reused water, applied in shaded places in the morning or evening [6].
+The distinction is useful because it points to different scales of action. Reducing greenhouse gas emissions addresses the larger warming trajectory. Changes to the physical and functional characteristics of cities can influence local thermal conditions.
 
-In a humid summer city the cooling is modest and short-lived, and the added moisture raises humidity. I would call uchimizu a gesture with a real physical basis, not a mitigation strategy. What I like in it is the idea that cooling a place was also a way of welcoming someone.
+## A name for a night without relief
 
-## A cooler island inside the heat island
+Japanese meteorological language gives this experience a memorable name:
 
-In August 2007, researchers working with Japan’s Ministry of the Environment measured temperatures in and around the Imperial Gardens. The monthly average inside was 1.8°C below the surrounding built-up area, and cooler air was detected up to roughly 350 m into neighbouring streets by day and about 250 m from midnight to early morning in calm conditions [7].
+**A tropical night.**
 
-That is one campaign in one park, and another park will behave differently. What stays with me is the leak. On a land-use map a garden is a polygon with an edge. In the air it isn’t. For planners the question becomes where cool spaces sit, what surrounds them and how their edges connect to streets.
+JMA defines it as a night when the temperature, from evening until the following morning, does not fall below **25°C**. [4]
+
+The term can sound almost inviting, although the experience is usually anything but.
+
+Picture someone turning the pillow over, opening a window, then realising that the air outside offers little relief.
+
+A night can feel long when the cooler hours never arrive.
+
+The threshold is a meteorological category, not a universal boundary between comfort and discomfort.
+
+Rooms differ, bodies differ, and humidity and air movement matter.
+
+Still, it shifts our attention from the day’s peak to its missing respite.
+
+JMA’s long-term analysis shows increasing counts of days with minimum temperatures of at least 25°C in several major Japanese cities.
+
+Tokyo is excluded from that particular comparison because the effect of its station relocation on threshold counts is difficult to remove. [5]
+
+The broader question remains:
+
+**How much opportunity does a city provide to cool between one hot day and the next?**
+
+## A bucket of water, and a lesson in hospitality
+
+Tokyo also offers a much older response to summer heat: **uchimizu**, the sprinkling of water onto the ground.
+
+The Tokyo Metropolitan Government presents it as “Edo wisdom.”
+
+Its account notes that the practice appears in Edo-period haiku and ukiyo-e, and that its purposes extended beyond cooling. It was also used to settle dust, prepare an entrance for guests and cleanse a space. [6]
+
+That detail interests me because it suggests that making a place cooler could also be a way of welcoming someone.
+
+The physical principle is evaporation.
+
+As water evaporates, it draws energy from its surroundings and can cool the wetted surface.
+
+Tokyo’s guidance recommends reused water, applied in shaded places during the morning or evening. [6]
+
+A bucket of water offers a modest intervention. Its effects depend on conditions, and it cannot resolve the thermal problems of a contemporary metropolis.
+
+But the practice still encourages a useful way of thinking about place: look at the surface, consider where the water comes from and pay attention to timing.
+
+## A cooler island within the heat island
+
+In August 2007, researchers working with Japan’s Ministry of the Environment measured temperatures in and around Tokyo’s Imperial Gardens.
+
+The gardens’ average temperature that month was **1.8°C lower than that of the surrounding built-up area**.
+
+Cooler air was detected extending into neighbouring urban areas, up to approximately **350 metres during the day** and approximately **250 metres from midnight into early morning under calm conditions**. [7]
 
 ![](../images/notes/02/04_Uchimizu_Imperial_Gardens.png){width="100%" fig-alt="Uchimizu and the cooling influence of Tokyo Imperial Gardens"}
 
-<div class="image-caption"> Traditional practices such as uchimizu and measured cooling around large green spaces illustrate two different ways in which water and vegetation can influence urban heat. </div>
+<div class="image-caption">
+Traditional practices such as uchimizu and measured cooling around large green spaces illustrate two different ways in which water and vegetation can influence urban heat.
+</div>
 
-If I could add a single line to every heat-adaptation brief, it would be this: show me the 3 a.m. version. A shading scheme that works at 3 p.m. has answered half the question.
+These were findings from a particular observation campaign, not distances that every park will reproduce.
+
+What interests me is that the cooling did not stop neatly at the garden boundary.
+
+On a land-use map, a green space can look like a bounded object. In the urban atmosphere, it can participate in exchanges that reach beyond its edge.
+
+For a planner, that changes the question.
+
+We need to consider where cooler spaces sit, what surrounds them, and how their edges connect with streets and buildings.
+
+**A garden belongs to the climate of its neighbourhood as well as to its own grounds.**
+
+## Planning for the hours after sunset
+
+Tokyo brings the first note’s question closer to everyday life.
+
+A warming planet provides the background, while the city’s materials, geometry, vegetation and activities help shape the conditions experienced locally.
+
+For planners, this also means paying attention to time of day.
+
+A building arrangement that provides afternoon shade also needs to be considered in relation to ventilation and cooling after sunset.
+
+A public space should be understood through the hours when people actually use it.
+
+“How hot is this place?” becomes more useful when followed by:
+
+**“When, where, and for whom?”**
+
+The old saying promises that the season will eventually bring relief.
+
+Urban planning asks whether the places we build allow relief to reach us sooner.
+
+I do not think inherited knowledge should be left untouched on a shelf. It deserves to be used, tested and reconsidered in the places we inhabit now.
+
+That reconsideration can begin with an old proverb, a familiar practice such as uchimizu, or measurements taken on either side of a garden wall. Each offers a different way of paying closer attention to how a place behaves.
+
+> **The next Urban Climate Note turns to the city’s physical structure: how do building height, spacing and street geometry shape the heat we experience?**
+
+---
 
 ## Sources
 
