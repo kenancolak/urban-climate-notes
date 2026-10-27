@@ -14,19 +14,47 @@ toc: true
 
 ![](../images/notes/01/01_Urban_Climate_Notes_Cover.jpg){width="100%" fig-alt="Urban Climate Notes 01. Is the Planet Really Getting Warmer?"}
 
-Climate Central placed Reno, Nevada, at the top of its 2026 ranking of 242 U.S. cities for warming since 1970. Its estimated increase was **7.9°F, approximately 4.4°C** [3]. Reno calls itself “The Biggest Little City in the World”, a nickname displayed on its famous arch [2]. For a place with “little” in its name, that is a rather large number.
+> **“There was a time when everything … all had a voice and we were able to understand.”**
+>
+> Benny Fillmore, Washoe Elder [1]
 
-I wanted to understand how it was calculated, and what, if anything, it told us about the way Reno has grown.
+I sometimes think there is an endangered species missing from our conservation lists: **the city dweller who still knows how to read the place they live in.**
 
-## What does the ranking measure?
+Someone who knows which street catches the afternoon wind. Which courtyard holds the heat after sunset. Where water gathers when the rain becomes serious. Someone who looks at a tree and sees, among other things, information about soil, moisture, exposure and time.
 
-Climate Central is an independent, nonprofit group of scientists and communicators working on climate change. Its researchers examined annual average temperatures in weather-station records provided by the National Oceanic and Atmospheric Administration (NOAA). For each city, they fitted a linear trend to the period 1970–2025 [3].
+This knowledge rarely arrives as a complete theory. It accumulates through living somewhere: a remembered flood, a planting season, a warning repeated until it becomes a proverb.
 
-The 7.9°F estimate is the change indicated by that fitted line over the study period. It is not simply the temperature in 2025 minus the temperature in 1970. All the intervening years contribute to the calculation. That matters when some years are exceptionally hot or cold, and it is why the choice of starting and ending years deserves attention.
+I have considerable respect for that kind of knowledge.
 
-Las Vegas came second at +6.0°F, followed by El Paso at +5.9°F. Burlington, Vermont, and Tyler, Texas, were next at +5.3°F each [3]. Burlington's presence alongside the Nevada and Texas cities is interesting. These places have markedly different regional climates, yet the same calculation places them on one list. The ranking tells us where the trends were largest in these records. It does not, by itself, explain their causes.
+**Years of observation can survive in an ordinary sentence.**
 
-## Reno's place on the map
+Much of it once answered to necessity. Getting the season wrong could mean losing a harvest. Building without understanding water could mean losing a home. Sunlight and weather had a seat at the drawing table, whether the builder invited them or not.
+
+Technology has made many of those negotiations less visible.
+
+We can cool a badly oriented room, import food through a failed season and consult a forecast without looking outside.
+
+These are remarkable achievements. They have also made it easier to live somewhere without learning very much about it.
+
+That is one reason I wanted to begin this series on **urban climate**: to think about what our instruments reveal, what our cities remember, and what we have stopped noticing.
+
+## The biggest little city gets warmer
+
+Reno calls itself **“The Biggest Little City in the World.”**
+
+Its famous arch gives the city a compact, confident introduction. [2]
+
+Recently, I encountered another description of Reno, this time in a temperature ranking.
+
+Climate Central analysed annual average temperature trends between 1970 and 2025 for 242 U.S. cities.
+
+Reno showed the largest estimated increase:
+
+**7.9°F, approximately 4.4°C.** [3]
+
+A striking number for a city with “little” in its nickname.
+
+But the geography behind the number is more interesting than the ranking alone.
 
 ![](../images/notes/01/03_Reno_Satellite_Context.jpg){width="100%" fig-alt="Reno, Nevada, between the Sierra Nevada and the Great Basin"}
 
@@ -34,9 +62,19 @@ Las Vegas came second at +6.0°F, followed by El Paso at +5.9°F. Burlington, Ve
 Reno, Nevada, in its regional landscape context, between the Sierra Nevada and the Great Basin.
 </div>
 
-Reno lies east of the Sierra Nevada. Much of the moisture brought inland from the Pacific falls as precipitation on the western side of the mountains; the eastern side is comparatively dry. This is the *rain-shadow effect*. The Truckee River valley, the mountains and the wider Great Basin all belong to the climatic setting in which Reno developed [4].
+Reno lies on the eastern side of the Sierra Nevada, in the mountains’ rain shadow.
 
-The city has grown considerably. Its population rose from 225,221 in 2010 to an estimated 283,621 in 2025, about 26% [5]. More people require homes, roads and other urban infrastructure, but population figures cannot tell us how much this development contributed to the 1970–2025 temperature trend. They cover only the latter part of that period and say little about the physical changes around the measuring station.
+The landscape helps determine what moisture reaches the city and under what conditions. [4]
+
+**Even before a street is laid out, the place already has a climatic structure.**
+
+This is easy to forget when we encounter cities primarily through their buildings, economies or administrative boundaries.
+
+A city also occupies a position in a system of mountains, winds and water.
+
+Reno is growing within that system.
+
+Its population rose from **225,221 in 2010 to an estimated 283,621 in 2025**, an increase of approximately **26%**. [5]
 
 ![](../images/notes/01/04_Reno_City_Context.jpg){width="100%" fig-alt="Reno skyline and the surrounding semi-arid mountain landscape"}
 
@@ -44,17 +82,39 @@ The city has grown considerably. Its population rose from 225,221 in 2010 to an 
 Reno is a fast-growing city within a semi-arid landscape shaped by the Sierra Nevada and the Great Basin.
 </div>
 
-To investigate further, I would begin with historical aerial photographs and satellite images. Where did new housing and commercial areas appear? How much vegetation was replaced by roofs and paved surfaces? I would also locate the weather station and examine whether its immediate surroundings changed. We should know something about the place where a temperature is measured before using the number to describe a whole city.
+The population figures do not explain the temperature trend.
 
-Another step would be to compare Reno's record with stations in less urbanised surroundings, controlling as far as possible for elevation, location and continuity of observations. If they showed a similar trend, that would strengthen the case for regional influences. A larger trend in Reno would give us a reason to examine local conditions more closely, without automatically proving that urbanisation caused the difference.
+They describe a growing population living in a place whose recorded thermal conditions have changed substantially.
 
-This also helps distinguish two concepts that are often mixed together. The *urban heat island* describes a temperature difference between an urban area and a less urbanised reference, commonly most pronounced in air temperature at night. Reno's reported 4.4°C is a long-term trend estimated from a local station record, not a direct measurement of that urban–rural difference.
+Nor is the reported 4.4°C increase a measurement of Reno’s urban heat island.
 
-## A local number and a warming planet
+It is a regression-based estimate from annual temperatures in a local weather-station record.
 
-The title asks whether the planet is really getting warmer. According to the World Meteorological Organization, 2015–2025 were the eleven warmest years in the observational record. The global mean near-surface temperature in 2025 was about 1.43°C above the 1850–1900 average, with an uncertainty of ±0.13°C [6]. The IPCC concludes that human activities have unequivocally caused global warming [7].
+Separating regional warming from the effects of urban development requires a different analysis.
 
-An individual year can still be cooler than the year before. Natural variability does not disappear because the longer trend is upwards.
+Still, the combination gives a planner reason to pause.
+
+**As Reno grows, planners will have to make more decisions about buildings and land in a climate that is itself changing.**
+
+## A warm year, or a warming world?
+
+Before discussing street canyons, vegetation or satellite images, we need to establish the larger background.
+
+**Is the planet really warming, or are we simply passing through a warm period?**
+
+The long-term evidence is clear.
+
+The World Meteorological Organization reports that **2015–2025 were the eleven warmest years in the observational record**.
+
+The global mean near-surface temperature in 2025 was approximately **1.43°C above the 1850–1900 average**, with a reported uncertainty of ±0.13°C. [6]
+
+The IPCC concludes that human activities have unequivocally caused global warming.
+
+It also assesses that global surface temperature has risen faster since 1970 than during any other 50-year period over at least the last **2,000 years**. [7]
+
+An individual year can still be cooler than the one before it because natural variability continues within a warming climate.
+
+> **Climate is not a staircase. It is a trend.**
 
 ![](../images/notes/01/02_Global_Warming_Trend.jpg){width="100%" fig-alt="Global surface temperature anomaly from 1850 to 2025"}
 
@@ -62,21 +122,87 @@ An individual year can still be cooler than the year before. Natural variability
 Global warming is a long-term trend rather than the result of a single hot year.
 </div>
 
-Reno's 4.4°C and the global 1.43°C should not be divided to claim that Reno is warming three times faster. The first is a trend estimate over 1970–2025 at a local station. The second is a global anomaly for one year relative to 1850–1900. The periods, geographical coverage and calculations differ. Land areas also generally warm faster than the global average, which includes the oceans. A meaningful comparison would require compatible temperature records analysed over the same years.
+We should also resist an easy comparison.
 
-For a planning student, there is a useful lesson in this distinction. Before comparing two numbers, find out precisely what was measured, where, when and how the result was calculated.
+Reno’s **4.4°C change since 1970** and the global anomaly of **1.43°C** use different reference periods and describe different quantities.
 
-## What could a planner learn from this?
+Putting them side by side does not tell us how many times faster Reno is warming.
 
-Urban morphology is the arrangement of buildings, streets and open spaces: their heights, widths, spacing and orientation. It influences shade, radiation exchange and wind. Land cover, water, vegetation and heat released by human activity also affect urban thermal conditions [8]. Those relationships help us understand why two streets within the same city can behave differently, even when both experience the same regional warming.
+What they do tell us is that **the global story needs local investigation.**
 
-Measurements are only part of that investigation. A resident might say that an upstairs room becomes unbearable in August, or that floodwater repeatedly collects at the same corner. These statements do not establish a temperature trend or replace a hydraulic model, but they identify experiences and locations that deserve closer examination.
+## Buildings still negotiate with the weather
 
-I keep returning to a recollection by Benny Fillmore, a Washoe elder: “There was a time when everything … all had a voice and we were able to understand” [1]. He was speaking in the context of relationships with land, knowledge and stewardship around Lake Tahoe. His words are not a climate measurement, and I would not use them to explain Reno's temperature ranking. I take from them an invitation to pay attention to what people have learned from living in a particular landscape.
+Here is where urban morphology enters.
 
-Today we can bring together station records, satellite images, field observations and residents' accounts. Each offers different evidence. Working across them is one way to understand how global warming, regional climate and the built environment meet in the places we plan.
+The climate of a street is partly shaped by the arrangement of its buildings: their height, spacing, orientation and relationship to open space.
 
-Reno's ranking is a good reason to start looking. The more interesting work begins when we open the map.
+That geometry influences sunlight, the exchange of radiation and the movement of air.
+
+Materials, vegetation, water and heat released by human activities also help shape urban thermal conditions. [8]
+
+These processes continue whether or not they appear in the planning brief.
+
+A shaded street may offer relief during the day.
+
+The same enclosing geometry can affect ventilation and the release of heat at night.
+
+The useful question is therefore more precise than whether density is “good” or “bad” for climate:
+
+> **Which configuration, in which climate, at what hour, and for whom?**
+
+This is also where older observations become interesting.
+
+> “The upstairs room is unbearable in August.”
+
+That is not a complete thermal assessment, but it is an observation worth investigating.
+
+> “The water always comes back here.”
+
+That is not a flood model either.
+
+Before dismissing it, I would want to know who remembers, how far that memory reaches, and what has since been built upstream.
+
+Inherited knowledge deserves attention and scrutiny.
+
+Some lessons remain useful, while others need to be reconsidered as land use and climate continue to change.
+
+**Respecting that knowledge means taking it seriously enough to examine.**
+
+## Learning to read again
+
+There is something curious about our present situation.
+
+We can observe the Earth from orbit, yet may know very little about the thermal behaviour of the street outside our door.
+
+A satellite can help us estimate land surface temperature.
+
+A weather station can record air temperature.
+
+Neither, on its own, tells the whole story of someone waiting at an unshaded bus stop.
+
+Radiation, wind and humidity matter too.
+
+For planners, choosing the right measurement is part of understanding the place.
+
+So is listening to the people who use it.
+
+Benny Fillmore’s words belong to a particular Washoe context: relationships with land, knowledge and stewardship around Lake Tahoe. [1]
+
+They deserve more than becoming a pleasant quotation above a graph.
+
+They leave me with a question about attention.
+
+What would it mean to become better readers of our cities, to recognise a climatic consequence in the orientation of a building, a lost opportunity in a sealed courtyard, or a warning in a familiar account of a flood?
+
+We have more instruments than ever.
+
+We also have accumulated experience that deserves another hearing.
+
+The planet is warming.
+
+The next task is to understand how that change meets the places we inhabit.
+
+> **The next Urban Climate Note moves one scale down: if the world is warming, what makes cities different?**
 
 ---
 
