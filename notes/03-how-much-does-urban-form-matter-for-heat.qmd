@@ -12,61 +12,31 @@ categories:
 toc: true
 ---
 
-> **前人種樹，後人乘涼。**  
+> 前人種樹，後人乘涼。
+>
 > *Those before us plant the trees; those who come after enjoy the shade.*
 
-There is an old Chinese saying about one generation planting trees so that another can sit in their shade.
+This Chinese saying is familiar in Hong Kong, although it did not originate specifically there. In 2018, the Hong Kong government used it while discussing long-term urban greening. [1]
 
-It is not a saying that originated specifically in Hong Kong, but it remains familiar there. In 2018, the Hong Kong government used the same expression while discussing long-term urban greening.[1]
+For urban climate, the image is quite literal. A tree planted today may shade a pavement decades from now. Streets and buildings can last just as long. Their height, spacing and orientation influence where sunlight reaches the ground, where shade falls, how much sky is visible and how freely air moves.
 
-For urban climate, the metaphor is unusually literal.
+In Hong Kong, those relationships can change within a short walk. One street opens toward the sky and prevailing wind; a few blocks away, another sits between closely spaced towers. They share a weather forecast, but the thermal conditions at street level can differ.
 
-A tree planted today may shade a pavement decades from now. Streets and buildings can last just as long. Their height, spacing and orientation influence where sunlight reaches the ground, where shade falls, how much of the sky remains visible and how freely air moves through the city.
-
-Hong Kong makes these relationships particularly visible.
-
-Its compact vertical form can change considerably within a short walk. One street may open toward the sky and prevailing wind. A few blocks away, another may sit between closely spaced towers.
-
-The weather forecast can be identical.
-
-The thermal conditions at street level do not have to be.
+How much urban form matters depends on the time of day, the season and the temperature we are measuring. Hong Kong’s research gives us several ways to examine those differences.
 
 ## Two streets, one city
 
-Imagine two streets during the same hot afternoon.
+Imagine two streets during the same hot afternoon. One is relatively open, with lower or more widely spaced buildings. More sky is visible, and more direct sunlight reaches the ground. The other sits in a deep street canyon. Tall buildings shade much of it for part of the day, restrict its exposure to the sky and alter airflow.
 
-One is relatively open. Buildings are lower or farther apart, more sky is visible and the ground receives more direct solar radiation.
-
-The other sits within a deep street canyon. Tall buildings shade much of the street for part of the day, but they also restrict its exposure to the sky and alter airflow.
-
-Calling the second street simply "denser" does not describe these differences very well.
-
-Urban morphology deals with the physical configuration of the city: building height, building coverage, spacing, street width, orientation, vegetation, open space and the three-dimensional relationships among them.
-
-Two neighbourhoods can therefore have similar development densities and still produce very different urban environments.
-
-For heat, those differences matter.
-
+Calling the second street “denser” leaves much of this unexplained. Urban morphology describes the city’s physical configuration: building height and coverage, spacing, street width, orientation, vegetation, open space and their three-dimensional relationships. Two neighbourhoods can have similar development densities and still differ in ways that affect their thermal conditions.
 
 ## Shade does not tell the whole story
 
-Shade is one of the most immediate thermal effects of urban form.
+A building that blocks direct sunlight can make a substantial difference to a pedestrian on a hot afternoon. The same street’s ability to cool after sunset needs a separate look.
 
-A building that blocks direct sunlight can reduce solar exposure at street level. During a hot afternoon this can make a substantial difference to the conditions experienced by pedestrians.
+Buildings, pavements and other surfaces absorb energy during the day and release some of it later. The Hong Kong Observatory identifies heat stored in buildings, reduced sky exposure, heat from human activities and lower wind speeds in densely developed areas among the mechanisms behind the urban heat island. It describes Hong Kong’s urban heat island as primarily a nighttime phenomenon. [2]
 
-But shade describes only part of the urban energy balance.
-
-Buildings, pavements and other surfaces absorb energy during the day and release some of it later. Their surroundings influence how that heat is exchanged with the atmosphere.
-
-The Hong Kong Observatory identifies several mechanisms behind the urban heat island effect, including heat stored in buildings, reduced exposure to the sky, anthropogenic heat and lower wind speeds in densely developed areas.[2]
-
-The Observatory also describes Hong Kong's urban heat island as primarily a nighttime phenomenon.[2]
-
-That makes the geometry more complicated than a simple choice between shade and sun.
-
-A street canyon may protect pedestrians from direct solar radiation during part of the day while also restricting longwave heat loss or ventilation after sunset.
-
-A shaded street is therefore not necessarily a street that cools efficiently.
+A street canyon may provide useful daytime shade while restricting longwave heat loss or ventilation after sunset. A shaded street is therefore not necessarily one that cools efficiently at night.
 
 ![Conceptual comparison of daytime shading and nighttime cooling in an urban street canyon.](../images/notes/03/02_Shade_Is_Not_Cooling.png){width="100%"}
 
@@ -74,30 +44,19 @@ A shaded street is therefore not necessarily a street that cools efficiently.
 The same geometry can produce useful daytime shade while affecting radiative cooling and ventilation after sunset.
 </div>
 
-
 ## Looking at the sky from the ground
 
-One way to describe this geometry is the **Sky View Factor**, or SVF.
+Stand in the middle of a street and look up. In an open area, much of the hemisphere above you is visible. Between tall, closely spaced buildings, the opening is smaller. The sky-view factor, or SVF, describes that sky exposure: higher in the open area, lower in the enclosed street.
 
-Stand in the middle of a street and look upward.
+Its relationship with temperature changes with the conditions being studied.
 
-In an open area, much of the hemisphere above you is visible. The SVF is relatively high.
+In 2024, Xu and colleagues combined remotely sensed land surface temperature with mobile air-temperature observations in Hong Kong. They examined floor area ratio, building coverage, SVF, mean building height, road density and vegetation coverage. [3] Floor area ratio describes floor space relative to site area; building coverage describes how much of the ground is occupied by buildings. They capture different aspects of development.
 
-Between tall, closely spaced buildings, the visible opening becomes smaller. The SVF is lower.
+The variables associated with daytime thermal conditions differed from those associated with nighttime conditions. At neighbourhood scale, two-dimensional surface characteristics were particularly important during the day. Both two-dimensional and three-dimensional morphology were relevant at night. [3]
 
-The concept is simple. Its relationship with urban temperature is not.
+A study led by Sze Ping Hui examined daytime and nighttime land surface temperature during hot and cold periods. SVF was the most influential morphology indicator in their model, but its relationship with surface temperature changed by season and time of day. The nonlinear thresholds differed between January and July, and between day and night. Building height’s thermal relationship also could not be adequately represented by one coefficient or a universal threshold. [5]
 
-A 2024 Hong Kong study by Xu and colleagues combined remotely sensed land surface temperature with mobile air-temperature observations. The researchers examined variables including floor area ratio, building coverage, SVF, mean building height, road density and vegetation coverage.[3]
-
-Their results showed that the morphology variables associated with daytime thermal conditions were not the same as those associated with nighttime conditions. At neighbourhood scale, two-dimensional surface characteristics were particularly important during the day, while both two-dimensional and three-dimensional morphology became relevant at night.[3]
-
-Another Hong Kong study published in 2024 examined 4,474 street-level air-temperature measurements and compared conventional regression with Random Forest and artificial neural network models.[4]
-
-The relationships between urban form and localized air temperature were predominantly nonlinear. Random Forest and the neural-network model also predicted the observations more accurately than linear regression.[4]
-
-This matters because urban climate relationships are often reduced to statements such as "higher buildings make streets hotter" or "a lower SVF increases temperature."
-
-The evidence from Hong Kong does not support one rule that works at every time and under every condition.
+These findings give SVF and building height a place in planning analysis, with their interpretation tied to the season, hour and temperature variable being examined.
 
 ![Diagram showing building height, street width and Sky View Factor in contrasting urban canyons.](../images/notes/03/03_Urban_Geometry_SVF.png){width="100%"}
 
@@ -105,88 +64,37 @@ The evidence from Hong Kong does not support one rule that works at every time a
 Building height, street width and sky exposure describe different aspects of urban form. Similar density does not necessarily mean similar geometry.
 </div>
 
+## Predicting temperature is not the same as explaining its cause
 
-## The same geometry can behave differently at different times
+Another 2024 Hong Kong study examined 4,474 street-level air-temperature measurements. The researchers compared conventional regression with Random Forest and artificial neural network models. Relationships between urban form and local air temperature were predominantly nonlinear, and the latter two models predicted the observations more accurately than linear regression. [4]
 
-A recent study led by Sze Ping Hui examined daytime and nighttime land surface temperature in Hong Kong during both hot and cold periods.[5]
+Better prediction does not, by itself, establish cause and effect. It does help show why statements such as “higher buildings make streets hotter” or “lower SVF increases temperature” need qualification. The Hong Kong evidence does not support one rule for every hour and condition.
 
-Sky View Factor emerged as the most influential morphology indicator in their model, but its relationship with land surface temperature changed with season and time of day.
+## How far does a street’s influence extend?
 
-The study identified different nonlinear thresholds for January and July, and for daytime and nighttime conditions.[5]
+A study in Kowloon combined vehicle-mounted measurements of near-surface air temperature, helicopter-derived land surface temperature and Google Street View imagery. The researchers examined how thermal influences associated with individual streetscape elements persisted as the vehicle moved through the city. [6]
 
-Building height showed the same general problem: its thermal relationship could not be represented adequately by one coefficient or one universal threshold.
+Under the early-evening conditions studied, the combined warming influence associated with land surface temperature, roads and buildings extended laterally up to roughly 40 metres. The cooling influence associated with vegetation was more localised, within roughly 15 metres. [6]
 
-This does not mean that SVF or building height are unreliable planning variables.
+Those distances describe a particular city, method and set of measurement conditions. They cannot be applied as universal design rules.
 
-It means that their interpretation depends on context.
+What interests me is that the thermal influence extended beyond the edge of an individual parcel or feature. For planning, that raises a question about continuity. Could a short segment of planting behave differently from a connected green corridor? What about the continuity of paving materials, building façades or ventilation routes? These are questions to investigate, rather than answers supplied by the two distances alone.
 
-Time matters.
+## Reading a heat map
 
-Season matters.
+A satellite can identify a hot surface. A weather station measures the air around its sensor. Mobile observations describe conditions along a route at a particular time. We need to keep those differences in view when interpreting a heat map.
 
-So does the temperature variable being measured.
+Adeniran and colleagues examined daytime and nighttime relationships between air and surface temperature across Hong Kong’s land-use categories and Local Climate Zones in a 2026 study. Surface temperature was an important predictor of air temperature, but models improved when land use, urban configuration and time of day were included. Compact built environments, vegetation and different land-use classes contributed differently to the observed patterns. [7]
 
-
-## How far does the influence of a street extend?
-
-Urban heat research is also moving toward much finer spatial scales.
-
-A recent study in Kowloon combined vehicle-mounted measurements of near-surface air temperature, helicopter-derived land surface temperature and Google Street View imagery.[6]
-
-The researchers examined how the thermal influence associated with individual streetscape elements persisted as the measurement vehicle moved through the city.
-
-Under the early-evening conditions they studied, the combined warming influence associated with land surface temperature, roads and buildings extended laterally up to roughly **40 metres**. The cooling influence associated with vegetation was much more localized, within roughly **15 metres**.[6]
-
-These numbers are interesting, but they should not be converted into universal design rules.
-
-They describe a particular city, method and set of measurement conditions.
-
-The more useful finding is spatial.
-
-Thermal influence did not stop at the edge of an individual parcel or feature.
-
-That raises a planning question about continuity. A short segment of planting may behave differently from a connected green corridor. The same may be true for paving materials, building façades and ventilation routes.
-
-## From heat maps to urban form
-
-There is another complication.
-
-A satellite can identify a hot surface. A weather station measures the temperature of the air around its sensor. A mobile observation describes conditions along a particular route at a particular time.
-
-These measurements are related, but they do not describe exactly the same thing.
-
-A 2026 Hong Kong study by Adeniran and colleagues examined daytime and nighttime relationships between air temperature and surface temperature across land-use categories and Local Climate Zones.[7]
-
-Surface temperature was an important predictor of air temperature, but the models improved when land use, urban configuration and time of day were included. Compact built environments, vegetation and different land-use classes contributed differently to the observed thermal patterns.[7]
-
-The implication is important for urban planning.
-
-A heat map is not self-explanatory.
-
-Before using it to diagnose a neighbourhood, we need to know what was measured, at what scale, at what time and under which urban conditions.
-
+Before using a heat map to diagnose a neighbourhood, I would want to know what was measured, at what scale and time, and under which urban conditions.
 
 ## What does this mean for planning?
 
-Urban form is difficult to change after it has been built.
+Street widths, building spacing, height patterns and open-space layouts can remain in place for decades. Their thermal consequences deserve attention before construction, while those choices are still easier to change.
 
-Street widths, building spacing, height patterns and the arrangement of open spaces can remain in place for decades.
+Hong Kong’s evidence offers little support for a blanket prescription of lower density or shorter buildings. It directs us toward a more specific question: how does a particular configuration affect solar exposure, ventilation, heat storage and nighttime cooling in the climate of that place?
 
-Their thermal consequences therefore deserve attention before the next heatwave, and ideally before construction.
-
-This does not lead to a simple argument for lower density or shorter buildings.
-
-Hong Kong is a useful example precisely because its evidence resists that kind of conclusion.
-
-The more useful planning question is narrower:
-
-**How does a particular urban configuration affect solar exposure, ventilation, heat storage and nighttime cooling under the climatic conditions of that place?**
-
-The answer may influence decisions about street proportions, setbacks, building spacing, orientation, vegetation, open-space networks and ventilation corridors.
-
-These decisions are usually described in planning language.
-
-Their consequences are partly climatic.
+The answer can inform street proportions, setbacks, building spacing and orientation, as well as vegetation, open-space networks and ventilation corridors. These familiar planning decisions also help shape the climate people experience.
 
 ![Hong Kong street scene illustrating how thermal effects of urban form depend on context.](../images/notes/03/04_Thermal_Influence.png){width="100%" fig-alt="Urban form has no single thermal effect. Context changes the answer."}
 
@@ -194,39 +102,15 @@ Their consequences are partly climatic.
 Urban morphology interacts with time of day, season and the temperature variable being measured. A single geometric indicator cannot describe every thermal condition.
 </div>
 
-
-## The streets we leave behind
-
-The old saying is worth returning to:
-
-> **前人種樹，後人乘涼。**  
-> *Those before us plant the trees; those who come after enjoy the shade.*
-
-Future residents will inherit the trees we plant.
-
-They will also inherit the buildings around them, the width of the streets, the gaps between towers and the amount of sky that remains visible from the pavement.
-
-Urban form is therefore more than a record of how a city grew.
-
-It also becomes part of the climatic environment experienced by the people who come after us.
-
+The old saying leaves us thinking about the shade future residents will inherit. They will inherit the surrounding buildings too, along with street widths, gaps between towers and the amount of sky visible from the pavement. The urban form we leave behind will be part of their climatic environment.
 
 ## Next: What temperature are we actually measuring?
 
-Satellites have transformed urban climate research.
+Satellites let us observe large areas repeatedly and compare thermal patterns across cities and through time. Much of my own research relies on that capability.
 
-They allow us to observe large areas repeatedly and to compare thermal patterns across cities and through time. Much of my own research relies on this capability.
+Thermal satellite sensors primarily tell us about land surface temperature. People live in the air above those surfaces. The two temperatures are connected, but they are not interchangeable.
 
-But thermal satellite sensors primarily tell us about **land surface temperature**.
-
-People live in the air above those surfaces.
-
-The two are connected, but they are not interchangeable.
-
-The next Urban Climate Note will examine that distinction:
-
-### **If a satellite says a neighbourhood is hot, does that mean the air there is equally hot?**
-
+The next Urban Climate Note asks: if a satellite says a neighbourhood is hot, does that mean the air there is equally hot?
 
 ## Sources
 
