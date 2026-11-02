@@ -78,7 +78,7 @@ A study by Seeberg et al. (2022) offers relevant evidence on Stuttgart's surface
 
 The night photograph returns us to the process behind Reichelenberg's planning restrictions. Cold-air drainage develops under suitable nighttime conditions, while the satellite study examined surface temperatures from daytime observations.
 
-![Maps of surface urban heat island intensity in Stuttgart for two periods and the change between them.](../images/notes/05/05_Stuttgart_SUHI.webp)
+![Maps of surface urban heat island intensity in Stuttgart for two periods and the change between them.](../images/notes/05/05_Stuttgart_SUHI_corrected.jpg)
 
 *Surface urban heat island intensity, 2004–2008 and 2016–2020, and change between the periods. Seeberg et al. (2022), Figure 1, [Urban Science, 6(4), 82](https://doi.org/10.3390/urbansci6040082), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Figure adapted to the Urban Climate Notes layout. The maps show surface temperature differences, not air temperature or the measured effect of the Reichelenberg plan.*
 

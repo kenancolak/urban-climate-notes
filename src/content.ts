@@ -29,7 +29,7 @@ const noteFiveCover = optimizedImage('05_Stuttgart_Cover');
 const noteFiveHills = optimizedImage('05_Stuttgart_Hills');
 const noteFivePlanning = optimizedImage('05_Stuttgart_Planning');
 const noteFiveNight = optimizedImage('05_Stuttgart_Night');
-const noteFiveSUHI = optimizedImage('05_Stuttgart_SUHI');
+const noteFiveSUHI = `${import.meta.env.BASE_URL}images/optimized/05_Stuttgart_SUHI_corrected.jpg`;
 
 export type Note = {
   number: string;
@@ -137,7 +137,7 @@ export const notes: Note[] = [
       'notes/05/02_Stuttgart_Hills.webp': noteFiveHills,
       'notes/05/03_Stuttgart_Planning.webp': noteFivePlanning,
       'notes/05/04_Stuttgart_Night.webp': noteFiveNight,
-      'notes/05/05_Stuttgart_SUHI.webp': noteFiveSUHI,
+      'notes/05/05_Stuttgart_SUHI_corrected.jpg': noteFiveSUHI,
     },
   },
 ];
