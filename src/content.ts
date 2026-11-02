@@ -3,6 +3,7 @@ import noteOneSource from '../notes/01-is-the-planet-really-warming.qmd?raw';
 import noteTwoSource from '../notes/02-when-the-city-refuses-to-cool.qmd?raw';
 import noteThreeSource from '../notes/03-how-much-does-urban-form-matter-for-heat.qmd?raw';
 import noteFourSource from '../notes/04-what-temperature-are-we-actually-measuring.qmd?raw';
+import noteFiveSource from '../notes/05-can-you-zone-the-wind.qmd?raw';
 
 const optimizedImage = (filename: string) =>
   `${import.meta.env.BASE_URL}images/optimized/${filename}.webp`;
@@ -24,6 +25,11 @@ const noteFourECOSTRESS = optimizedImage('04_ECOSTRESS_Burn_Risk');
 const noteFourStadium = optimizedImage('04_Glendale_Stadium_Surface_Context');
 const noteFourNeighborhood = optimizedImage('04_Phoenix_Neighborhood_Thermal_Context');
 const noteFourVIIRS = optimizedImage('04_VIIRS_Night_LST');
+const noteFiveCover = optimizedImage('05_Stuttgart_Cover');
+const noteFiveHills = optimizedImage('05_Stuttgart_Hills');
+const noteFivePlanning = optimizedImage('05_Stuttgart_Planning');
+const noteFiveNight = optimizedImage('05_Stuttgart_Night');
+const noteFiveSUHI = optimizedImage('05_Stuttgart_SUHI');
 
 export type Note = {
   number: string;
@@ -114,6 +120,24 @@ export const notes: Note[] = [
       'notes/04/03_Glendale_Stadium_Surface_Context.png': noteFourStadium,
       'notes/04/04_Phoenix_Neighborhood_Thermal_Context.png': noteFourNeighborhood,
       'notes/04/05_VIIRS_Night_LST.png': noteFourVIIRS,
+    },
+  },
+  {
+    number: '05',
+    slug: 'can-you-zone-the-wind',
+    title: 'Can You Zone the Wind?',
+    subtitle: 'Stuttgart, cold-air corridors, and the limits of planning',
+    city: 'Stuttgart, Germany',
+    date: 'November 2, 2026',
+    categories: ['Urban Climate', 'Planning Law', 'Urban Planning', 'Stuttgart', 'Climate Adaptation'],
+    cover: noteFiveCover,
+    source: noteFiveSource,
+    imageFiles: {
+      'notes/05/01_Stuttgart_Cover.webp': noteFiveCover,
+      'notes/05/02_Stuttgart_Hills.webp': noteFiveHills,
+      'notes/05/03_Stuttgart_Planning.webp': noteFivePlanning,
+      'notes/05/04_Stuttgart_Night.webp': noteFiveNight,
+      'notes/05/05_Stuttgart_SUHI.webp': noteFiveSUHI,
     },
   },
 ];

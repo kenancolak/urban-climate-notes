@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 const dist = path.resolve('dist');
 async function files(dir) { const entries = await readdir(dir, { withFileTypes: true }); return (await Promise.all(entries.map(e => e.isDirectory() ? files(path.join(dir,e.name)) : path.join(dir,e.name)))).flat(); }
 const htmlFiles = (await files(dist)).filter(p => p.endsWith('/index.html'));
-assert.equal(htmlFiles.length, 11, 'Expected 11 statically rendered routes');
+assert.equal(htmlFiles.length, 12, 'Expected 12 statically rendered routes');
 let links = 0, images = 0;
 for (const file of htmlFiles) {
  const html = await readFile(file,'utf8');
@@ -27,7 +27,7 @@ for (const file of htmlFiles) {
   if(targetUrl.hash) assert(targetContent.toString().includes(`id="${targetUrl.hash.slice(1)}"`), `Fragment exists: ${url}`);
  }
 }
-const preserved=execFileSync('git',['diff','--name-only','cd3eb17','--','notes','images'],{encoding:'utf8'}).trim();
+const preserved=execFileSync('git',['diff','--name-only','cd3eb17','--','notes/01-is-the-planet-really-warming.qmd','notes/02-when-the-city-refuses-to-cool.qmd','notes/03-how-much-does-urban-form-matter-for-heat.qmd','notes/04-what-temperature-are-we-actually-measuring.qmd','images/notes/01','images/notes/02','images/notes/03','images/notes/04'],{encoding:'utf8'}).trim();
 assert.equal(preserved,'','Existing notes and source images remain unchanged');
 console.log(`PASS: ${htmlFiles.length} static routes; ${links} internal links; ${images} images with alt attributes; canonical, metadata, JSON-LD and fragment targets; original notes/images unchanged.`);
 
@@ -63,7 +63,7 @@ for (const file of htmlFiles) {
 }
 assert.equal(bundles.size, 1, 'Every route references the same application bundle');
 const sitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
-assert.equal((sitemap.match(/<loc>https:\/\/www\.kenancolak\.com\//g) || []).length, 11);
+assert.equal((sitemap.match(/<loc>https:\/\/www\.kenancolak\.com\//g) || []).length, 12);
 const cv = await readFile(path.join(dist, 'cv/index.html'), 'utf8');
 const cvSections = JSON.parse(await readFile('src/cv-content.json', 'utf8'));
 const headings = [...cv.matchAll(/<h2\b[^>]*>([^<]+)<\/h2>/g)].map(m => m[1]);

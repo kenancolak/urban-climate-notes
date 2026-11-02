@@ -1,0 +1,135 @@
+---
+title: "Can You Zone the Wind?"
+subtitle: "Stuttgart, cold-air corridors, and the limits of planning"
+author: "Kenan Çolak"
+date: "2026-11-02"
+description: "A hillside planning dispute in Stuttgart shows how climate evidence enters binding land-use decisions and why legal validity is different from measured cooling."
+categories: [Urban Climate, Urban Planning, Planning Law, Stuttgart, Climate Adaptation]
+toc: false
+---
+
+## A line through a hillside
+
+On 3 April 2008, a property owner and his wife objected to a proposed development plan in Stuttgart. They argued that the new building boundaries were too restrictive, claiming that their existing house would no longer fit within the designated building area. They also feared a substantial loss in property value and wanted greater flexibility for future construction [1].
+
+The property was in Reichelenberg, a hillside neighbourhood close to Stuttgart's centre. The municipality wanted to preserve the area's gardens and relatively open pattern of development, partly to protect the movement of cool air towards the densely built-up valley.
+
+The owners were concerned about what they could build on their land. The municipality was looking at the environmental function of the hillside. Stuttgart lies in Baden-Württemberg, southwestern Germany. Much of its central area occupies a basin surrounded by residential and vegetated slopes. A dispute over one property's building boundaries eventually reached the courts.
+
+The case lets us follow climate information from scientific analysis to a legally binding decision, and see how that decision was challenged.
+
+![Locator map of Stuttgart in southwestern Germany.](https://commons.wikimedia.org/wiki/Special:FilePath/Locator_map_S_in_Germany.svg)
+
+*Stuttgart, Baden-Württemberg, southwestern Germany. Location map: TUBS, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Locator_map_S_in_Germany.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
+
+## The hills and the air
+
+Stuttgart's interest in urban climatology goes back further than today's climate adaptation policies. In 1938, the city council decided to employ a qualified meteorologist to investigate the relationship between local climatic conditions and urban development [2]. The city's topography helps explain that early interest.
+
+During calm nights, the ground on surrounding slopes loses heat. Air close to the surface can cool, become denser and move downhill under gravity. This process, known as *cold-air drainage*, can transport cooler air towards lower-lying urban areas. Its direction and strength depend on the terrain, weather and obstacles along the way. Buildings, embankments and other structures can interfere with these flows, particularly when several developments alter a connected route.
+
+![The Hills Shape the Air: Stuttgart's wooded slopes and hillside neighbourhoods.](../images/notes/05/02_Stuttgart_Hills.webp)
+
+*Heslach and Karlshöhe in Stuttgart. Photograph: MSeses (2007), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Heslach_und_Karlsh%C3%B6he.jpg), public domain. Urban Climate Notes typography and layout added. The photograph illustrates terrain, not a measured cold-air corridor.*
+
+Planning becomes complicated when the scale of the environmental process differs from the scale of the decision. A garden belongs to a particular property. Air moving across it may have travelled down a much longer slope and may continue into another neighbourhood. Evaluating each plot separately can miss that connection.
+
+Stuttgart's climate mapping was intended to make these relationships visible. The regional Climate Atlas published in 2008 brought temperature patterns, local climate characteristics and air circulation into a form that planning authorities could use. The maps helped identify areas important for ventilation. Protecting those areas required decisions about land use.
+
+## Reichelenberg: from guidance to a binding plan
+
+On 2 October 2007, Stuttgart's Committee for Environment and Technology endorsed the *Rahmenplan Halbhöhenlagen*, a framework plan for the city's hillside areas [1, 3]. The document classified areas according to their environmental sensitivity, considering vegetation, landscape character and climatic functions.
+
+Reichelenberg fell within *Qualitätsbereich 1*. New buildings and extensions in this category required particularly careful consideration because of their potential effects on the hillside. The framework plan established planning guidance; it did not directly alter individual landowners' building rights.
+
+In June 2008, Stuttgart adopted the development plan *Am Reichelenberg/Hohenheimer Straße (Stgt 131)*, covering approximately 6.2 hectares [1, 4]. The plan regulated buildable areas, building dimensions and other development conditions. The municipality sought to retain the existing pattern of relatively dispersed buildings and private green spaces, and to prevent further construction that could obstruct cold-air movement.
+
+Climate was one part of the justification. The plan also addressed vegetation, biodiversity, townscape and the character of the hillside. These objectives had consequences for specific properties: the building boundaries established where owners could construct or extend buildings.
+
+## Who decides where to build?
+
+![Who Decides Where to Build? Photograph of buildings on Hohenheimer Straße.](../images/notes/05/03_Stuttgart_Planning.webp)
+
+*Buildings along Hohenheimer Straße. Photograph: Zinnmann (2018), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20180218_Stuttgart_-_Hohenheimer_Stra%C3%9Fe_85_u_87.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Typography and layout added. Adapted image shared under CC BY-SA 3.0. This is a streetscape illustration, not the claimant's property.*
+
+The Reichelenberg dispute reached the Baden-Württemberg Higher Administrative Court (*Verwaltungsgerichtshof*, case 8 S 1044/09) [1]. Stuttgart had responded to the original objections, maintaining that the owners' main building stood within the designated building area, although a subordinate extension crossed the proposed boundary. The judges examined the drawing of those boundaries, the planning justification and the treatment of neighbouring properties.
+
+Two German planning instruments are central to the case. A *Rahmenplan* is an informal framework plan: it guides a municipality's objectives but has no direct binding effect on individual property owners. A *Bebauungsplan* is a legally binding local development plan, regulating such matters as permitted uses, building dimensions and the buildable parts of a property.
+
+Under Section 1(6)(11) of the German Building Code (*Baugesetzbuch*), the results of other urban planning documents adopted by a municipality are among the matters to be considered when preparing land-use plans. The Higher Administrative Court rejected the challenge to the validity of Stgt 131 in 2011. It explained that Stuttgart could consider the hillside framework plan while still having to weigh the relevant public and private interests. The framework document was not an automatic instruction binding subsequent decisions.
+
+The owner continued the proceedings before the Federal Administrative Court (*Bundesverwaltungsgericht*). On 15 March 2012, the federal court rejected his complaint against the refusal to allow a further appeal [5]. It did not carry out a new full review of the development plan's merits. In rejecting the complaint, it restated an established principle: municipalities may pursue genuine planning objectives aimed at preserving existing urban conditions, including preventing some forms of development. The restrictions still have to meet the applicable legal requirements.
+
+For Reichelenberg, the municipality's concerns about climate, vegetation and landscape formed part of that planning purpose. The climate analysis identified environmental functions, the framework plan recorded the municipality's objectives, and the binding development plan translated those objectives into restrictions on specific properties. The Higher Administrative Court reviewed the justification and the balancing of interests. The federal court declined to admit a further appeal.
+
+A separate Stuttgart case offers useful context. In December 2014, the same Higher Administrative Court examined another development plan involving the *Rahmenplan Halbhöhenlagen* (case 8 S 1400/12) [6]. It again explained that the framework plan had neither substantive nor procedural binding force over later development plans. In that case, the claimant had not substantiated why the planning analysis of the area's cold-air functions was incorrect. The two proceedings should not be confused: the 2014 ruling was not part of the Reichelenberg litigation.
+
+**Can you zone the wind?** A municipality can regulate the land through which air moves. Stuttgart's experience shows how those restrictions may acquire legal force and be tested in court. Whether the protected spaces actually deliver the intended cooling calls for a different kind of evidence.
+
+## Did Stuttgart get cooler?
+
+The Reichelenberg case tells us how the restrictions were justified. Their climatic effect would need observations or modelling of local airflow, a record of what was built and an appropriate comparison with conditions under further development.
+
+A study by Seeberg et al. (2022) offers relevant evidence on Stuttgart's surface temperatures, although it did not evaluate Reichelenberg's restrictions [7]. The researchers compared Landsat-derived land surface temperature for 2004–2008 and 2016–2020. Average surface urban heat island intensity in Stuttgart's urban areas declined from approximately **5.3°C to 3.9°C**, a reduction of **1.4°C**. Average absolute land surface temperature, meanwhile, **increased by 2.5°C**.
+
+![The City After Dark: Stuttgart at night.](../images/notes/05/04_Stuttgart_Night.webp)
+
+*Stuttgart at night, viewed from the television tower. Photograph: Schoeniaw (2008), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stuttgart_at_night.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Typography and layout added. Adapted image shared under CC BY-SA 3.0. The photograph does not record cold-air movement.*
+
+The night photograph returns us to the process behind Reichelenberg's planning restrictions. Cold-air drainage develops under suitable nighttime conditions, while the satellite study examined surface temperatures from daytime observations.
+
+![Maps of surface urban heat island intensity in Stuttgart for two periods and the change between them.](../images/notes/05/05_Stuttgart_SUHI.webp)
+
+*Surface urban heat island intensity, 2004–2008 and 2016–2020, and change between the periods. Seeberg et al. (2022), Figure 1, [Urban Science, 6(4), 82](https://doi.org/10.3390/urbansci6040082), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Figure adapted to the Urban Climate Notes layout. The maps show surface temperature differences, not air temperature or the measured effect of the Reichelenberg plan.*
+
+How can the urban heat island become weaker while the city's surfaces become hotter? Surface urban heat island intensity describes the temperature difference between urban surfaces and a reference environment. Absolute land surface temperature concerns the surfaces themselves. If the reference environment also warms, the gap can narrow even when urban surface temperatures rise.
+
+Seeberg and colleagues examined locations with strong changes. Green roofs and changes in surface reflectivity appeared among the cooling locations; many warming locations were associated with newly sealed surfaces. These results help describe the consequences of land-cover change. They cannot establish that protecting ventilation corridors produced the overall reduction in Stuttgart's surface urban heat island.
+
+There is a spatial limitation too. The study worked with Landsat temperature products on a 30-metre grid, while the underlying thermal observations were collected at coarser native resolutions: approximately 120 metres for Landsat 5 and 100 metres for Landsat 8. Resampling gives a finer analysis grid, not independent measurements for each 30-metre square.
+
+Daytime satellite observations cannot directly describe the nighttime movement of cold air down the Reichelenberg hillside. An assessment of that planning argument would need local air-temperature and airflow evidence or suitably evaluated modelling, with meteorological conditions and actual development taken into account.
+
+The **1.4°C** reduction is an interesting citywide surface comparison, but the study did not test whether Stuttgart's ventilation corridor policies caused it.
+
+## A new atlas, familiar decisions
+
+In July 2025, the Verband Region Stuttgart and the University of Stuttgart introduced a new digital regional Climate Atlas, replacing the 2008 edition [8]. It provides information on heat, heavy rainfall, cold-air flows, exposed populations and future climate scenarios. Its pilot areas included NeckarPark and the Neckar valley axis (*Neckartalachse*).
+
+The updated maps help planners examine development proposals alongside local heat exposure, drainage and ventilation patterns. Some sites suitable for housing or other urban uses also carry environmental functions extending beyond their property boundaries. Authorities must explain what the evidence establishes and how proposed restrictions are justified.
+
+Reichelenberg documents how a framework plan entered a binding development plan and how that plan survived judicial review. It also leaves an empirical question that the court proceedings did not answer: are the spaces kept open still performing the climatic function attributed to them?
+
+## The air we leave behind
+
+There is a familiar Swabian saying: *Schaffe, schaffe, Häusle baue.* Work hard, work hard, build yourself a little house [9]. The expression is associated with home ownership in southwestern Germany and has become a regional stereotype, repeated with affection or irony.
+
+On Reichelenberg, a property owner and his wife wanted to preserve opportunities for future construction. Stuttgart wanted to retain open spaces on the hillside for environmental and planning reasons. The municipality had to weigh those interests, and the resulting restrictions survived the challenge to the development plan.
+
+A house is built on a plot. The air moving past it follows a much larger physical system. Stuttgart chose to protect some of the spaces through which that air may move.
+
+I would like to know what happens there on a calm summer night.
+
+## Sources
+
+[1] Verwaltungsgerichtshof Baden-Württemberg. (2011). *8 S 1044/09*. Normenkontrollverfahren concerning *Bebauungsplan Am Reichelenberg/Hohenheimer Straße (Stgt 131)*. [Published judgment](https://recht.nulegal.eu/rechtsprechung/vgh-baden-wuerttemberg/2011-11-15/8-s-1044-09). The published judgment and the subsequent federal court record give different dates for the 2011 decision; the case number is used here.
+
+[2] Landeshauptstadt Stuttgart. *[Klima in der Stadtplanung](https://www.stuttgart.de/leben/umwelt/klima/klimawandel/klima-in-der-planung)*. Municipal history, including the 1938 meteorologist decision.
+
+[3] Landeshauptstadt Stuttgart. (2007). *Rahmenplan Halbhöhenlagen*, GRDrs 514/2007, endorsed 2 October 2007. See [1] for its planning status.
+
+[4] Landeshauptstadt Stuttgart. (2008). *Bebauungsplan Am Reichelenberg/Hohenheimer Straße (Stgt 131)*, GRDrs 341/2008. [Municipal planning documents](https://www.domino1.stuttgart.de/web/KSD/ksdarchiv.nsf/AlleDok/E21101C265F3510BC1257C6A00316BB6/%24File/3871067140D466A3C125743B002FCD54.pdf?OpenElement=).
+
+[5] Bundesverwaltungsgericht. (15 March 2012). *Beschluss 4 BN 9.12*. [Official decision](https://www.bverwg.de/150312B4BN9.12.0).
+
+[6] Verwaltungsgerichtshof Baden-Württemberg. (18 December 2014). *8 S 1400/12*. Separate proceedings concerning the *Rahmenplan Halbhöhenlagen*. [Published judgment](https://recht.nulegal.eu/rechtsprechung/vgh-baden-wuerttemberg/2014-12-18/8-s-1400-12).
+
+[7] Seeberg, G., Hostlowsky, A., Huber, J., Kamm, J., Lincke, L., & Schwingshackl, C. (2022). Evaluating the potential of Landsat satellite data to monitor the effectiveness of measures to mitigate urban heat islands: A case study for Stuttgart (Germany). *Urban Science, 6*(4), 82. [DOI: 10.3390/urbansci6040082](https://doi.org/10.3390/urbansci6040082).
+
+[8] Verband Region Stuttgart. (18 July 2025). *Neuer regionaler Klimaatlas für die Region Stuttgart hilft bei Anpassung an den Klimawandel*. [Official announcement](https://www.region-stuttgart.org/fileadmin/Verband_Region_Stuttgart/Presseinformationen/2025/PI_20250718_Neuer_digitaler_Klimaatlas_Region_Stuttgart.pdf). [Interactive Climate Atlas](https://klimaatlas.region-stuttgart.org/).
+
+[9] Landesbildungsserver Baden-Württemberg. *Schaffe, schaffe, Häusle baue! Die Wirtschaftswunderzeit in St. Georgen im Schwarzwald*. [Regional historical background](https://www.schule-bw.de/faecher-und-schularten/gesellschaftswissenschaftliche-und-philosophische-faecher/landeskunde-landesgeschichte/module/bp_2016/brd_und_ddr/1950er-und-1960er-jahre/schaffe-schaffe-haeusle-baue-die-wirtschaftswunderzeit-in-st-georgen-im-schwarzwald/bedeutung.htm).
+
+## Image credits and licenses
+
+Cover: Andreas Praefcke, [Stuttgart vom Fernsehturm 1](https://commons.wikimedia.org/wiki/File:Stuttgart_vom_Fernsehturm_1.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), typography and layout added. Hills: MSeses, [Heslach und Karlshöhe](https://commons.wikimedia.org/wiki/File:Heslach_und_Karlsh%C3%B6he.jpg), public domain, layout added. Planning photo: Zinnmann, [Hohenheimer Straße 85–87](https://commons.wikimedia.org/wiki/File:20180218_Stuttgart_-_Hohenheimer_Stra%C3%9Fe_85_u_87.jpg), adapted and shared under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Night panorama: Schoeniaw, [Stuttgart at night](https://commons.wikimedia.org/wiki/File:Stuttgart_at_night.jpg), adapted and shared under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Thermal figure: Seeberg et al. (2022), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), layout adaptation. All five branded layouts were supplied for this note; resizing and WebP conversion were performed without altering their composition.

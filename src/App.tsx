@@ -403,9 +403,9 @@ function NotesPage() {
       </div>
       <section className="coming-next">
         <p className="eyebrow">Explore the latest note</p>
-        <h2>What Temperature Are We Actually Measuring?</h2>
-        <p>Phoenix, satellite heat maps, and the air above the street.</p>
-        <a className="text-link" href={routeHref('/notes/what-temperature-are-we-actually-measuring')}>Read Note 04 <span aria-hidden="true">→</span></a>
+        <h2>Can You Zone the Wind?</h2>
+        <p>Stuttgart, cold-air corridors, and the limits of planning.</p>
+        <a className="text-link" href={routeHref('/notes/can-you-zone-the-wind')}>Read Note 05 <span aria-hidden="true">→</span></a>
       </section>
     </>
   );
