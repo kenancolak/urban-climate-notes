@@ -3,6 +3,7 @@ title: "What Temperature Are We Actually Measuring?"
 subtitle: "Phoenix, satellite heat maps, and the air above the street"
 author: "Kenan Çolak"
 date: "2026-10-21"
+date-modified: "2026-11-04"
 date-format: "MMMM D, YYYY"
 categories:
   - Urban Climate
@@ -34,7 +35,7 @@ The published Phoenix map used a 30-metre grid, produced through machine-learnin
 ![ECOSTRESS Phoenix thermal burn-risk map, 19 June 2024, with the original NASA legend, geographical labels and observation time.](../images/notes/04/02_ECOSTRESS_Burn_Risk.png){width="100%"}
 
 <div class="image-caption">
-Phoenix surface temperature and thermal burn risk on 19 June 2024 at 1:02 p.m. local time. This is a satellite-derived map of exposed surfaces, not a measurement of air temperature. Its scale, observation time and legend must remain visible in the published image. Source: NASA/JPL-Caltech, [PIA25529](https://science.nasa.gov/photojournal/nasas-ecostress-maps-burn-risk-across-phoenix-streets/).
+Phoenix surface temperature and thermal burn risk on 19 June 2024 at 1:02 p.m. local time. This is a satellite-derived map of exposed surfaces, not a measurement of air temperature. Source: NASA/JPL-Caltech, [PIA25529](https://science.nasa.gov/photojournal/nasas-ecostress-maps-burn-risk-across-phoenix-streets/).
 </div>
 
 ## The surface a satellite sees
@@ -85,7 +86,7 @@ To evaluate a bus stop, pedestrian route or schoolyard, we need measurements sui
 
 ## What stays warm after sunset?
 
-Phoenix also brings us back to Tokyo and the question of nighttime cooling in Urban Climate Notes 02.
+Phoenix also brings us back to Tokyo and the question of nighttime cooling in Note 02.
 
 During the July 2023 heatwave, NASA researchers examined Phoenix surface-temperature observations from VIIRS aboard the NOAA–NASA Suomi NPP satellite. The observations were collected at about 2 a.m. on several nights. Some built surfaces remained near 38°C, and the mapped surfaces became progressively hotter during part of the heatwave. [7]
 
@@ -96,7 +97,7 @@ Surface and atmospheric urban heat islands can differ in strength, timing and lo
 ![NASA VIIRS nighttime land surface temperatures around Phoenix during the July 2023 heatwave.](../images/notes/04/05_VIIRS_Night_LST.png){width="100%"}
 
 <div class="image-caption">
-Nighttime land surface temperature in the Phoenix region during the July 2023 heatwave. VIIRS observations were collected at about 2 a.m.; this is not a map of near-surface air temperature. The published graphic should preserve the original NASA map, geographic labels and temperature interpretation. Source: NASA/JPL-Caltech, [PIA25868](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/) (VIIRS on NOAA–NASA Suomi NPP).
+Nighttime land surface temperature in the Phoenix region during the July 2023 heatwave. VIIRS observations were collected at about 2 a.m.; this is not a map of near-surface air temperature. Source: NASA/JPL-Caltech, [PIA25868](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/) (VIIRS on NOAA–NASA Suomi NPP).
 </div>
 
 ## What does a 30-metre pixel mean?
@@ -135,12 +136,12 @@ The map tells us where to look. We still have to decide what to measure when we 
 
 [7] NASA/JPL-Caltech. (2023). [*NASA Data Shows Fierce Surface Temperatures During Phoenix Heat Wave*](https://www.nasa.gov/centers-and-facilities/jpl/nasa-data-shows-fierce-surface-temperatures-during-phoenix-heat-wave/); [NASA Photojournal image](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/).
 
-## Image sources and use notes
+## Image credits and licenses
 
-- **Cover — Phoenix skyline, 2009:** Bigmikebmw, [*Phoenix, Arizona.JPG*](https://commons.wikimedia.org/wiki/File:Phoenix,_Arizona.JPG), Creative Commons [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Adaptation: resized/cropped, overlaid title and branding. The edited cover artwork containing this photograph must retain the applicable CC BY-SA 3.0 attribution and share-alike obligations.
-- **Surface-temperature map — June 2024:** NASA/JPL-Caltech, [ECOSTRESS PIA25529](https://science.nasa.gov/photojournal/nasas-ecostress-maps-burn-risk-across-phoenix-streets/). Source map with the original legend, time and temperature scale; 1:02 p.m. local time, 19 June 2024. Do not alter its mapped data.
+- **Cover — Phoenix skyline, 2009:** Bigmikebmw, [*Phoenix, Arizona.JPG*](https://commons.wikimedia.org/wiki/File:Phoenix,_Arizona.JPG), Creative Commons [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Adaptation: resized/cropped, overlaid title and branding. Adapted cover shared under CC BY-SA 3.0.
+- **Surface-temperature map — June 2024:** NASA/JPL-Caltech, [ECOSTRESS PIA25529](https://science.nasa.gov/photojournal/nasas-ecostress-maps-burn-risk-across-phoenix-streets/). Source map with the original legend, time and temperature scale; 1:02 p.m. local time, 19 June 2024.
 - **Large surfaces — Glendale stadium, February 2008:** Gerald Nino/U.S. Customs and Border Protection, [*University of Phoenix Stadium aerial.jpg*](https://commons.wikimedia.org/wiki/File:University_of_Phoenix_Stadium_aerial.jpg), U.S. federal public domain. The stadium is in Glendale, within Greater Phoenix. Presentation: resized/cropped and arranged with a separate text panel.
 - **Neighbourhood aerial — Arizona:** Chris The Island, [Pexels photo 34873755](https://www.pexels.com/photo/aerial-view-of-residential-neighborhood-in-arizona-34873755/), [Pexels License](https://www.pexels.com/license/). Presentation: resized/cropped and arranged with a separate text panel.
-- **Night surface-temperature map — July 2023:** NASA/JPL-Caltech, [VIIRS PIA25868](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/). Source map/labels must be preserved; observations around 2 a.m. on selected dates in July 2023.
+- **Night surface-temperature map — July 2023:** NASA/JPL-Caltech, [VIIRS PIA25868](https://science.nasa.gov/photojournal/phoenix-land-surface-temperatures-documented-amid-record-heat/). Observations around 2 a.m. on selected dates in July 2023.
 
 NASA [media-use guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) apply; NASA did not endorse this article. Each photograph is illustrative unless accompanied by an explicit temperature dataset.

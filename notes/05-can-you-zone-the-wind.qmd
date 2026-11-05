@@ -3,6 +3,7 @@ title: "Can You Zone the Wind?"
 subtitle: "Stuttgart, cold-air corridors, and the limits of planning"
 author: "Kenan Çolak"
 date: "2026-11-02"
+date-modified: "2026-11-04"
 description: "A hillside planning dispute in Stuttgart shows how climate evidence enters binding land-use decisions and why legal validity is different from measured cooling."
 categories: [Urban Climate, Urban Planning, Planning Law, Stuttgart, Climate Adaptation]
 toc: false
@@ -132,4 +133,4 @@ I would like to know what happens there on a calm summer night.
 
 ## Image credits and licenses
 
-Cover: Andreas Praefcke, [Stuttgart vom Fernsehturm 1](https://commons.wikimedia.org/wiki/File:Stuttgart_vom_Fernsehturm_1.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), typography and layout added. Hills: MSeses, [Heslach und Karlshöhe](https://commons.wikimedia.org/wiki/File:Heslach_und_Karlsh%C3%B6he.jpg), public domain, layout added. Planning photo: Zinnmann, [Hohenheimer Straße 85–87](https://commons.wikimedia.org/wiki/File:20180218_Stuttgart_-_Hohenheimer_Stra%C3%9Fe_85_u_87.jpg), adapted and shared under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Night panorama: Schoeniaw, [Stuttgart at night](https://commons.wikimedia.org/wiki/File:Stuttgart_at_night.jpg), adapted and shared under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Thermal figure: Seeberg et al. (2022), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), layout adaptation. All five branded layouts were supplied for this note; resizing and WebP conversion were performed without altering their composition.
+Cover: Andreas Praefcke, [Stuttgart vom Fernsehturm 1](https://commons.wikimedia.org/wiki/File:Stuttgart_vom_Fernsehturm_1.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), typography and layout added. Hills: MSeses, [Heslach und Karlshöhe](https://commons.wikimedia.org/wiki/File:Heslach_und_Karlsh%C3%B6he.jpg), public domain, layout added. Planning photo: Zinnmann, [Hohenheimer Straße 85–87](https://commons.wikimedia.org/wiki/File:20180218_Stuttgart_-_Hohenheimer_Stra%C3%9Fe_85_u_87.jpg), adapted and shared under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Night panorama: Schoeniaw, [Stuttgart at night](https://commons.wikimedia.org/wiki/File:Stuttgart_at_night.jpg), adapted and shared under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Thermal figure: Seeberg et al. (2022), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), layout adaptation.
