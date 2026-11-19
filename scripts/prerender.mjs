@@ -103,13 +103,13 @@ try {
   for (const route of routes) {
     const seo = getSeoForRoute(route);
     const markup = renderToString(React.createElement(App, { initialRoute: route }));
-    const schema = route.startsWith('/notes/')
+    const schema = (route.startsWith('/notes/') || route.startsWith('/today/'))
       ? {
           '@context': 'https://schema.org',
           '@type': 'Article',
           headline: seo.title,
           description: seo.description,
-          image: new URL(resolveAssetUrl(seo.image), siteOrigin).href,
+          image: new URL(resolveAssetUrl(seo.image || `${baseUrl}images/urban-climate-notes-logo.jpg`), siteOrigin).href,
           datePublished: seo.publishedTime.slice(0, 10),
           ...(seo.modifiedTime ? { dateModified: seo.modifiedTime } : {}),
           author: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: seo.author, url: `${siteUrl}/` },

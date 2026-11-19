@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import logo from '../images/urban-climate-notes-logo.jpg';
 import { AcademicHero, AcademicAbout, CVPage, ContactPage, ProjectCards, ThemeToggle } from './AcademicProfile';
+import { UrbanClimateTodayArticle, UrbanClimateTodayArchive, UrbanClimateTodayHomeTeaser } from './UrbanClimateToday';
 import { getArticleMarkdown, getHeadings, getSeoForRoute, notes, publicationDate, sectionSearchContent, slugify } from './content';
 import type { Note } from './content';
 
@@ -13,6 +14,7 @@ const navigation = [
   { label: 'Home', route: '/' },
   { label: 'Research', route: '/research' },
   { label: 'Notes', route: '/notes' },
+  { label: 'Climate Today', route: '/today' },
   { label: 'Methods', route: '/methods' },
   { label: 'About', route: '/about' },
   { label: 'CV', route: '/cv' },
@@ -142,6 +144,10 @@ function App({ initialRoute }: AppProps) {
           <ArticlePage note={article} />
         ) : route === '/notes' ? (
           <NotesPage />
+        ) : route === '/today/cop31-urban-climate-finance' ? (
+          <UrbanClimateTodayArticle />
+        ) : route === '/today' ? (
+          <UrbanClimateTodayArchive />
         ) : route === '/methods' ? (
           <MethodsPage />
         ) : route === '/research' ? (
@@ -162,6 +168,7 @@ function App({ initialRoute }: AppProps) {
       <footer className="site-footer">
         <span>© 2026 Kenan Çolak</span>
         <a href={routeHref('/notes')}>Urban Climate Notes · Research & evidence</a>
+        <a href={routeHref('/today')}>Urban Climate Today</a>
       </footer>
     </div>
   );
@@ -366,6 +373,8 @@ function HomePage() {
           {[...notes].sort((a, b) => publicationDate(b).localeCompare(publicationDate(a))).map((note) => <NoteCard key={note.slug} note={note} />)}
         </div>
       </section>
+
+      <UrbanClimateTodayHomeTeaser />
 
       <aside className="question-panel">
         <p className="eyebrow">A question behind the project</p>
