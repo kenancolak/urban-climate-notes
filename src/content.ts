@@ -183,6 +183,17 @@ export function slugify(text: string) {
 }
 
 export const sectionSearchContent = [
+  {
+    title: 'Urban Climate Today', href: '/today',
+    description: 'Independent analysis of contemporary urban climate developments, evidence and policy.',
+    content: 'Urban Climate Today news climate policy evidence cities COP31 Antalya resilience urban finance',
+  },
+  {
+    title: 'COP31 in Antalya: How Will Climate Finance Reach Cities?',
+    href: '/today/cop31-urban-climate-finance',
+    description: 'The Antalya Compact, SURFF and the challenge of financing urban climate adaptation.',
+    content: 'COP31 Antalya Compact SURFF Sustainable Urban Resilience Financing Facility climate finance buildings UN-Habitat 2026',
+  },
   { title: 'Curriculum vitae', href: '/cv', description: 'Kenan Çolak’s academic profile and CV.', content: 'Curriculum vitae academic profile' },
   { title: 'Contact', href: '/contact', description: 'Academic collaboration and verified profile links.', content: 'Contact academic collaboration postdoctoral research' },
   {
@@ -215,6 +226,18 @@ export function publicationDate(note: Note) {
 }
 
 export function getSeoForRoute(route: string) {
+  if (route === '/today/cop31-urban-climate-finance') {
+    return {
+      title: 'COP31 in Antalya: How Will Climate Finance Reach Cities?',
+      description: 'A closer look at the Antalya Compact, SURFF and what it takes to turn urban climate commitments into financed neighbourhood-level projects.',
+      image: '',
+      type: 'article',
+      publishedTime: '2026-11-19T00:00:00Z',
+      modifiedTime: '',
+      author: 'Kenan Çolak',
+      keywords: ['COP31', 'Urban Climate', 'Climate Finance', 'Antalya', 'Climate Adaptation'],
+    };
+  }
   const article = notes.find((note) => route === `/notes/${note.slug}`);
   if (article) {
     return {
