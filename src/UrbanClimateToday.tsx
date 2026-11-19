@@ -1,5 +1,3 @@
-import React from 'react';
-
 const articlePath = '/today/cop31-urban-climate-finance/';
 
 export function UrbanClimateTodayHomeTeaser() {
