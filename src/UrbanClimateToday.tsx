@@ -66,7 +66,7 @@ export function UrbanClimateTodayArticle() {
           <p className="uct-aside-note">Evidence, dates and institutional status are distinguished from the author's interpretation.</p>
         </aside>
         <div className="uct-copy">
-          <p className="uct-lead">Antalya is hosting COP31 in November 2026. It is also the city at the centre of my doctoral research on urban surface temperatures. That makes two initiatives emerging from the conference particularly interesting: the Antalya Compact for Energy Efficient Buildings and the Sustainable Urban Resilience Financing Facility (SURFF).</p>
+          <p className="uct-lead">Antalya is hosting COP31 in November 2026. It is also the city at the centre of my doctoral research on urban surface temperatures. That makes two initiatives advanced around the conference particularly interesting: the Antalya Compact for Energy Efficient Buildings and the Sustainable Urban Resilience Financing Facility (SURFF).</p>
           <p>The first sets a global ambition for building performance. The second seeks to help municipalities connect climate plans to viable investment projects. Neither should be confused with measured improvements in neighbourhood conditions. Those results will take time to establish.</p>
 
           <h2 id="buildings">A buildings target is not a street-temperature target</h2>
