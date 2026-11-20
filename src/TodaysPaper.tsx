@@ -2,9 +2,9 @@ import type { CSSProperties } from 'react';
 
 const paperUrl = 'https://doi.org/10.3390/ijgi15070313';
 const paperTitle = 'User-Comfort Pathfinding: Integrating Thermal Imagery and Street-Level Vegetation Analysis into Multi-Criteria Pedestrian Routing';
-const panel: CSSProperties = { background: 'var(--surface, #f5f6f4)', border: '1px solid #d9dfdc', borderRadius: 12, padding: '1.25rem', margin: '1.6rem 0' };
+const panel: CSSProperties = { background: 'var(--paper-raised, #fffdf8)', border: '1px solid var(--line, #d9ddd7)', borderRadius: 12, padding: '1.25rem', margin: '1.6rem 0' };
 const text: CSSProperties = { maxWidth: '72ch', lineHeight: 1.85 };
-const muted: CSSProperties = { color: 'var(--text-muted, #64716d)' };
+const muted: CSSProperties = { color: 'var(--muted, #62716d)' };
 
 function RouteComparison() {
   return <figure style={panel}>
@@ -29,7 +29,7 @@ function MethodDiagram() {
   return <figure style={panel}>
     <p style={{fontWeight:650,marginTop:0}}>How the routing model works</p>
     <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(210px,1fr))',gap:10}}>
-      {nodes.map((n,i)=><div key={n} style={{padding:'1rem',background:'var(--background, #fff)',border:'1px solid #cad2ce',borderRadius:8}}><span style={{...muted,fontSize:'.75rem'}}>STEP {i+1}</span><p style={{margin:'.4rem 0 0'}}>{n}</p></div>)}
+      {nodes.map((n,i)=><div key={n} style={{padding:'1rem',background:'var(--paper, #fbfaf6)',border:'1px solid var(--line, #d9ddd7)',borderRadius:8}}><span style={{...muted,fontSize:'.75rem'}}>STEP {i+1}</span><p style={{margin:'.4rem 0 0'}}>{n}</p></div>)}
     </div>
     <figcaption style={{...muted,fontSize:'.88rem',marginTop:12}}>Original explanatory diagram, adapted conceptually from the workflow in Mansour et al. (2026); not a reproduction of a figure from the article.</figcaption>
   </figure>;
