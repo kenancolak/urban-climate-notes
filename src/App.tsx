@@ -381,20 +381,31 @@ function HomePage() {
         </div>
       </section>
 
-      <section aria-labelledby="todays-paper-home-title" className="featured-research">
+      <section aria-labelledby="latest-reading-heading" style={{margin:'3rem 0'}}>
         <div className="section-topline">
-          <SectionHeading id="todays-paper-home-title">Today's Paper</SectionHeading>
-          <a className="text-link" href={routeHref('/papers')}>All reading notes →</a>
+          <SectionHeading id="latest-reading-heading">Latest from the Journal</SectionHeading>
         </div>
-        <div className="question-panel">
-          <p className="eyebrow">Reading note 01 · Clermont-Ferrand, France</p>
-          <h3><a href={routeHref('/papers/the-shortest-walk-isnt-always-the-coolest')}>The Shortest Walk Isn't Always the Coolest</a></h3>
-          <p>A personal reading journal on urban climate, pedestrian routes and the questions research leaves behind.</p>
-          <a className="text-link" href={routeHref('/papers/the-shortest-walk-isnt-always-the-coolest')}>Read the note →</a>
+        <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit, minmax(min(100%, 310px), 1fr))',gap:'1.25rem',alignItems:'stretch'}}>
+          <article style={{border:'1px solid var(--border, #d9dfdc)',borderRadius:12,padding:'1.5rem',background:'var(--surface, transparent)',display:'flex',flexDirection:'column'}}>
+            <p className="eyebrow">Latest Climate News · 19 November 2026</p>
+            <h3 style={{margin:'.6rem 0 1rem'}}><a href={routeHref('/today/cop31-urban-climate-finance')}>COP31 in Antalya: How Will Climate Finance Reach Cities?</a></h3>
+            <p>Two initiatives put buildings and municipal investment on the agenda. What will turn commitments into results?</p>
+            <div style={{marginTop:'auto',paddingTop:'1rem',display:'flex',flexWrap:'wrap',gap:'1rem'}}>
+              <a className="text-link" href={routeHref('/today/cop31-urban-climate-finance')}>Read the news analysis →</a>
+              <a className="text-link" href={routeHref('/today')}>All news →</a>
+            </div>
+          </article>
+          <article style={{border:'1px solid var(--border, #d9dfdc)',borderRadius:12,padding:'1.5rem',background:'var(--surface, transparent)',display:'flex',flexDirection:'column'}}>
+            <p className="eyebrow">Latest Paper I've Read · 20 November 2026</p>
+            <h3 style={{margin:'.6rem 0 1rem'}}><a href={routeHref('/papers/the-shortest-walk-isnt-always-the-coolest')}>The Shortest Walk Isn't Always the Coolest</a></h3>
+            <p>What a pedestrian routing study in Clermont-Ferrand reveals about cooler streets, longer walks and the limits of comfort indicators.</p>
+            <div style={{marginTop:'auto',paddingTop:'1rem',display:'flex',flexWrap:'wrap',gap:'1rem'}}>
+              <a className="text-link" href={routeHref('/papers/the-shortest-walk-isnt-always-the-coolest')}>Read the paper note →</a>
+              <a className="text-link" href={routeHref('/papers')}>All papers →</a>
+            </div>
+          </article>
         </div>
       </section>
-
-      <UrbanClimateTodayHomeTeaser />
 
       <aside className="question-panel">
         <p className="eyebrow">A question behind the project</p>
