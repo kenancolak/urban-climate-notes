@@ -381,6 +381,19 @@ function HomePage() {
         </div>
       </section>
 
+      <section aria-labelledby="todays-paper-home-title" className="featured-research">
+        <div className="section-topline">
+          <SectionHeading id="todays-paper-home-title">Today's Paper</SectionHeading>
+          <a className="text-link" href={routeHref('/papers')}>All reading notes →</a>
+        </div>
+        <div className="question-panel">
+          <p className="eyebrow">Reading note 01 · Clermont-Ferrand, France</p>
+          <h3><a href={routeHref('/papers/the-shortest-walk-isnt-always-the-coolest')}>The Shortest Walk Isn't Always the Coolest</a></h3>
+          <p>A personal reading journal on urban climate, pedestrian routes and the questions research leaves behind.</p>
+          <a className="text-link" href={routeHref('/papers/the-shortest-walk-isnt-always-the-coolest')}>Read the note →</a>
+        </div>
+      </section>
+
       <UrbanClimateTodayHomeTeaser />
 
       <aside className="question-panel">
