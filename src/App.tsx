@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import logo from '../images/urban-climate-notes-logo.jpg';
 import { AcademicHero, AcademicAbout, CVPage, ContactPage, ProjectCards, ThemeToggle } from './AcademicProfile';
 import { UrbanClimateTodayArticle, UrbanClimateTodayArchive, UrbanClimateTodayHomeTeaser } from './UrbanClimateToday';
+import { TodaysPaperArchive, ClermontPaperArticle } from './TodaysPaper';
 import { getArticleMarkdown, getHeadings, getSeoForRoute, notes, publicationDate, sectionSearchContent, slugify } from './content';
 import type { Note } from './content';
 
@@ -15,6 +16,7 @@ const navigation = [
   { label: 'Research', route: '/research' },
   { label: 'Notes', route: '/notes' },
   { label: 'Climate Today', route: '/today' },
+  { label: "Today's Paper", route: '/papers' },
   { label: 'Methods', route: '/methods' },
   { label: 'About', route: '/about' },
   { label: 'CV', route: '/cv' },
@@ -146,6 +148,10 @@ function App({ initialRoute }: AppProps) {
           <NotesPage />
         ) : route === '/today/cop31-urban-climate-finance' ? (
           <UrbanClimateTodayArticle />
+        ) : route === '/papers/the-shortest-walk-isnt-always-the-coolest' ? (
+          <ClermontPaperArticle />
+        ) : route === '/papers' ? (
+          <TodaysPaperArchive />
         ) : route === '/today' ? (
           <UrbanClimateTodayArchive />
         ) : route === '/methods' ? (
@@ -169,6 +175,7 @@ function App({ initialRoute }: AppProps) {
         <span>© 2026 Kenan Çolak</span>
         <a href={routeHref('/notes')}>Urban Climate Notes · Research & evidence</a>
         <a href={routeHref('/today')}>Urban Climate Today</a>
+        <a href={routeHref('/papers')}>Today's Paper</a>
       </footer>
     </div>
   );
