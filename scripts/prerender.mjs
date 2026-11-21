@@ -77,7 +77,7 @@ function withPageMetadata(template, seo, route, html, schema) {
     `<script type="application/ld+json">${JSON.stringify(schema).replaceAll('<', '\\u003c')}</script>\n  </head>`,
   );
 
-  const assetUrls = new Set(document.match(/(?:src|href)="[^"]*\/images\/[^"]+"/g) ?? []);
+  const assetUrls = new Set(document.match(/(?:src|href)="\/images\/[^"]+"/g) ?? []);
   for (const attribute of assetUrls) {
     const currentUrl = attribute.slice(attribute.indexOf('"') + 1, -1);
     document = document.replaceAll(attribute, `${attribute.slice(0, attribute.indexOf('"') + 1)}${resolveAssetUrl(currentUrl)}"`);
