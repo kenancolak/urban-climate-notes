@@ -1,16 +1,74 @@
 const articlePath = '/today/cop31-urban-climate-finance/';
 
+export function UrbanClimateTodayFinanceUpdate() {
+  return (
+    <article className="uct-article">
+      <a className="back-link" href="/today/">← Urban Climate Today</a>
+      <header className="uct-article-header">
+        <p className="eyebrow">Urban Climate Today · Policy &amp; evidence</p>
+        <h1>COP31 in Antalya: Climate Finance Is Back on the Negotiating Table</h1>
+        <p className="uct-deck">The revised negotiating text removed a proposed adaptation finance benchmark. What does that mean for cities trying to turn climate evidence into investment?</p>
+        <div className="uct-byline"><span>Kenan Çolak</span><time dateTime="2026-11-21">21 November 2026</time><span>Antalya, Türkiye</span></div>
+      </header>
+      <div className="uct-article-grid">
+        <aside className="uct-aside">
+          <p className="uct-aside-label">In this analysis</p>
+          <a href="#negotiations">What changed?</a>
+          <a href="#cities">What does it mean for cities?</a>
+          <a href="#progress">Measuring progress</a>
+          <a href="#antalya">Returning to Antalya</a>
+          <p className="uct-aside-note">This article describes negotiations as of 21 November 2026, not an adopted final decision.</p>
+        </aside>
+        <div className="uct-copy">
+          <p className="uct-lead">Earlier this week, I wrote about two initiatives advanced around COP31 in Antalya: the Antalya Compact for Energy Efficient Buildings and the Sustainable Urban Resilience Financing Facility (SURFF). Both addressed a familiar problem in urban climate policy. Cities can increasingly identify climate risks, but finding the resources to act on that evidence remains difficult.</p>
+          <p>The latest negotiations in Antalya have brought that difficulty into sharper focus. My <a href="/today/cop31-urban-climate-finance/">earlier analysis</a> examined the initiatives. This follow-up considers the proposed adaptation finance target and the uncertainty surrounding it.</p>
+          <h2 id="negotiations">What changed in the negotiations?</h2>
+          <p>On 16 November, the COP31 Presidency's initial draft proposed increasing annual adaptation finance for developing countries to at least USD 120 billion by 2035. The draft also included language about accelerating the transition away from fossil fuels.</p>
+          <p>By 19 November, the revised negotiating text had removed the proposed USD 120 billion figure and explicit references to transitioning away from fossil fuels. A broader ambition to triple adaptation finance remained, but without the same numerical benchmark. <a href="https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/" target="_blank" rel="noopener noreferrer">Reuters reported the changes on 20 November</a>.</p>
+          <p>The distinction is important. USD 120 billion was a proposed target under negotiation, not funding already approved or allocated. Its removal did not cancel an existing municipal funding programme. It did remove a proposed benchmark against which future progress could have been assessed.</p>
+          <p>On 21 November, negotiations continued beyond the scheduled conclusion of the summit. The revised text was not a final adopted agreement. Any assessment of the eventual outcome will need to be updated against the final decision.</p>
+          <h2 id="cities">What does this mean for cities?</h2>
+          <p>Consider a city that has identified neighbourhoods with persistent summer heat exposure. Satellite observations can help locate areas with elevated land surface temperatures. Field measurements and urban climate models can add evidence about air temperature, shading and pedestrian thermal comfort. Combined with demographic and land-use data, these methods can support decisions about where adaptation measures are needed.</p>
+          <p>Implementation requires a different set of resources. A municipality may need to redesign streets, expand tree canopy, modify public spaces or improve buildings. Each intervention requires funding, administrative capacity and maintenance. Some also require coordination across public institutions.</p>
+          <p>The scientific assessment may be complete while the intervention remains unfunded.</p>
+          <p>That is one of the issues I raised in the earlier article on SURFF. The facility aims to help cities prepare climate-resilience projects for financing. Project preparation is useful, particularly where municipalities lack technical capacity, but preparing a credible proposal does not guarantee that finance will be available.</p>
+          <h2 id="progress">The problem of measuring progress</h2>
+          <p>A headline funding target tells us little about the conditions attached to the money. Grants and loans have different implications for municipal budgets. An international commitment may take years to reach an implementing institution. National finance totals do not tell us which neighbourhoods receive investment.</p>
+          <p>For urban adaptation, the questions extend beyond the total pledged. How much becomes accessible to local governments? How long does approval take? Which projects qualify? Can municipalities with limited administrative capacity compete for those resources?</p>
+          <p>These questions matter for interventions whose benefits are substantial but difficult to capture as direct revenue. A shaded public square can improve conditions for pedestrians during hot weather, but the people benefiting are not necessarily paying customers. Revenue-based financing models may be poorly suited to some forms of public-space adaptation.</p>
+          <h2 id="antalya">Returning to Antalya</h2>
+          <p>The Antalya Compact addresses building energy performance. SURFF concerns the preparation and financing of urban resilience projects. Neither should be confused with the proposed global adaptation finance target removed from the revised COP31 text. They operate at different institutional levels and have different purposes.</p>
+          <p>Nevertheless, they are connected by a practical question: how can climate objectives become investments that cities can implement?</p>
+          <p>My doctoral research examined urban land-cover change and land surface temperature in Antalya between 2017 and 2025. That research measured spatial thermal change, not the financing of adaptation. Identifying where thermal conditions are changing is one part of planning. Deciding what to do in those places, who pays and how the results will be evaluated requires another set of institutions and decisions.</p>
+          <p>As COP31 moves towards a conclusion, I will be watching the final wording on adaptation finance, particularly whether it clarifies funding levels, access and implementation. The outcome will not determine individual municipal projects. It may influence the financial environment in which cities attempt to deliver them.</p>
+        </div>
+      </div>
+      <section className="uct-sources" aria-labelledby="uct-update-sources">
+        <h2 id="uct-update-sources">Sources and further reading</h2>
+        <ol>
+          <li><a href="https://porelclima.org/images/2026/COP31/documentos/cop31_cover_decision_16112026.pdf" target="_blank" rel="noopener noreferrer">COP31 Presidency — Initial draft cover decision, 16 November 2026</a></li>
+          <li><a href="https://www.reuters.com/sustainability/climate-focus-cop31-draft-deal-strips-fossil-fuel-references-2026-11-20/" target="_blank" rel="noopener noreferrer">Reuters — Revised COP31 draft, 20 November 2026</a></li>
+          <li><a href="https://www.carbonbrief.org/debriefed-20-november-2026-deal-distant-fossil-fuel-fractions-coalitions-seek-progress" target="_blank" rel="noopener noreferrer">Carbon Brief — Negotiations and adaptation finance, 20 November 2026</a></li>
+          <li><a href="https://www.reuters.com/sustainability/cop/cop31-climate-summit-risks-failure-talks-go-deep-into-overtime-2026-11-21/" target="_blank" rel="noopener noreferrer">Reuters — Talks continue beyond deadline, 21 November 2026</a></li>
+          <li><a href="/today/cop31-urban-climate-finance/">Kenan Çolak — COP31 in Antalya: How Will Climate Finance Reach Cities?, 19 November 2026</a></li>
+        </ol>
+      </section>
+      <div className="uct-end"><a href="/today/">← Back to Urban Climate Today</a></div>
+    </article>
+  );
+}
+
 export function UrbanClimateTodayHomeTeaser() {
   return (
     <section className="uct-home" aria-labelledby="uct-home-heading">
       <div>
         <p className="eyebrow">New editorial series · Urban Climate Today</p>
-        <h2 id="uct-home-heading">When climate commitments reach the city</h2>
-        <p>COP31 in Antalya brings the question of urban climate finance into focus. A closer look at what the announcements mean, and what remains untested.</p>
-        <a className="text-link" href={articlePath}>Read the analysis <span aria-hidden="true">→</span></a>
+        <h2 id="uct-home-heading">COP31: adaptation finance under negotiation</h2>
+        <p>The latest COP31 draft removed a proposed adaptation finance benchmark. What could this mean for cities?</p>
+        <a className="text-link" href="/today/cop31-adaptation-finance-negotiations/">Read the analysis <span aria-hidden="true">→</span></a>
       </div>
       <div className="uct-home-index" aria-hidden="true">
-        <span>19</span>
+        <span>21</span>
         <small>November<br />2026</small>
       </div>
     </section>
@@ -25,8 +83,8 @@ export function UrbanClimateTodayArchive() {
         <h1>Urban Climate Today<span className="uct-period">.</span></h1>
         <p>Developments in cities and climate, examined through the evidence behind the headlines. A record of what has been announced, what can be measured, and what remains unanswered.</p>
       </header>
-      <div className="uct-archive-rule"><span>Latest analysis</span><span>01 article</span></div>
-      <article className="uct-feature">
+      <div className="uct-archive-rule"><span>Latest analysis</span><span>02 articles</span></div>
+      <article className="uct-feature"><a href="/today/cop31-adaptation-finance-negotiations/" className="uct-feature-link"><div className="uct-feature-meta"><time dateTime="2026-11-21">21 November 2026</time><span>Antalya, Türkiye</span><span>Climate policy &amp; finance</span></div><h2>COP31 in Antalya: Climate Finance Is Back on the Negotiating Table</h2><p>The revised negotiating text removed a proposed adaptation finance benchmark. What could this mean for cities seeking to turn evidence into action?</p><span className="uct-read">Read analysis ↗</span></a></article><article className="uct-feature">
         <a href={articlePath} className="uct-feature-link">
           <div className="uct-feature-meta"><time dateTime="2026-11-19">19 November 2026</time><span>Antalya, Türkiye</span><span>Climate policy &amp; finance</span></div>
           <h2>COP31 in Antalya: How Will Climate Finance Reach Cities?</h2>
