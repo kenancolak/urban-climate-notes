@@ -194,6 +194,7 @@ export const sectionSearchContent = [
     description: 'The Antalya Compact, SURFF and the challenge of financing urban climate adaptation.',
     content: 'COP31 Antalya Compact SURFF Sustainable Urban Resilience Financing Facility climate finance buildings UN-Habitat 2026',
   },
+  { title: 'COP31 in Antalya: Climate Finance Is Back on the Negotiating Table', href: '/today/cop31-adaptation-finance-negotiations', description: 'The revised COP31 negotiating draft removed a proposed adaptation finance target, raising questions about urban implementation.', content: 'COP31 Antalya adaptation finance negotiations 120 billion SURFF climate cities 21 November 2026' },
   { title: 'Curriculum vitae', href: '/cv', description: 'Kenan Çolak’s academic profile and CV.', content: 'Curriculum vitae academic profile' },
   { title: 'Contact', href: '/contact', description: 'Academic collaboration and verified profile links.', content: 'Contact academic collaboration postdoctoral research' },
   {
@@ -226,6 +227,7 @@ export function publicationDate(note: Note) {
 }
 
 export function getSeoForRoute(route: string) {
+  if (route === '/today/cop31-adaptation-finance-negotiations') return { title: 'COP31 in Antalya: Climate Finance Is Back on the Negotiating Table', description: 'The COP31 draft removed a proposed adaptation finance benchmark. What does that mean for cities trying to finance climate adaptation?', image: '', type: 'article', publishedTime: '2026-11-21T00:00:00Z', modifiedTime: '', author: 'Kenan Çolak', keywords: ['COP31','Antalya','Adaptation Finance','Urban Climate','Urban Planning'] };
   if (route === '/today/cop31-urban-climate-finance') {
     return {
       title: 'COP31 in Antalya: How Will Climate Finance Reach Cities?',
