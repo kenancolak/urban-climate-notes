@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import logo from '../images/urban-climate-notes-logo.jpg';
 import { AcademicHero, AcademicAbout, CVPage, ContactPage, ProjectCards, ThemeToggle } from './AcademicProfile';
-import { UrbanClimateTodayArticle, UrbanClimateTodayFinanceUpdate, UrbanClimateTodayArchive, UrbanClimateTodayHomeTeaser } from './UrbanClimateToday';
+import { UrbanClimateTodayCopenhagen, UrbanClimateTodayArticle, UrbanClimateTodayFinanceUpdate, UrbanClimateTodayArchive, UrbanClimateTodayHomeTeaser } from './UrbanClimateToday';
 import { getArticleMarkdown, getHeadings, getSeoForRoute, notes, publicationDate, sectionSearchContent, slugify } from './content';
 import type { Note } from './content';
 
@@ -144,6 +144,8 @@ function App({ initialRoute }: AppProps) {
           <ArticlePage note={article} />
         ) : route === '/notes' ? (
           <NotesPage />
+        ) : route === '/today/copenhagen-climate-adaptation-housing-costs' ? (
+          <UrbanClimateTodayCopenhagen />
         ) : route === '/today/cop31-adaptation-finance-negotiations' ? (
           <UrbanClimateTodayFinanceUpdate />
         ) : route === '/today/cop31-urban-climate-finance' ? (
