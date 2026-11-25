@@ -63,12 +63,12 @@ export function UrbanClimateTodayHomeTeaser() {
     <section className="uct-home" aria-labelledby="uct-home-heading">
       <div>
         <p className="eyebrow">New editorial series · Urban Climate Today</p>
-        <h2 id="uct-home-heading">COP31: adaptation finance under negotiation</h2>
-        <p>The latest COP31 draft removed a proposed adaptation finance benchmark. What could this mean for cities?</p>
-        <a className="text-link" href="/today/cop31-adaptation-finance-negotiations/">Read the analysis <span aria-hidden="true">→</span></a>
+        <h2 id="uct-home-heading">Copenhagen: The Cost of Living in a Safer City</h2>
+        <p>A Copenhagen housing study examines how climate adaptation and sewer infrastructure costs could affect rents, raising questions about urban density, housing affordability and climate justice.</p>
+        <a className="text-link" href="/today/copenhagen-climate-adaptation-housing-costs/">Read the analysis <span aria-hidden="true">→</span></a>
       </div>
       <div className="uct-home-index" aria-hidden="true">
-        <span>21</span>
+        <span>25</span>
         <small>November<br />2026</small>
       </div>
     </section>
@@ -83,7 +83,8 @@ export function UrbanClimateTodayArchive() {
         <h1>Urban Climate Today<span className="uct-period">.</span></h1>
         <p>Developments in cities and climate, examined through the evidence behind the headlines. A record of what has been announced, what can be measured, and what remains unanswered.</p>
       </header>
-      <div className="uct-archive-rule"><span>Latest analysis</span><span>02 articles</span></div>
+      <div className="uct-archive-rule"><span>Latest analysis</span><span>03 articles</span></div>
+      <article className="uct-feature"><a href="/today/copenhagen-climate-adaptation-housing-costs/" className="uct-feature-link"><div className="uct-feature-meta"><time dateTime="2026-11-25">25 November 2026</time><span>Copenhagen, Denmark</span><span>Climate adaptation &amp; justice</span></div><h2>Copenhagen: The Cost of Living in a Safer City</h2><p>A Copenhagen housing study examines how climate adaptation and sewer infrastructure costs could affect rents, raising questions about urban density, housing affordability and climate justice.</p><span className="uct-read">Read analysis ↗</span></a></article>
       <article className="uct-feature"><a href="/today/cop31-adaptation-finance-negotiations/" className="uct-feature-link"><div className="uct-feature-meta"><time dateTime="2026-11-21">21 November 2026</time><span>Antalya, Türkiye</span><span>Climate policy &amp; finance</span></div><h2>COP31 in Antalya: Climate Finance Is Back on the Negotiating Table</h2><p>The revised negotiating text removed a proposed adaptation finance benchmark. What could this mean for cities seeking to turn evidence into action?</p><span className="uct-read">Read analysis ↗</span></a></article><article className="uct-feature">
         <a href={articlePath} className="uct-feature-link">
           <div className="uct-feature-meta"><time dateTime="2026-11-19">19 November 2026</time><span>Antalya, Türkiye</span><span>Climate policy &amp; finance</span></div>
@@ -158,6 +159,69 @@ export function UrbanClimateTodayArticle() {
           <li><a href="https://unhabitat.org/sites/default/files/2026/05/urban-content-in-ndc3.0.pdf" target="_blank" rel="noopener noreferrer">UN-Habitat (2026) — Urban Content in NDC 3.0: Cities at the Centre</a></li>
           <li><a href="https://unhabitat.org/media/news/cop31-leaders-to-tackle-the-gap-between-urban-climate-commitments-and-action" target="_blank" rel="noopener noreferrer">UN-Habitat — COP31 leaders to tackle the gap between urban commitments and action</a></li>
         </ol>
+      </section>
+      <div className="uct-end"><a href="/today/">← Back to Urban Climate Today</a></div>
+    </article>
+  );
+}
+
+export function UrbanClimateTodayCopenhagen() {
+  return (
+    <article className="uct-article">
+      <a className="back-link" href="/today/">← Urban Climate Today</a>
+      <header className="uct-article-header">
+        <p className="eyebrow">Urban Climate Today · Climate adaptation &amp; justice</p>
+        <h1>Copenhagen: The Cost of Living in a Safer City</h1>
+        <p className="uct-deck">A Copenhagen housing study examines how climate adaptation and sewer infrastructure costs could affect rents, raising questions about urban density, housing affordability and climate justice.</p>
+        <div className="uct-byline"><span>Kenan Çolak</span><time dateTime="2026-11-25">25 November 2026</time><span>Copenhagen, Denmark</span></div>
+      </header>
+      <div className="uct-article-grid">
+        <aside className="uct-aside">
+          <p className="uct-aside-label">In this analysis</p>
+          <a href="#horgarden">What is happening in Hørgården?</a>
+          <a href="#planning-costs">The less visible costs of planning decisions</a>
+          <a href="#adaptation">How should we evaluate climate adaptation?</a>
+          <p className="uct-aside-note">The estimated rent increases are projections, not observed outcomes.</p>
+        </aside>
+        <div className="uct-copy">
+          <p className="uct-lead">In my previous two articles on COP31 in Antalya, I discussed the financial resources cities need to adapt to climate change. A study from Copenhagen approaches the same issue from a different scale: the household budget.</p>
+          <p>Much of the discussion around climate adaptation concerns how much money cities need. Perhaps we should spend more time examining who will ultimately pay for it.</p>
+          <p>A study published in the Proceedings of the National Academy of Sciences (PNAS) in September 2026, which received renewed media attention in November, examines this issue through the Hørgården housing estate in Copenhagen.</p>
+          <h2 id="horgarden">What is happening in Hørgården?</h2>
+          <p>Copenhagen has been investing in infrastructure to reduce the risk of flooding during heavy rainfall. One of these measures involves separating stormwater from wastewater. From an engineering perspective, the reasoning is straightforward. Reducing the volume of rainwater entering the sewer system can relieve pressure on existing infrastructure during intense rainfall.</p>
+          <p>In Hørgården, however, implementing this measure requires changes to the infrastructure within the housing estate itself. The ageing sewer system further increases the extent and cost of the necessary work.</p>
+          <p>The researchers estimate that the combined cost of these works could increase the monthly rent of a 75 m² apartment by between DKK 967 and DKK 1,292. Depending on the existing rent, this represents an increase of approximately 17–29%.</p>
+          <p>An important distinction needs to be made here. Only around 22% of the estimated rent increase is attributable to stormwater separation. The remainder is associated with renewing the ageing sewer infrastructure. It would therefore be misleading to attribute the entire projected increase to climate adaptation.</p>
+          <p>Nevertheless, the potential financial burden deserves attention, particularly in a housing estate where a substantial proportion of residents earn less than the national average.</p>
+          <h2 id="planning-costs">The less visible costs of planning decisions</h2>
+          <p>One aspect of the study that particularly caught my attention was its spatial analysis.</p>
+          <p>Non-profit rental housing was found to be, on average, 225 metres from designated cloudburst drainage routes, compared with 311 metres for other housing.</p>
+          <p>Proximity to these routes does not, by itself, establish greater exposure to flooding. It does, however, raise questions about how the spatial distribution of housing and infrastructure influences the financial obligations associated with climate adaptation.</p>
+          <p>The way drainage services are financed also deserves closer examination. In Copenhagen, the relevant charges are based on drinking water consumption rather than the volume of stormwater discharged from a property.</p>
+          <p>Consider a single-storey house and a multi-storey residential building with identical roof areas. Under comparable rainfall and roof conditions, both could generate similar volumes of roof runoff. Yet the multi-storey building, accommodating more households, may consume considerably more drinking water and consequently incur higher drainage charges.</p>
+          <p>This example raises an interesting planning question. How well do infrastructure financing mechanisms account for differences in building density and urban morphology?</p>
+          <p>It is particularly relevant to cities pursuing compact development policies, where increasing residential density is often encouraged for environmental and land-use reasons.</p>
+          <h2 id="adaptation">How should we evaluate climate adaptation?</h2>
+          <p>When preparing a development plan or an infrastructure project, the distribution of costs deserves consideration alongside technical feasibility.</p>
+          <p>A flood protection scheme may benefit a large part of a city, while certain households face additional financial obligations because of their property's location or ownership structure. Determining how these costs should be distributed is a planning and public policy matter as much as an engineering one.</p>
+          <p>I would argue that household-level economic impact assessments should accompany physical risk assessments in climate adaptation projects. Potential rent increases, housing expenditure relative to income and long-term financial obligations could all be examined before infrastructure decisions are finalised.</p>
+          <p>The projected rent increases in Hørgården are not observed outcomes. Nevertheless, the financing arrangements examined in the study provide a useful starting point for investigating similar issues in other cities.</p>
+          <p>Making a neighbourhood safer from climate-related hazards should not make it harder for its residents to afford to remain there.</p>
+          <p>That, too, should be part of how we measure the success of climate adaptation.</p>
+        </div>
+      </div>
+      <section className="uct-sources">
+        <h2>References</h2>
+        <ol>
+          <li>Gulsrud, N. M., Garcia-Antúnez, O., Olafsson, A. S. &amp; Jensen, M. B. (2026). <a href="https://doi.org/10.1073/pnas.2422764123">Housing tenure, climate resilience, and ecological segregation.</a> <em>Proceedings of the National Academy of Sciences</em>, 123(38), e2422764123.</li>
+          <li>University of Copenhagen (12 November 2026). <a href="https://phys.org/news/2026-11-high-rents-poorest-residents-pay.html">High water, high rents: Poorest residents pay the most for climate adaptation.</a></li>
+          <li>Earth.com (17 November 2026). <a href="https://www.earth.com/climate/protecting-cities-from-floods-can-come-with-a-hidden-cost-for-renters/">Protecting cities from floods can come with a hidden cost for renters.</a></li>
+        </ol>
+        <h2>Related articles</h2>
+        <ul>
+          <li><a href="/today/cop31-urban-climate-finance/">COP31 in Antalya: Urban Climate Finance</a></li>
+          <li><a href="/today/cop31-adaptation-finance-negotiations/">COP31 in Antalya: Climate Finance Is Back on the Negotiating Table</a></li>
+        </ul>
       </section>
       <div className="uct-end"><a href="/today/">← Back to Urban Climate Today</a></div>
     </article>
