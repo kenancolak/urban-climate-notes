@@ -183,6 +183,7 @@ export function slugify(text: string) {
 }
 
 export const sectionSearchContent = [
+  { title: 'Copenhagen: The Cost of Living in a Safer City', href: '/today/copenhagen-climate-adaptation-housing-costs', description: 'A Copenhagen housing study examines how climate adaptation and sewer infrastructure costs could affect rents, raising questions about urban density, housing affordability and climate justice.', content: 'Copenhagen Denmark Hørgården housing rent climate adaptation stormwater drainage urban morphology climate justice November 2026' },
   {
     title: 'Urban Climate Today', href: '/today',
     description: 'Independent analysis of contemporary urban climate developments, evidence and policy.',
@@ -227,6 +228,7 @@ export function publicationDate(note: Note) {
 }
 
 export function getSeoForRoute(route: string) {
+  if (route === '/today/copenhagen-climate-adaptation-housing-costs') return { title: 'Copenhagen: The Cost of Living in a Safer City', description: 'A Copenhagen housing study examines how climate adaptation and sewer infrastructure costs could affect rents, raising questions about urban density, housing affordability and climate justice.', image: '', type: 'article', publishedTime: '2026-11-25T00:00:00Z', modifiedTime: '', author: 'Kenan Çolak', keywords: ['Copenhagen','Housing','Climate Adaptation','Urban Morphology','Climate Finance'] };
   if (route === '/today/cop31-adaptation-finance-negotiations') return { title: 'COP31 in Antalya: Climate Finance Is Back on the Negotiating Table', description: 'The COP31 draft removed a proposed adaptation finance benchmark. What does that mean for cities trying to finance climate adaptation?', image: '', type: 'article', publishedTime: '2026-11-21T00:00:00Z', modifiedTime: '', author: 'Kenan Çolak', keywords: ['COP31','Antalya','Adaptation Finance','Urban Climate','Urban Planning'] };
   if (route === '/today/cop31-urban-climate-finance') {
     return {
